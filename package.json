@@ -1,0 +1,15 @@
+{
+  "name": "livenotes",
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.11.0",
+    "sass-loader": "^8.0.2"
+  },
+  "dependencies": {
+    "in-view": "^0.6.1"
+  }
+}
