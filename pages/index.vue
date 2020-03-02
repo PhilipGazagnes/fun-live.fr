@@ -10,7 +10,7 @@
         <button>Contact</button>
       </nav>
     </header>
-    <Songs />
+    <Songs v-if="false" />
   </div>
 </template>
 
