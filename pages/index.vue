@@ -3,7 +3,7 @@
     <div class="top" />
     <header :class="stickyHeader ? 'sticky' : 'static'">
       <h1>Fun Live <span>Karaoké Live Band</span></h1>
-      <nav>
+      <nav v-if="false">
         <button>Répertoire</button>
         <button>Le Groupe</button>
         <button>Dates à venir</button>
