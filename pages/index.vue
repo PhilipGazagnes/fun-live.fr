@@ -1,5 +1,6 @@
 <template>
   <div>
+      <h1>Fun Live <span>Karaoké Live Band</span></h1>
     <Header />
     <Directory />
     <Band />
