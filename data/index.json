@@ -652,5 +652,41 @@
     "artist": "Zebda",
     "id": "0114",
     "reference": "https://www.youtube.com/watch?v=4y4D-evzDTo"
+  },
+  {
+    "name": "L'Homme pressé",
+    "artist": "Noir Désir",
+    "id": "0115",
+    "reference": ""
+  },
+  {
+    "name": "Talkin 'bout a revolution",
+    "artist": "Tracy Chapman",
+    "id": "0116",
+    "reference": ""
+  },
+  {
+    "name": "House of the rising sun",
+    "artist": "The Animals",
+    "id": "0117",
+    "reference": ""
+  },
+  {
+    "name": "Fortunate son",
+    "artist": "Creedence Clearwater Revival",
+    "id": "0118",
+    "reference": ""
+  },
+  {
+    "name": "Fils de personne",
+    "artist": "Johnny Hallyday",
+    "id": "0119",
+    "reference": ""
+  },
+  {
+    "name": "Sympathy for the devil",
+    "artist": "Rolling Stones",
+    "id": "0120",
+    "reference": ""
   }
 ]

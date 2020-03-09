@@ -11,7 +11,7 @@
 export default {
   data() {
     return {
-      // stickyHeader: false
+      stickyHeader: false
     };
   },
   mounted() {
@@ -23,7 +23,6 @@ export default {
     //   .on("enter", () => {
     //     this.stickyHeader = false;
     //   });
-
     // if (!window.InView.is(document.querySelector(".top"))) {
     //   this.stickyHeader = true;
     // }
@@ -67,7 +66,7 @@ header {
     & > h1 {
       font-size: 3em;
       padding: 70px 0;
-      @media screen and (min-width:480px) {
+      @media screen and (min-width: 480px) {
         padding: 100px 0;
         font-size: 4em;
       }
