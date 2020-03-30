@@ -1,20 +1,25 @@
 module.exports = {
   head: {
     meta: [
-      { charset: "utf-8" },
+      { charset: 'utf-8' },
       {
-        name: "viewport",
+        name: 'viewport',
         content:
-          "width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no"
-      }
+          'width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no',
+      },
     ],
     link: [
       {
-        rel: "stylesheet",
+        rel: 'stylesheet',
         href:
-          "https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap"
-      }
-    ]
+          'https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap',
+      },
+    ],
   },
-  plugins: ["./plugins/in-view.client.js"]
+  modules: ['@nuxtjs/style-resources'],
+  plugins: ['./plugins/in-view.client.js'],
+  css: ['~/assets/scss/main.scss'],
+  styleResources: {
+    scss: ['./assets/scss/vars.scss'],
+  },
 };

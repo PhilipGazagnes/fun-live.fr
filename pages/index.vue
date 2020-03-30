@@ -1,28 +1,29 @@
 <template>
   <div>
     <Header />
-    <Directory />
-    <Band />
+    <Presentation />
+    <Songs />
+    <Contact />
   </div>
 </template>
 
 <script>
-import Header from "../components/Header.vue";
-import Directory from "../components/Directory.vue";
-import Band from "../components/Band.vue";
+import Header from '../components/Header.vue';
+import Presentation from '../components/Presentation.vue';
+import Songs from '../components/Songs.vue';
+import Contact from '../components/Contact.vue';
 
 export default {
   components: {
     Header,
-    Directory,
-    Band,
+    Presentation,
+    Songs,
+    Contact,
   },
 };
 </script>
 
 <style lang="scss">
-$accentColor: #c7af35;
-
 body {
   background-color: #141414;
   background-image: url(/bg-450.jpg);
@@ -32,19 +33,18 @@ body {
   background-attachment: fixed;
   color: white;
   font-size: 16px;
-  font-family: "Open Sans";
-  @media screen and (min-width:450px) {
+  font-family: 'Open Sans';
+  @media screen and (min-width: 450px) {
     background-image: url(/bg-800.jpg);
   }
-  @media screen and (min-width:800px) {
+  @media screen and (min-width: 800px) {
     background-image: url(/bg-1200.jpg);
   }
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     background-image: url(/bg-1600.jpg);
   }
-  @media screen and (min-width:1600px) {
+  @media screen and (min-width: 1600px) {
     background-image: url(/bg-2000.jpg);
   }
 }
-
 </style>

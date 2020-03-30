@@ -11,7 +11,7 @@
 export default {
   data() {
     return {
-      stickyHeader: false
+      stickyHeader: false,
     };
   },
   mounted() {
@@ -26,16 +26,16 @@ export default {
     // if (!window.InView.is(document.querySelector(".top"))) {
     //   this.stickyHeader = true;
     // }
-  }
+  },
 };
 </script>
 
 <style lang="scss">
-$accentColor: #c7af35;
+// $accentColor: #c7af35;
 
 header {
   & > h1 {
-    font-family: "Permanent Marker";
+    font-family: 'Permanent Marker';
     font-weight: normal;
     padding: 0;
     margin: 0;
@@ -47,7 +47,7 @@ header {
     & > button {
       border: none;
       background: none;
-      font-family: "Open Sans";
+      font-family: 'Open Sans';
       color: white;
       font-size: 1em;
       cursor: pointer;
