@@ -1,3 +1,77 @@
-.toto {
-  color: red;
+body {
+  font-size: 18px;
+  line-height: 1.7em;
+  @media screen and ($mfPhone) {
+    font-size: 20px;
+  }
+  font-family: 'Open Sans';
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  @media screen and ($mfPhone) {
+    text-align: justify;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.containerNarrow {
+  padding-left: 30px;
+  padding-right: 30px;
+  @media screen and ($mfPhone) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media screen and ($mfTablet) {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+}
+
+.concertBg {
+  color: white;
+  background-image: url(/concert-bg/bg-phone.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: $primaryColorBg;
+  @media screen and ($mfPhone) {
+    background-image: url(/concert-bg/bg-tablet.jpg);
+  }
+  @media screen and ($mfTablet) {
+    background-image: url(/concert-bg/bg-desktop.jpg);
+  }
+  @media screen and ($mfDesktop) {
+    background-image: url(/concert-bg/bg-large-desktop.jpg);
+  }
+}
+
+h2 {
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.2em;
+  padding: 70px 20px 70px;
+  @media screen and ($mfPhone) {
+    padding: 70px 50px 70px;
+  }
+  @media screen and ($mfTablet) {
+    padding: 70px 50px 90px;
+  }
+  @media screen and ($mfDesktop) {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    padding: 90px 20px 110px;
+  }
 }

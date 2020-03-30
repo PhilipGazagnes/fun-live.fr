@@ -20,6 +20,8 @@
     "sass-loader": "^8.0.2"
   },
   "dependencies": {
-    "in-view": "^0.6.1"
+    "@nuxtjs/svg": "^0.1.6",
+    "in-view": "^0.6.1",
+    "svg4everybody": "^2.1.9"
   }
 }

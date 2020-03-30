@@ -1,6 +1,6 @@
 <template>
-  <section class="directory">
-    <h1>Contact</h1>
+  <section class="concertBg">
+    <h2>Contact</h2>
   </section>
 </template>
 

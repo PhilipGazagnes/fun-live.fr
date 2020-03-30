@@ -12,11 +12,11 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap',
+          'https://fonts.googleapis.com/css?family=Open+Sans:300,400|Permanent+Marker&display=swap',
       },
     ],
   },
-  modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/svg'],
   plugins: ['./plugins/in-view.client.js'],
   css: ['~/assets/scss/main.scss'],
   styleResources: {

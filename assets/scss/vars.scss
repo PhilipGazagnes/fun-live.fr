@@ -1,1 +1,13 @@
 $accentColor: #c7af35;
+$primaryColor: #570c41;
+$primaryColorBg: #180212;
+
+$mfPhone: 'min-width:480px';
+$mfTablet: 'min-width:768px';
+$mfDesktop: 'min-width:992px';
+$mfLargeDesktop: 'min-width:1200px';
+
+@mixin handwritten {
+  font-family: 'Permanent Marker';
+  font-weight: normal;
+}
