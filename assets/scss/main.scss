@@ -14,15 +14,31 @@ body {
 p {
   padding: 0;
   margin: 0;
-  @media screen and ($mfPhone) {
-    text-align: justify;
-  }
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  @media screen and ($mfPhone) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media screen and ($mfLargeDesktop) {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
 }
 
 .containerNarrow {
@@ -40,23 +56,23 @@ p {
 
 .concertBg {
   color: white;
-  background-image: url(/concert-bg/bg-phone.jpg);
+  background-image: url('/concert-bg/bg-phone.jpg');
   background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat;
   background-color: $primaryColorBg;
   @media screen and ($mfPhone) {
-    background-image: url(/concert-bg/bg-tablet.jpg);
+    background-image: url('/concert-bg/bg-tablet.jpg');
   }
   @media screen and ($mfTablet) {
-    background-image: url(/concert-bg/bg-desktop.jpg);
+    background-image: url('/concert-bg/bg-desktop.jpg');
   }
   @media screen and ($mfDesktop) {
-    background-image: url(/concert-bg/bg-large-desktop.jpg);
+    background-image: url('/concert-bg/bg-large-desktop.jpg');
   }
 }
 
-h2 {
+.sectionTitleType1 {
   text-align: center;
   font-weight: 300;
   margin: 0;

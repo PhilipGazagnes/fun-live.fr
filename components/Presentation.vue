@@ -1,6 +1,6 @@
 <template>
   <section class="concertBg section">
-    <h2 class="title">
+    <h2 class="title sectionTitleType1">
       <span>3 musiciens et 1 animateur</span>
       <span>pour un concert mémorable</span>
     </h2>
@@ -27,8 +27,8 @@
     <p class="containerNarrow">
       Trois musiciens expérimentés accompagnent les candidats, qui choisissent
       leur chanson dans le large répertoire que nous proposons, pour devenir
-      Mick Jagger, Elvis Presley, Johnny Halliday, Patricia Kaas, Alain Souchon,
-      et bien d’autres !
+      Mick Jagger, Elvis Presley, Sting, Johnny Halliday, Patricia Kaas, Alain
+      Souchon, Francis Cabrel et bien d’autres !
     </p>
   </section>
 </template>
@@ -57,6 +57,9 @@ export default {
     padding: 0 0 110px 0;
   }
   p {
+    @media screen and ($mfPhone) {
+      text-align: justify;
+    }
     &:last-child {
       margin-top: 20px;
     }
