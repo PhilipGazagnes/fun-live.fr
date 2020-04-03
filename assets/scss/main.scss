@@ -73,8 +73,9 @@ h2 {
 }
 
 .sectionTitleType1 {
+  @include handwritten;
   text-align: center;
-  font-weight: 300;
+  font-weight: normal;
   margin: 0;
   font-size: 2em;
   line-height: 1.2em;

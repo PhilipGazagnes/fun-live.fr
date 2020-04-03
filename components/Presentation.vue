@@ -1,7 +1,7 @@
 <template>
   <section class="concertBg section">
     <h2 class="sectionTitleType1">
-      <span>3 musiciens et 1 animateur</span>
+      <span>Trois musiciens et un animateur</span>
       <span>pour un concert mémorable</span>
     </h2>
     <div class="pics">
