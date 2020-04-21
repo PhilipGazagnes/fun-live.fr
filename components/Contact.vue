@@ -58,7 +58,10 @@ export default {
     padding: 10px 0;
     background: none;
     font-family: inherit;
+    font-size: 1em;
+    width: 100%;
     @media screen and ($mfPhone) {
+      width: auto;
       display: inline-block;
       padding: 20px 30px;
       font-size: 1.2em;
