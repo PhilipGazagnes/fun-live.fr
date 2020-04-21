@@ -7,7 +7,7 @@
       message et vos coordonnées à l'adresse suivante :
     </p>
     <p class="containerNarrow email">
-      <a href="mailto:contactfunlive@gmail.com">contactfunlive@gmail.com</a>
+      <button @click="handleClick">contactfunlive@gmail.com</button>
     </p>
     <p class="containerNarrow">
       Nous vous répondrons dans les plus brefs délais. Au plaisir de vous lire !
@@ -16,7 +16,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    handleClick() {
+      if (window.ga) {
+        window.ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'clickEmail',
+        });
+      }
+      window.location.href = 'mailto:contactfunlive@gmail.com';
+    },
+  },
+};
 </script>
 
 <style lang="scss">
@@ -34,7 +47,7 @@ export default {};
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  a {
+  button {
     color: white;
     text-decoration: none;
     display: block;
@@ -43,6 +56,8 @@ export default {};
     cursor: pointer;
     text-align: center;
     padding: 10px 0;
+    background: none;
+    font-family: inherit;
     @media screen and ($mfPhone) {
       display: inline-block;
       padding: 20px 30px;

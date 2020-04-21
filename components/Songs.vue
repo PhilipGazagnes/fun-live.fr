@@ -110,6 +110,13 @@ export default {
     },
     openBlankPage(url) {
       window.open(url);
+      if (window.ga) {
+        window.ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'clickOnSong',
+        });
+      }
     },
     handleLanguageFilterChange() {
       this.page = 1;
