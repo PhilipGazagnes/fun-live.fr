@@ -16,7 +16,16 @@ module.exports = {
       },
     ],
   },
-  modules: ['@nuxtjs/style-resources', '@nuxtjs/svg'],
+  modules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/svg',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-164135179-1',
+      },
+    ],
+  ],
   plugins: ['./plugins/in-view.client.js'],
   css: ['~/assets/scss/main.scss'],
   styleResources: {
