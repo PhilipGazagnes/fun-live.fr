@@ -23,10 +23,15 @@ module.exports = {
       '@nuxtjs/google-analytics',
       {
         id: 'UA-164135179-1',
+        dev: false,
       },
     ],
   ],
-  plugins: ['./plugins/in-view.client.js'],
+  plugins: [
+    '~/plugins/lazyload.client.js',
+    './plugins/in-view.client.js',
+    '~/plugins/doc-cookies.client.js',
+  ],
   css: ['~/assets/scss/main.scss'],
   styleResources: {
     scss: ['./assets/scss/vars.scss'],

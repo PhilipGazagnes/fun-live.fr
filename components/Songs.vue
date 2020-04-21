@@ -1,14 +1,14 @@
 <template>
-  <section class="songs">
+  <section id="Songs" :class="['songs', isInView ? 'isinview' : '']">
     <div class="container">
       <div>
         <h2>Notre répertoire</h2>
         <div class="filters">
-          <select v-model="frenchOnly" @change="page = 1">
+          <select v-model="frenchOnly" @change="handleLanguageFilterChange">
             <option :value="false" selected>Toutes</option>
             <option :value="true">Les françaises</option>
           </select>
-          <select v-model="sortByArtist" @change="page = 1">
+          <select v-model="sortByArtist" @change="handleSortChange">
             <option :value="false" selected>Tri par titre</option>
             <option :value="true">Tri par artiste</option>
           </select>
@@ -30,15 +30,15 @@
           </li>
         </ul>
         <div class="pagination">
-          <button :disabled="page === 1" @click="page = page -= 1">
+          <button :disabled="page === 1" @click="handlePrev">
             <Arrow />
           </button>
-          <select v-model="page">
+          <select v-model="page" @change="handleSelect">
             <option v-for="(p, index) in pages" :key="index" :value="p">
               {{ p }}
             </option>
           </select>
-          <button :disabled="page === pages" @click="page += 1">
+          <button :disabled="page === pages" @click="handleNext">
             suite <Arrow />
           </button>
         </div>
@@ -63,6 +63,7 @@ export default {
       page: 1,
       itemsPerPage: 10,
       totalItems: undefined,
+      isInView: false,
     };
   },
   computed: {
@@ -72,6 +73,14 @@ export default {
     pages() {
       return Math.ceil(this.songs.length / this.itemsPerPage);
     },
+  },
+  mounted() {
+    window.InView('#Songs').on('enter', () => {
+      this.isInView = true;
+    });
+    if (window.InView.is(document.querySelector('#Songs'))) {
+      this.isInView = true;
+    }
   },
   methods: {
     langFilter(s) {
@@ -102,6 +111,64 @@ export default {
     openBlankPage(url) {
       window.open(url);
     },
+    handleLanguageFilterChange() {
+      this.page = 1;
+      if (window.ga) {
+        window.ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'songFilters',
+          eventLabel: 'language',
+        });
+      }
+    },
+    handleSortChange() {
+      this.page = 1;
+      if (window.ga) {
+        window.ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'songFilters',
+          eventLabel: 'sort',
+        });
+      }
+    },
+    handlePrev() {
+      this.page -= 1;
+      if (window.ga) {
+        window.ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'songPagination',
+          eventLabel: 'prev',
+          eventValue: this.page,
+        });
+      }
+    },
+    handleSelect() {
+      this.page -= 1;
+      if (window.ga) {
+        window.ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'songPagination',
+          eventLabel: 'select',
+          eventValue: this.page,
+        });
+      }
+    },
+    handleNext() {
+      this.page += 1;
+      if (window.ga) {
+        window.ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'songPagination',
+          eventLabel: 'next',
+          eventValue: this.page,
+        });
+      }
+    },
   },
 };
 </script>
@@ -109,17 +176,19 @@ export default {
 <style lang="scss">
 .songs {
   position: relative;
-  background-image: url('/slammer/slammer-mobile.jpg');
-  background-position: left bottom;
-  background-repeat: no-repeat;
   overflow: hidden;
   padding: 60px 0 300px;
   @media screen and ($mfPhone) {
     padding: 70px 0 400px;
-    background-image: url('/slammer/slammer.jpg');
   }
-  @media screen and ($mfTablet) {
-    background-position: right bottom;
+  &.isinview {
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-image: url('/slammer/slammer-mobile.jpg');
+    @media screen and ($mfPhone) {
+      background-image: url('/slammer/slammer.jpg');
+      background-position: right bottom;
+    }
   }
   h2 {
     @include handwritten;

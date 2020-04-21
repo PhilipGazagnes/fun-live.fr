@@ -6,17 +6,17 @@
     </h2>
     <div class="pics">
       <div class="pics__bassist">
-        <img src="/band/bassist.png" />
+        <img data-src="/band/bassist.png" class="lazy" />
       </div>
       <div class="pics__speaker">
-        <img src="/band/speaker.png" />
+        <img data-src="/band/speaker.png" class="lazy" />
         <SpeakerBg />
       </div>
       <div class="pics__drummer">
-        <img src="/band/drummer.png" />
+        <img data-src="/band/drummer.png" class="lazy" />
       </div>
       <div class="pics__guitarist">
-        <img src="/band/guitarist.png" />
+        <img data-src="/band/guitarist.png" class="lazy" />
       </div>
     </div>
     <p class="containerNarrow">
