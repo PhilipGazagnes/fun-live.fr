@@ -1,9 +1,8 @@
 <template>
   <section class="concertBg section">
-    <h2 class="sectionTitleType1">
-      <span>Trois musiciens et un animateur</span>
-      <span>pour un concert mémorable</span>
-    </h2>
+    <h1 ref="title" :class="ga ? '' : 'noga'">
+      Fun Live <span>Karaoké Live Band</span>
+    </h1>
     <div class="pics">
       <div class="pics__bassist">
         <img data-src="/band/bassist.png" class="lazy" />
@@ -19,6 +18,10 @@
         <img data-src="/band/guitarist.png" class="lazy" />
       </div>
     </div>
+    <h2 class="sectionTitleType1">
+      <span>Trois musiciens et un animateur</span>
+      <span>pour un concert mémorable</span>
+    </h2>
     <p class="containerNarrow">
       Fun Live est votre groupe pour passer un excellent moment. Fini les
       karaokés sur bande son. Notre concept : faire chanter les participants
@@ -40,6 +43,34 @@ import SpeakerBg from '../assets/svg/speaker-star-bg.svg?inline';
 export default {
   components: {
     SpeakerBg,
+  },
+  data() {
+    return {
+      t1: undefined,
+      t2: undefined,
+      ga: true,
+    };
+  },
+  mounted() {
+    this.$refs.title.addEventListener('mousedown', this.handleMouseDown);
+  },
+  methods: {
+    desactivateGa() {
+      this.ga = false;
+      window['ga-disable-UA-164135179-1'] = true;
+    },
+    handleMouseDown() {
+      this.t1 = new Date();
+      this.$refs.title.addEventListener('mouseup', this.handleMouseUp);
+    },
+    handleMouseUp() {
+      this.$refs.title.removeEventListener('mouseup', this.handleMouseUp);
+      this.t2 = new Date();
+      if (this.t2 - this.t1 > 2000) {
+        this.$refs.title.removeEventListener('mousedown', this.handleMouseDown);
+        this.desactivateGa();
+      }
+    },
   },
 };
 </script>
@@ -64,20 +95,38 @@ export default {
       margin-top: 20px;
     }
   }
+  & > h1 {
+    @include handwritten;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 3.2em;
+    line-height: 1em;
+    padding: 70px 0;
+    text-shadow: 5px 5px 0 $primaryColor;
+    @media screen and ($mfPhone) {
+      padding: 100px 0 100px;
+      font-size: 4em;
+    }
+    & > span {
+      display: block;
+      font-size: 0.5em;
+    }
+    &.noga {
+      animation: bump 0.2s;
+    }
+  }
 }
 .pics {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 0 40px;
+  padding: 0 0 10px;
   @media screen and ($mfPhone) {
-    padding: 0 0 60px;
+    padding: 0 0 20px;
   }
   @media screen and ($mfDesktop) {
-    padding: 0 0 80px;
     max-width: 1800px;
-  }
-  @media screen and ($mfLargeDesktop) {
-    padding: 0 0 100px;
   }
   &::after {
     content: '';
@@ -154,6 +203,17 @@ export default {
       width: 91%;
       transform: translateX(-35%);
     }
+  }
+}
+@keyframes bump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 </style>
