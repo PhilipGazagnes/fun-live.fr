@@ -79,16 +79,16 @@ h2 {
   margin: 0;
   font-size: 2em;
   line-height: 1.2em;
-  padding: 70px 20px 70px;
+  padding: 70px 20px 40px;
   @media screen and ($mfPhone) {
-    padding: 70px 50px 70px;
+    padding: 70px 50px 40px;
   }
   @media screen and ($mfTablet) {
-    padding: 70px 50px 90px;
+    padding: 70px 50px 60px;
   }
   @media screen and ($mfDesktop) {
     font-size: 2.5em;
     line-height: 1.3em;
-    padding: 90px 20px 110px;
+    padding: 90px 20px 60px;
   }
 }
