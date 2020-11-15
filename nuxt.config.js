@@ -21,7 +21,7 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Raleway:300,400,600|Playball&display=swap',
+          'https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"',
       },
     ],
   },
@@ -50,6 +50,7 @@ module.exports = {
     { src: '~/plugins/ga.js', mode: 'client' },
     { src: '~/plugins/hotjar.js', mode: 'client' },
   ],
+  css: ['~/assets/css/main.css'],
   build: {
     postcss: {
       plugins: {
@@ -57,7 +58,8 @@ module.exports = {
           importFrom: [
             {
               customProperties: {
-                '--primaryColor': 'red0',
+                '--textColor': '#222',
+                '--primaryColor': 'red',
                 '--successColor': '#67c23a',
                 '--errorColor': '#f56c6c',
               },
