@@ -1,5 +1,14 @@
 module.exports = {
+  env: {
+    ga: process.env.GA,
+    baseUrl: process.env.BASE_URL
+      ? process.env.BASE_URL
+      : 'http://localhost:3000/',
+  },
   head: {
+    htmlAttrs: {
+      lang: 'fr-FR',
+    },
     meta: [
       { charset: 'utf-8' },
       {
@@ -12,28 +21,77 @@ module.exports = {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Open+Sans:300,400|Permanent+Marker&display=swap',
+          'https://fonts.googleapis.com/css?family=Raleway:300,400,600|Playball&display=swap',
       },
     ],
   },
   modules: [
+    '@nuxtjs/dotenv',
     '@nuxtjs/style-resources',
     '@nuxtjs/svg',
     [
-      '@nuxtjs/google-analytics',
+      '@nuxtjs/robots',
       {
-        id: 'UA-164135179-1',
-        dev: false,
+        UserAgent: '*',
+        Disallow:
+          process.env.BASE_URL === 'https://www.fun-live.fr/' ? '' : '/',
+        Sitemap:
+          process.env.BASE_URL === 'https://www.fun-live.fr/'
+            ? `${process.env.BASE_URL}sitemap.xml`
+            : undefined,
       },
     ],
+    '@nuxtjs/sitemap',
+    ['nuxt-canonical', { baseUrl: process.env.BASE_URL }],
   ],
   plugins: [
-    '~/plugins/lazyload.client.js',
-    './plugins/in-view.client.js',
-    '~/plugins/doc-cookies.client.js',
+    { src: '~/plugins/lazyload.js', mode: 'client' },
+    { src: '~/plugins/in-view.js', mode: 'client' },
+    { src: '~/plugins/ga.js', mode: 'client' },
+    { src: '~/plugins/hotjar.js', mode: 'client' },
   ],
-  css: ['~/assets/scss/main.scss'],
-  styleResources: {
-    scss: ['./assets/scss/vars.scss'],
+  build: {
+    postcss: {
+      plugins: {
+        'postcss-custom-properties': {
+          importFrom: [
+            {
+              customProperties: {
+                '--primaryColor': 'red0',
+                '--successColor': '#67c23a',
+                '--errorColor': '#f56c6c',
+              },
+            },
+          ],
+        },
+        'postcss-nested': {},
+        'postcss-custom-media': {
+          importFrom: [
+            {
+              customMedia: {
+                '--phone': '(min-width: 480px)',
+                '--tablet': '(min-width: 768px)',
+                '--desktop': '(min-width: 992px)',
+                '--largeDesktop': '(min-width: 1200px)',
+              },
+            },
+          ],
+        },
+      },
+      preset: {
+        autoprefixer: {
+          grid: true,
+        },
+      },
+    },
+  },
+  sitemap: {
+    hostname: 'https://www.fun-live.fr',
+  },
+  generate: {
+    fallback: true,
+    routes: [
+      '/',
+    ],
   },
 };
