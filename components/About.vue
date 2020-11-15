@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span class="text">About</span>
+    <div v-for="(i, index) in 100" :key="index">About</div>
   </div>  
 </template>
 
@@ -11,7 +11,5 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-.text {
-  @bold;
-}
+
 </style>

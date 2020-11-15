@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container" id="Video">
     Video
   </div>  
 </template>
@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-
+.container {
+  background: black;
+  height: 90vh;
+}
 </style>
