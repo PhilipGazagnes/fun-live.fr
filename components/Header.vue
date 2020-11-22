@@ -26,6 +26,7 @@ export default {
     }).on('exit', () => {
       this.sticky = true;
     });
+    InView.is(document.querySelector('#Video'));
   },
 }
 </script>
@@ -37,6 +38,7 @@ export default {
   left: 0;
   width: 100%;
   height: 150px;
+  z-index: 10;
   & > svg {
     width: 300px;
     position: absolute;
