@@ -13,3 +13,13 @@ body {
   margin: 0;
   color: var(--textColor);
 }
+
+@font-face {
+  font-family: 'Geomanist';
+  src: local('Geomanist Ultra'), local('Geomanist-Ultra'),
+      url('../font/Geomanist-Ultra.woff2') format('woff2'),
+      url('../font/Geomanist-Ultra.woff') format('woff'),
+      url('../font/Geomanist-Ultra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
