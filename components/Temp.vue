@@ -1,7 +1,7 @@
 <template>
   <div class="temp">
     <div class="logo"><Logo /></div>
-    <h1>Votre groupe de Karaoké Live pour vos événements</h1>
+    <h1>Votre groupe de <span>Karaoké Live</span></h1>
     <div class="video">
       <div @click="$refs.vidlink.click()">
         <video autoplay muted loop>
@@ -81,6 +81,10 @@ export default {
     font-size: 2em;
     line-height: 1.2em;
     margin-bottom: 40px;
+    & > span {
+      display: block;
+      font-size: 1.2em;
+    }
     @media screen and (min-width: 640px) {
       font-size: 2.4em;
     }
@@ -157,7 +161,7 @@ export default {
     }
   }
   & > .mailto {
-    background: linear-gradient(83.58deg, #570C41 -6.19%, #BD0086 115.07%);
+    -webkit-background: linear-gradient(83.58deg, #570C41 -6.19%, #BD0086 115.07%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.2em;
