@@ -18,20 +18,21 @@
     <p>Comme pour un karaoké ordinaire, les invités ont accès à la liste des chansons disponibles. Les volontaires s’inscrivent et nous les appelons à tour de rôle pour interpréter le tube de leur choix.</p>
     <p>Les paroles sont visibles sur scène à côté du micro de chant. Pas de stress, nous aidons les candidats les moins à l’aise pour que chaque chanson soit une réussite !</p>
     <h2>Un Vaste répertoire international et multi générationnel</h2>
-    <img src="/artists.jpg" @click="$refs.songlink.click()" />
-    <a href="/paroles" ref="songlink" class="button">Voir le répertoire complet</a>
+    <img src="/artists.jpg" />
+    <button @click="showsongs=!showsongs" class="button">{{ showsongs ? 'Masquer le répertoire' : 'Voir le répertoire complet' }}</button>
+    <SongsTemp v-if="showsongs" />
     <h2>Témoignages</h2>
     <div class="temoignage">
+      <p><Star />Groupe professionnel qui propose des soirées live avec ambiance garantie. Nous avons osé chanter avec une amie et nous nous sommes régalées. Les musiciens nous mettent très à l'aise. Je les ai déjà recommandé et ils ont toujours assuré dans toutes situations. À suivre ;)</p>
+      <p><strong>Camping de l'Europe</strong>, Vic-la-Gardiole</p>
+    </div>
+    <div class="temoignage">
       <p><Star />Avec le groupe Fun Live, soirée assurée dans la qualité des choix des chansons et dans l'ambiance toujours aussi joyeuse. Groupe à ne pas rater et à conseiller pour un bon Karaoké.</p>
-      <p>Le Zanzi-Bar, Sète</p>
+      <p><strong>Le Zanzi-Bar</strong>, Sète</p>
     </div>
     <div class="temoignage">
       <p><Star />Novateur, excellente prestation et un grand talent d'animation ! Un concept très sympa qui change du karaoké traditionnel. Vraiment ravie de ma colaboration avec Fun Live et enchantée de la participation et des retours positifs des clients qui ont grandement apprécié l'événement.</p>
-      <p>Association Esprit Partage, Sète</p>
-    </div>
-    <div class="temoignage">
-      <p><Star />(Commentaire en cours) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit eleifend scelerisque. Pellentesque dui tortor, lobortis id fermentum eu, tincidunt quis urna. Integer ullamcorper diam nunc, quis tempus metus sodales id. Etiam eget urna risus. Lorem ipsum</p>
-      <p>Camping de l'Europe, Vic-la-Gardiole</p>
+      <p><strong>Association Esprit Partage</strong>, Sète</p>
     </div>
     <h2>Contact</h2>
     <p>Contactez-nous pour plus d’informations sur nos prestations et planifier une date, nous vous répondrons dans les plus brefs délais :</p>
@@ -43,14 +44,19 @@
 import Logo from '../assets/svg/logo.svg?inline';
 import Star from '../assets/svg/star.svg?inline';
 import Play from '../assets/svg/play.svg?inline';
-import Songs from '../components/Songs';
+import SongsTemp from '../components/SongsTemp';
 
 export default {
   components: {
-    Songs,
+    SongsTemp,
     Play,
     Logo,
     Star,
+  },
+  data() {
+    return {
+      showsongs: false,
+    };
   },
 }
 </script>
@@ -161,7 +167,7 @@ export default {
     }
   }
   & > .mailto {
-    -webkit-background: linear-gradient(83.58deg, #570C41 -6.19%, #BD0086 115.07%);
+    background: -webkit-linear-gradient(83.58deg, #570C41 -6.19%, #BD0086 115.07%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.2em;
@@ -175,6 +181,10 @@ export default {
     display: block;
     text-decoration: none;
     text-align:center;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
   }
 }
 

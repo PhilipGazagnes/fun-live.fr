@@ -1,692 +1,135 @@
 [
-  {
-    "t": "Highway to hell",
-    "a": "AC/DC",
-    "v": "https://www.youtube.com/watch?v=l482T0yNkeo",
-    "l": "EN"
-  },
-  {
-    "t": "Gaby",
-    "a": "Alain Bashung",
-    "v": "https://www.youtube.com/watch?v=gPKqSkC4-Rw",
-    "l": "FR"
-  },
-  {
-    "t": "Foule sentimentale",
-    "a": "Alain Souchon",
-    "v": "https://www.youtube.com/watch?v=V_SNDGwwGFM",
-    "l": "FR"
-  },
-  {
-    "t": "A horse with no name",
-    "a": "America",
-    "v": "https://www.youtube.com/watch?v=zSAJ0l4OBHM",
-    "l": "EN"
-  },
-  {
-    "t": "Le brio",
-    "a": "Big Soul",
-    "v": "https://www.youtube.com/watch?v=oJu9MfsAXZQ",
-    "l": "FR"
-  },
-  {
-    "t": "Aint no sunshine",
-    "a": "Bill Withers",
-    "v": "https://www.youtube.com/watch?v=YuKfiH0Scao",
-    "l": "EN"
-  },
-  {
-    "t": "Just the two of us",
-    "a": "Bill Withers",
-    "v": "https://www.youtube.com/watch?v=jEy6MGu3bIA",
-    "l": "EN"
-  },
-  {
-    "t": "Paranoid",
-    "a": "Black Sabbath",
-    "v": "https://www.youtube.com/watch?v=uk_wUT1CvWM",
-    "l": "EN"
-  },
-  {
-    "t": "Call me",
-    "a": "Blondie",
-    "v": "https://www.youtube.com/watch?v=StKVS0eI85I",
-    "l": "EN"
-  },
-  {
-    "t": "One way or another",
-    "a": "Blondie",
-    "v": "https://www.youtube.com/watch?v=_zBwRDEFMRY",
-    "l": "EN"
-  },
-  {
-    "t": "Everybody needs somebody to love",
-    "a": "Blues Brothers",
-    "v": "https://www.youtube.com/watch?v=MrOsHfZsVLk",
-    "l": "EN"
-  },
-  {
-    "t": "Sweet home Chicago",
-    "a": "Blues Brothers",
-    "v": "https://www.youtube.com/watch?v=euJ22UqLD5Y",
-    "l": "EN"
-  },
-  {
-    "t": "No woman no cry",
-    "a": "Bob Marley",
-    "v": "https://www.youtube.com/watch?v=pHlSE9j5FGY",
-    "l": "EN"
-  },
-  {
-    "t": "Sunny",
-    "a": "Boney M (originale Bobby Hebb)",
-    "v": "https://www.youtube.com/watch?v=yD8DcgpLp_w",
-    "l": "EN"
-  },
-  {
-    "t": "Emmène moi",
-    "a": "Boulevard des Airs",
-    "v": "https://www.youtube.com/watch?v=60UcfvjiVY8",
-    "l": "FR"
-  },
-  {
-    "t": "Le Freak",
-    "a": "Chic",
-    "v": "https://www.youtube.com/watch?v=aXgSHL7efKg",
-    "l": "EN"
-  },
-  {
-    "t": "Les Mots bleus",
-    "a": "Christophe",
-    "v": "https://www.youtube.com/watch?v=LdfB8pM-qLw",
-    "l": "FR"
-  },
-  {
-    "t": "Alexandrie Alexandra",
-    "a": "Claude François",
-    "v": "https://www.youtube.com/watch?v=HkVhN64dyd8",
-    "l": "FR"
-  },
-  {
-    "t": "Zombie",
-    "a": "Cranberries",
-    "v": "https://www.youtube.com/watch?v=6Ejga4kJUts",
-    "l": "EN"
-  },
-  {
-    "t": "Fortunate son",
-    "a": "Creedence Clearwater Revival",
-    "v": "https://www.youtube.com/watch?v=ec0XKhAHR5I",
-    "l": "EN"
-  },
-  {
-    "t": "Mon fils ma bataille",
-    "a": "Daniel Balavoine",
-    "v": "https://www.youtube.com/watch?v=vUOxbQO6IE4",
-    "l": "FR"
-  },
-  {
-    "t": "Sur la route",
-    "a": "De Palmas",
-    "v": "https://www.youtube.com/watch?v=pX594TK_VIc",
-    "l": "FR"
-  },
-  {
-    "t": "Smoke on the water",
-    "a": "Deep Purple",
-    "v": "https://www.youtube.com/watch?v=zUwEIt9ez7M",
-    "l": "EN"
-  },
-  {
-    "t": "Voyage voyage",
-    "a": "Desireless",
-    "v": "https://www.youtube.com/watch?v=T7YJoGXs2i8",
-    "l": "FR"
-  },
-  {
-    "t": "Je ne veux pas rester sage",
-    "a": "Dolly",
-    "v": "https://www.youtube.com/watch?v=M-4UjCItiTQ",
-    "l": "FR"
-  },
-  {
-    "t": "Hot stuff",
-    "a": "Donna Summer",
-    "v": "https://www.youtube.com/watch?v=AqS4aNi0HQY",
-    "l": "EN"
-  },
-  {
-    "t": "Knock on wood",
-    "a": "Amii Stewart (originale Eddie Floyd)",
-    "v": "https://www.youtube.com/watch?v=Kceiks__PsE",
-    "l": "EN"
-  },
-  {
-    "t": "Pas de Boogie Woogie",
-    "a": "Eddy Mitchell",
-    "v": "https://www.youtube.com/watch?v=ak2VSH4oHxY",
-    "l": "FR"
-  },
-  {
-    "t": "Daniela",
-    "a": "Elmer Food Beat",
-    "v": "https://www.youtube.com/watch?v=46gRtZOsd1I",
-    "l": "FR"
-  },
-  {
-    "t": "Blue Suede Shoes",
-    "a": "Elvis Presley",
-    "v": "https://www.youtube.com/watch?v=SuqF_LC_U7Y",
-    "l": "EN"
-  },
-  {
-    "t": "Hount dog",
-    "a": "Elvis Presley",
-    "v": "https://www.youtube.com/watch?v=-eHJ12Vhpyc",
-    "l": "EN"
-  },
-  {
-    "t": "Jailhouse rock",
-    "a": "Elvis Presley",
-    "v": "https://www.youtube.com/watch?v=gj0Rz-uP4Mk",
-    "l": "EN"
-  },
-  {
-    "t": "Cocaine",
-    "a": "Eric Clapton",
-    "v": "https://www.youtube.com/watch?v=zVOuRQPPdoo",
-    "l": "EN"
-  },
-  {
-    "t": "Layla",
-    "a": "Eric Clapton",
-    "v": "https://www.youtube.com/watch?v=Q_L-0Ryhmic",
-    "l": "EN"
-  },
-  {
-    "t": "Sweet Dreams",
-    "a": "Eurythmics (reprise par Marylin Manson)",
-    "v": "https://www.youtube.com/watch?v=QUvVdTlA23w",
-    "l": "EN"
-  },
-  {
-    "t": "Encore et encore",
-    "a": "Francis Cabrel",
-    "v": "https://www.youtube.com/watch?v=nuNsWa36B3k",
-    "l": "FR"
-  },
-  {
-    "t": "Les copains d'abord",
-    "a": "Georges Brassens",
-    "v": "https://www.youtube.com/watch?v=CWJmBBxJlig",
-    "l": "FR"
-  },
-  {
-    "t": "I will survive",
-    "a": "Gloria Gaynor",
-    "v": "https://www.youtube.com/watch?v=gYkACVDFmeg",
-    "l": "EN"
-  },
-  {
-    "t": "Knocking at heaven's door",
-    "a": "Guns'n'Roses (originale de Bob Dylan)",
-    "v": "https://www.youtube.com/watch?v=f8OHybVhQwc",
-    "l": "EN"
-  },
-  {
-    "t": "Il est libre max",
-    "a": "Hervé Cristiani",
-    "v": "https://www.youtube.com/watch?v=98uUxfo_eMw",
-    "l": "FR"
-  },
-  {
-    "t": "La fille du coupeur de joint",
-    "a": "Hubert Félix Thiéfaine",
-    "v": "https://www.youtube.com/watch?v=JAv8UPSKF7g",
-    "l": "FR"
-  },
-  {
-    "t": "Just an illusion",
-    "a": "Imagination",
-    "v": "https://www.youtube.com/watch?v=TnfHdZrmMAw",
-    "l": "EN"
-  },
-  {
-    "t": "L'aventurier",
-    "a": "Indochine",
-    "v": "https://www.youtube.com/watch?v=M7X6oYg6iro",
-    "l": "FR"
-  },
-  {
-    "t": "Et moi et moi",
-    "a": "Jacques Dutronc",
-    "v": "https://www.youtube.com/watch?v=3GmNh9R2Deo",
-    "l": "FR"
-  },
-  {
-    "t": "Les cactus",
-    "a": "Jacques Dutronc",
-    "v": "https://www.youtube.com/watch?v=s_EUTmrjX54",
-    "l": "FR"
-  },
-  {
-    "t": "I love rock'n'roll",
-    "a": "Joan Jett",
-    "v": "https://www.youtube.com/watch?v=iC8oP4Z_xPw",
-    "l": "EN"
-  },
-  {
-    "t": "Unchain my heart",
-    "a": "Joe cocker (originale Ray Charles)",
-    "v": "https://www.youtube.com/watch?v=6eByMZJ9ueA&t=353s",
-    "l": "EN"
-  },
-  {
-    "t": "Imagine",
-    "a": "John Lennon",
-    "v": "https://www.youtube.com/watch?v=VOgFZfRVaww",
-    "l": "EN"
-  },
-  {
-    "t": "Allumer le feu",
-    "a": "Johnny Hallyday",
-    "v": "https://www.youtube.com/watch?v=s3O1Xro7oAI",
-    "l": "FR"
-  },
-  {
-    "t": "Fils de personne",
-    "a": "Johnny Hallyday",
-    "v": "https://www.youtube.com/watch?v=sMFIVYx2rvQ",
-    "l": "FR"
-  },
-  {
-    "t": "Le pénitencier",
-    "a": "Johnny Hallyday",
-    "v": "https://www.youtube.com/watch?v=J4YVImCvH0E",
-    "l": "FR"
-  },
-  {
-    "t": "Toute la musique que j’aime",
-    "a": "Johnny Hallyday",
-    "v": "https://www.youtube.com/watch?v=fnG3ywEAK7s",
-    "l": "FR"
-  },
-  {
-    "t": "Voulez vous coucher avec moi ce soir ?",
-    "a": "Labelle",
-    "v": "https://www.youtube.com/watch?v=zgLSeBPfVNM",
-    "l": "EN"
-  },
-  {
-    "t": "C'est toi que je t'aime",
-    "a": "Les Inconnus",
-    "v": "https://www.youtube.com/watch?v=DPnk1H1m7Cs",
-    "l": "FR"
-  },
-  {
-    "t": "Beat it",
-    "a": "Mickael Jackson",
-    "v": "https://www.youtube.com/watch?v=oRdxUFDoQe0",
-    "l": "EN"
-  },
-  {
-    "t": "Moonlight shadow",
-    "a": "Mike Oldfield",
-    "v": "https://www.youtube.com/watch?v=e80qhyovOnA",
-    "l": "EN"
-  },
-  {
-    "t": "Libertine",
-    "a": "Mylène Farmer",
-    "v": "https://www.youtube.com/watch?v=-dHD1jOOG9w",
-    "l": "FR"
-  },
-  {
-    "t": "Sans contrefaçon",
-    "a": "Mylène Farmer",
-    "v": "https://www.youtube.com/watch?v=S5Xa31jYxYc",
-    "l": "FR"
-  },
-  {
-    "t": "J'ai vu",
-    "a": "Niagara",
-    "v": "https://www.youtube.com/watch?v=Fe8mocHKHnM",
-    "l": "FR"
-  },
-  {
-    "t": "Le sud",
-    "a": "Nino Ferrer",
-    "v": "https://www.youtube.com/watch?v=FgxwKEuy-pM",
-    "l": "FR"
-  },
-  {
-    "t": "Smell like teen spirit",
-    "a": "Nirvana",
-    "v": "https://www.youtube.com/watch?v=hTWKbfoikeg",
-    "l": "EN"
-  },
-  {
-    "t": "Just a girl",
-    "a": "No Doubt",
-    "v": "https://www.youtube.com/watch?v=PHzOOQfhPFg",
-    "l": "EN"
-  },
-  {
-    "t": "Comme elle vient",
-    "a": "Noir desir",
-    "v": "https://www.youtube.com/watch?v=61WDzXefQcU",
-    "l": "FR"
-  },
-  {
-    "t": "L'Homme pressé",
-    "a": "Noir Desir",
-    "v": "https://www.youtube.com/watch?v=by1RRP9wa_Y",
-    "l": "FR"
-  },
-  {
-    "t": "Lazy",
-    "a": "Noir Desir",
-    "v": "https://www.youtube.com/watch?v=nMEbbh82KsA",
-    "l": "FR"
-  },
-  {
-    "t": "Le vent nous portera",
-    "a": "Noir desir",
-    "v": "https://www.youtube.com/watch?v=NrgcRvBJYBE",
-    "l": "FR"
-  },
-  {
-    "t": "Tostaky",
-    "a": "Noir desir",
-    "v": "https://www.youtube.com/watch?v=EPMqeEElqik",
-    "l": "FR"
-  },
-  {
-    "t": "Wonderwall",
-    "a": "Oasis",
-    "v": "https://www.youtube.com/watch?v=bx1Bh8ZvH84",
-    "l": "EN"
-  },
-  {
-    "t": "Dock of the bay",
-    "a": "Otis Redding",
-    "v": "https://www.youtube.com/watch?v=rTVjnBo96Ug",
-    "l": "EN"
-  },
-  {
-    "t": "Mon mec à moi",
-    "a": "Patricia Kaas",
-    "v": "https://www.youtube.com/watch?v=2bAMyiaIwNk",
-    "l": "FR"
-  },
-  {
-    "t": "Dans la salle du bar tabac de la rue des Martyrs",
-    "a": "Pigalle",
-    "v": "https://www.youtube.com/watch?v=TTSczgyD8j0",
-    "l": "FR"
-  },
-  {
-    "t": "Another brick in the wall",
-    "a": "Pink Floyd",
-    "v": "https://www.youtube.com/watch?v=5IpYOF4Hi6Q",
-    "l": "EN"
-  },
-  {
-    "t": "Ca plane pour moi",
-    "a": "Plastic Bertrand",
-    "v": "https://www.youtube.com/watch?v=yQ4i3lQM5lg",
-    "l": "FR"
-  },
-  {
-    "t": "La poupée qui fait non",
-    "a": "Polnareff",
-    "v": "https://www.youtube.com/watch?v=JDkVjrYNyLo",
-    "l": "FR"
-  },
-  {
-    "t": "Creep",
-    "a": "Radiohead",
-    "v": "https://www.youtube.com/watch?v=XFkzRNyygfk",
-    "l": "EN"
-  },
-  {
-    "t": "Killing in the name of",
-    "a": "Rage aganst the machine",
-    "v": "https://www.youtube.com/watch?v=bWXazVhlyxQ",
-    "l": "EN"
-  },
-  {
-    "t": "C'est comme ça",
-    "a": "Rita Mitsouko",
-    "v": "https://www.youtube.com/watch?v=fGZRVGlGZ6A",
-    "l": "FR"
-  },
-  {
-    "t": "Jumping Jack Flash",
-    "a": "Rolling Stones",
-    "v": "https://www.youtube.com/watch?v=0cPXwc-5Kw8",
-    "l": "EN"
-  },
-  {
-    "t": "Satisfaction",
-    "a": "Rolling Stones",
-    "v": "https://www.youtube.com/watch?v=nrIPxlFzDi0",
-    "l": "EN"
-  },
-  {
-    "t": "Sympathy for the Devil",
-    "a": "Rolling Stones",
-    "v": "https://www.youtube.com/watch?v=GgnClrx8N2k",
-    "l": "EN"
-  },
-  {
-    "t": "Superstition",
-    "a": "Steevie Wonder",
-    "v": "https://www.youtube.com/watch?v=0CFuCYNx-1g",
-    "l": "EN"
-  },
-  {
-    "t": "Born to be wild",
-    "a": "Steppenwolf",
-    "v": "https://www.youtube.com/watch?v=egMWlD3fLJ8",
-    "l": "EN"
-  },
-  {
-    "t": "Argent trop cher",
-    "a": "Téléphone",
-    "v": "https://www.youtube.com/watch?v=AZcypfABSzw",
-    "l": "FR"
-  },
-  {
-    "t": "Au coeur de la nuit",
-    "a": "Téléphone",
-    "v": "https://www.youtube.com/watch?v=PdjySppcEXo",
-    "l": "FR"
-  },
-  {
-    "t": "Cendrillon",
-    "a": "Téléphone",
-    "v": "https://www.youtube.com/watch?v=jmvt4B8rK2U",
-    "l": "FR"
-  },
-  {
-    "t": "Hygiaphone",
-    "a": "Téléphone",
-    "v": "https://www.youtube.com/watch?v=ah3ayYdRO5A",
-    "l": "FR"
-  },
-  {
-    "t": "Un autre monde",
-    "a": "Téléphone",
-    "v": "https://www.youtube.com/watch?v=xqnZPHo6qx4",
-    "l": "FR"
-  },
-  {
-    "t": "Ça c'est vraiment toi",
-    "a": "Téléphone ",
-    "v": "https://www.youtube.com/watch?v=OGNhncQLQJA",
-    "l": "FR"
-  },
-  {
-    "t": "New York avec toi",
-    "a": "Téléphone ",
-    "v": "https://www.youtube.com/watch?v=aWROzt7kudk",
-    "l": "FR"
-  },
-  {
-    "t": "House of the rising sun",
-    "a": "The Animals",
-    "v": "https://www.youtube.com/watch?v=0Fy7opKu46c",
-    "l": "EN"
-  },
-  {
-    "t": "Come together",
-    "a": "The Beatles",
-    "v": "https://www.youtube.com/watch?v=45cYwDMibGo",
-    "l": "EN"
-  },
-  {
-    "t": "Help",
-    "a": "The Beatles",
-    "v": "https://www.youtube.com/watch?v=2Q_ZzBGPdqE",
-    "l": "EN"
-  },
-  {
-    "t": "Hey Jude",
-    "a": "The Beatles",
-    "v": "https://www.youtube.com/watch?v=mQER0A0ej0M",
-    "l": "EN"
-  },
-  {
-    "t": "Let it be",
-    "a": "The Beatles",
-    "v": "https://www.youtube.com/watch?v=QDYfEBY9NM4",
-    "l": "EN"
-  },
-  {
-    "t": "London calling",
-    "a": "The Clash",
-    "v": "https://www.youtube.com/watch?v=EfK-WX2pa8c",
-    "l": "EN"
-  },
-  {
-    "t": "Should I stay or should I go ?",
-    "a": "The Clash",
-    "v": "https://www.youtube.com/watch?v=BN1WwnEDWAM",
-    "l": "EN"
-  },
-  {
-    "t": "Chain of fool",
-    "a": "Aretha Franklin",
-    "v": "https://www.youtube.com/watch?v=Tvzw1Cy27lE",
-    "l": "EN"
-  },
-  {
-    "t": "Mustang sally",
-    "a": "The Commitments (originale de Wilson Pickett)",
-    "v": "https://www.youtube.com/watch?v=ZEsoq0B1IOo",
-    "l": "EN"
-  },
-  {
-    "t": "Long train running",
-    "a": "The Doobie Brothers",
-    "v": "https://www.youtube.com/watch?v=m4tJSn0QtME",
-    "l": "EN"
-  },
-  {
-    "t": "Gloria",
-    "a": "The Doors",
-    "v": "https://www.youtube.com/watch?v=hhyyKhubv0E",
-    "l": "EN"
-  },
-  {
-    "t": "Road House Blues",
-    "a": "The Doors",
-    "v": "https://www.youtube.com/watch?v=n2_X4VTCoEo",
-    "l": "EN"
-  },
-  {
-    "t": "Hotel California",
-    "a": "The Eagles",
-    "v": "https://www.youtube.com/watch?v=OWGFdL4tNW0",
-    "l": "EN"
-  },
-  {
-    "t": "Killing me softly",
-    "a": "The Fugees",
-    "v": "https://www.youtube.com/watch?v=oKOtzIo-uYw",
-    "l": "EN"
-  },
-  {
-    "t": "Every breathe you take",
-    "a": "The Police",
-    "v": "https://www.youtube.com/watch?v=OMOGaugKpzs",
-    "l": "EN"
-  },
-  {
-    "t": "Message in a bottle",
-    "a": "The Police",
-    "v": "https://www.youtube.com/watch?v=MbXWrmQW-OE",
-    "l": "EN"
-  },
-  {
-    "t": "So lonely",
-    "a": "The Police",
-    "v": "https://www.youtube.com/watch?v=fz0DFefft2E",
-    "l": "EN"
-  },
-  {
-    "t": "Walking on the moon",
-    "a": "The Police",
-    "v": "https://www.youtube.com/watch?v=zPwMdZOlPo8",
-    "l": "EN"
-  },
-  {
-    "t": "Proud Mary",
-    "a": "Tina Turner",
-    "v": "https://www.youtube.com/watch?v=02QUmKVsyFY",
-    "l": "EN"
-  },
-  {
-    "t": "Talkin 'bout revolution",
-    "a": "Tracy Chapman",
-    "v": "https://www.youtube.com/watch?v=721JQZw6Spg",
-    "l": "EN"
-  },
-  {
-    "t": "Bella ciao",
-    "a": "Trad",
-    "v": "https://www.youtube.com/watch?v=4CI3lhyNKfo",
-    "l": "IT"
-  },
-  {
-    "t": "Antisocial",
-    "a": "Trust",
-    "v": "https://www.youtube.com/watch?v=_-s6951-hT0",
-    "l": "FR"
-  },
-  {
-    "t": "New years day",
-    "a": "U2",
-    "v": "https://www.youtube.com/watch?v=vdLuk2Agamk",
-    "l": "EN"
-  },
-  {
-    "t": "Sunday bloody sunday",
-    "a": "U2",
-    "v": "https://www.youtube.com/watch?v=cr-y7N0P7Fc",
-    "l": "EN"
-  },
-  {
-    "t": "Seven nation army",
-    "a": "White Stripes",
-    "v": "https://www.youtube.com/watch?v=0J2QdDbelmY",
-    "l": "EN"
-  },
-  {
-    "t": "Tomber la chemise",
-    "a": "Zebda",
-    "v": "https://www.youtube.com/watch?v=4y4D-evzDTo",
-    "l": "FR"
-  }
+  {"name":"Highway to hell","artist":"AC/DC","id":"0001","end":"","nota":"","notes":""},
+  {"name":"Gaby","artist":"Alain Bashung","id":"0002","end":"","nota":"","notes":""},
+  {"name":"Foule sentimentale","artist":"Alain Souchon","id":"0003","end":"","nota":"","notes":""},
+  {"name":"A horse with no name","artist":"America","id":"0004","end":"","nota":"","notes":""},
+  {"name":"Knock on wood","artist":"Eddie Floyd","id":"0005","end":"","nota":"","notes":""},
+  {"name":"Le brio","artist":"Big Soul","id":"0006","end":"","nota":"","notes":""},
+  {"name":"Ain't no sunshine","artist":"Bill Withers","id":"0007","end":"","nota":"","notes":""},
+  {"name":"Just the two of us","artist":"Bill Withers","id":"0008","end":"","nota":"","notes":""},
+  {"name":"Paranoid","artist":"Black Sabbath","id":"0009","end":"","nota":"","notes":""},
+  {"name":"Call me","artist":"Blondie","id":"0010","end":"4 ET","nota":"","notes":""},
+  {"name":"One way or another","artist":"Blondie","id":"0011","end":"","nota":"","notes":""},
+  {"name":"Everybody needs somebody to love","artist":"Blues Brothers","id":"0012","end":"","nota":"","notes":""},
+  {"name":"Sweet home Chicago","artist":"Blues Brothers","id":"0013","end":"faire même break qu'après 1er solo + pêche","nota":"","notes":""},
+  {"name":"No woman no cry","artist":"Bob Marley","id":"0014","end":"","nota":"","notes":""},
+  {"name":"Sunny","artist":"Boney M","id":"0016","end":"","nota":"","notes":""},
+  {"name":"Emmène moi","artist":"Boulevard des Airs","id":"0017","end":"Ralenti et fin sur le 3","nota":"","notes":""},
+  {"name":"Le Freak","artist":"Chic","id":"0018","end":"","nota":"SOLO LONG","notes":""},
+  {"name":"Les Mots bleus","artist":"Christophe","id":"0019","end":"","nota":"","notes":""},
+  {"name":"Alexandrie Alexandra","artist":"Claude François","id":"0020","end":"","nota":"","notes":""},
+  {"name":"Zombie","artist":"Cranberries","id":"0021","end":"plus court : Arrêt sur le premier break","nota":"","notes":""},
+  {"name":"Mon fils ma bataille","artist":"Daniel Balavoine","id":"0022","end":"Finir sur A# en l'air","nota":"","notes":""},
+  {"name":"Sur la route","artist":"De Palmas","id":"0023","end":"3 pêche","nota":"","notes":""},
+  {"name":"Smoke on the water","artist":"Deep Purple","id":"0024","end":"","nota":"","notes":""},
+  {"name":"Voyage voyage","artist":"Desireless","id":"0025","end":"","nota":"","notes":""},
+  {"name":"Je ne veux pas rester sage","artist":"Dolly","id":"0026","end":"sur G","nota":"","notes":""},
+  {"name":"Hot stuff","artist":"Donna Summer","id":"0027","end":"pêches drum sur dernières notes mélodie","nota":"","notes":""},
+  {"name":"Pas de Boogie Woogie","artist":"Eddy Mitchell","id":"0029","end":"fin blues","nota":"","notes":""},
+  {"name":"Daniela","artist":"Elmer Food Beat","id":"0031","end":"","nota":"","notes":""},
+  {"name":"Blue Suede Shoes","artist":"Elvis Presley","id":"0032","end":"","nota":"","notes":""},
+  {"name":"Hount dog","artist":"Elvis Presley","id":"0033","end":"roulement drum + 2 pêches","nota":"","notes":""},
+  {"name":"Jailhouse rock","artist":"Elvis Presley","id":"0034","end":"Terminer net sur dernière pêche","nota":"","notes":""},
+  {"name":"Cocaine","artist":"Eric Clapton","id":"0035","end":"","nota":"","notes":""},
+  {"name":"Layla","artist":"Eric Clapton","id":"0036","end":"","nota":"","notes":""},
+  {"name":"Encore et encore","artist":"Francis Cabrel","id":"0037","end":"Sur les pêches Am du dernier refrain","nota":"","notes":""},
+  {"name":"Les copains d'abord","artist":"Georges Brassens","id":"0038","end":"","nota":"","notes":""},
+  {"name":"I will survive","artist":"Gloria Gaynor","id":"0039","end":"Acapella démarre lent puis accélère, terminer au feeling","nota":"","notes":""},
+  {"name":"Knocking at heaven's door","artist":"Guns'n'Roses","id":"0040","end":"fin simple","nota":"","notes":""},
+  {"name":"Il est libre max","artist":"Hervé Cristiani","id":"0041","end":"","nota":"","notes":""},
+  {"name":"La fille du coupeur de joint","artist":"Thiéfaine","id":"0042","end":"6 x 'fille du coup...' fin nette","nota":"","notes":""},
+  {"name":"Just an illusion","artist":"Imagination","id":"0043","end":"","nota":"","notes":""},
+  {"name":"L'aventurier","artist":"Indochine","id":"0044","end":"","nota":"","notes":""},
+  {"name":"Et moi et moi","artist":"Jacques Dutronc","id":"0045","end":"","nota":"","notes":""},
+  {"name":"Les cactus","artist":"Jacques Dutronc","id":"0046","end":"terminer sur les pêches en triolet (E B)","nota":"","notes":""},
+  {"name":"I love rock'n'roll","artist":"Joan Jett","id":"0048","end":"","nota":"","notes":""},
+  {"name":"Imagine","artist":"John Lennon","id":"0049","end":"","nota":"","notes":""},
+  {"name":"Allumer le feu","artist":"Johnny Hallyday","id":"0050","end":"","nota":"","notes":""},
+  {"name":"Le pénitencier","artist":"Johnny Hallyday","id":"0051","end":"","nota":"","notes":""},
+  {"name":"Toute la musique que j’aime","artist":"Johnny Hallyday","id":"0052","end":"","nota":"","notes":""},
+  {"name":"Voulez vous coucher avec moi ce soir ?","artist":"Labelle","id":"0053","end":"à partir du moment ou drum + basse re rentrent, 3 cycles + descente","nota":"","notes":""},
+  {"name":"Gloria","artist":"The Doors","id":"0054","end":"4 reprises de mise en place drum","nota":"","notes":""},
+  {"name":"C'est toi que je t'aime","artist":"Les Inconnus","id":"0055","end":"","nota":"","notes":""},
+  {"name":"Sweet Dreams","artist":"Marylin Manson","id":"0056","end":"même cut qu'après 1er solo + remettre une pêche","nota":"","notes":""},
+  {"name":"Beat it","artist":"Mickael Jackson","id":"0057","end":"","nota":"","notes":""},
+  {"name":"Moonlight shadow","artist":"Mike Oldfield","id":"0059","end":"","nota":"","notes":""},
+  {"name":"Libertine","artist":"Mylène Farmer","id":"0060","end":"terminer net sur 4 et fin solo","nota":"","notes":""},
+  {"name":"Sans contrefaçon","artist":"Mylène Farmer","id":"0061","end":"","nota":"","notes":""},
+  {"name":"J'ai vu","artist":"Niagara","id":"0062","end":"Et J'ai Vu !","nota":"","notes":"Intro Fade In GTR + pêches drum"},
+  {"name":"Le sud","artist":"Nino Ferrer","id":"0063","end":"","nota":"","notes":"CAPO4"},
+  {"name":"Smell like teen spirit","artist":"Nirvana","id":"0064","end":"","nota":"","notes":""},
+  {"name":"Just a girl","artist":"No Doubt","id":"0065","end":"","nota":"","notes":""},
+  {"name":"Comme elle vient","artist":"Noir desir","id":"0066","end":"","nota":"","notes":""},
+  {"name":"Lazy","artist":"Noir Desir","id":"0067","end":"fin dans 6ème reprise de lazy","nota":"","notes":""},
+  {"name":"Le vent nous portera","artist":"Noir desir","id":"0068","end":"","nota":"","notes":""},
+  {"name":"Tostaky","artist":"Noir desir","id":"0069","end":"pêches drum apres dernier break","nota":"","notes":""},
+  {"name":"Wonderwall","artist":"Oasis","id":"0070","end":"","nota":"","notes":""},
+  {"name":"Dock of the bay","artist":"Otis Redding","id":"0071","end":"","nota":"","notes":""},
+  {"name":"Mon mec à moi","artist":"Patricia Kaas","id":"0072","end":"","nota":"Seulement 2 refrains apres solo","notes":""},
+  {"name":"Dans la salle du bar tabac de la rue des Martyrs","artist":"Pigalle","id":"0073","end":"","nota":"","notes":""},
+  {"name":"Another brick in the wall","artist":"Pink Floyd","id":"0074","end":"","nota":"","notes":""},
+  {"name":"Ca plane pour moi","artist":"Plastic Bertrand","id":"0075","end":"","nota":"","notes":""},
+  {"name":"La poupée qui fait non","artist":"Polnareff","id":"0076","end":"","nota":"","notes":""},
+  {"name":"Creep","artist":"Radiohead","id":"0077","end":"","nota":"","notes":""},
+  {"name":"Killing in the name of","artist":"RATM","id":"0078","end":"","nota":"","notes":"DROP D"},
+  {"name":"Unchain my heart","artist":"Joe cocker","id":"0079","end":"pêches sur les derniers 'Set me free'. Sur le dernier pêches rallongées.","nota":"","notes":""},
+  {"name":"C'est comme ça","artist":"Rita Mitsouko","id":"0080","end":"Juste après solo, suivre pêches drum","nota":"","notes":""},
+  {"name":"Jumping Jack Flash","artist":"Rolling Stones","id":"0081","end":"","nota":"","notes":""},
+  {"name":"Satisfaction","artist":"Rolling Stones","id":"0082","end":"","nota":"","notes":""},
+  {"name":"Superstition","artist":"Steevie Wonder","id":"0083","end":"pêche sur 'way'","nota":"","notes":""},
+  {"name":"Born to be wild","artist":"Steppenwolf","id":"0084","end":"","nota":"","notes":""},
+  {"name":"Argent trop cher","artist":"Téléphone","id":"0085","end":"","nota":"","notes":""},
+  {"name":"Au coeur de la nuit","artist":"Téléphone","id":"0086","end":"","nota":"","notes":""},
+  {"name":"Cendrillon","artist":"Téléphone","id":"0087","end":"","nota":"","notes":"CAPO 2 !"},
+  {"name":"Hygiaphone","artist":"Téléphone","id":"0088","end":"","nota":"","notes":""},
+  {"name":"Un autre monde","artist":"Téléphone","id":"0089","end":"","nota":"","notes":""},
+  {"name":"Ça c'est vraiment toi","artist":"Téléphone ","id":"0090","end":"","nota":"","notes":""},
+  {"name":"New York avec toi","artist":"Téléphone ","id":"0091","end":"","nota":"","notes":""},
+  {"name":"Come together","artist":"The Beatles","id":"0092","end":"Appel drum, solo ralenti","nota":"","notes":""},
+  {"name":"Help","artist":"The Beatles","id":"0093","end":"","nota":"","notes":""},
+  {"name":"Hey Jude","artist":"The Beatles","id":"0094","end":"","nota":"","notes":""},
+  {"name":"Let it be","artist":"The Beatles","id":"0095","end":"","nota":"","notes":""},
+  {"name":"London calling","artist":"The Clash","id":"0096","end":"","nota":"","notes":""},
+  {"name":"Should I stay or should I go ?","artist":"The Clash","id":"0097","end":"","nota":"","notes":""},
+  {"name":"Chain of fool","artist":"Aretha Franklin","id":"0098","end":"","nota":"","notes":""},
+  {"name":"Mustang sally","artist":"The Commitments","id":"0099","end":"","nota":"","notes":""},
+  {"name":"Long train running","artist":"The Doobie Brothers","id":"0100","end":"Outro solo basse - appel drum pêches D# D G","nota":"","notes":""},
+  {"name":"Road House Blues","artist":"The Doors","id":"0101","end":"","nota":"","notes":""},
+  {"name":"Hotel California","artist":"The Eagles","id":"0102","end":"","nota":"","notes":""},
+  {"name":"Killing me softly","artist":"The Fugees","id":"0103","end":"","nota":"moi les accords me semblent bons !","notes":""},
+  {"name":"Every breathe you take","artist":"The Police","id":"0104","end":"","nota":"","notes":""},
+  {"name":"Message in a bottle","artist":"The Police","id":"0105","end":"Fin 'indochine'","nota":"","notes":""},
+  {"name":"So lonely","artist":"The Police","id":"0106","end":"","nota":"","notes":""},
+  {"name":"Proud Mary","artist":"Tina Turner","id":"0108","end":"","nota":"","notes":""},
+  {"name":"Bella ciao","artist":"Traditionnel italien","id":"0109","end":"Se caler sur les pêches drum (dernières notes mélodie à partir du E)","nota":"","notes":""},
+  {"name":"Antisocial","artist":"Trust","id":"0110","end":"","nota":"","notes":""},
+  {"name":"New years day","artist":"U2","id":"0111","end":"Fin après dernier couplet","nota":"","notes":""},
+  {"name":"Sunday bloody sunday","artist":"U2","id":"0112","end":"","nota":"","notes":""},
+  {"name":"Seven nation army","artist":"White Stripes","id":"0113","end":"","nota":"","notes":""},
+  {"name":"Tomber la chemise","artist":"Zebda","id":"0114","end":"break drum apres solo et fin nette sur le temps","nota":"","notes":""},
+  {"name":"L'Homme pressé","artist":"Noir Desir","id":"0115","end":"","nota":"","notes":""},
+  {"name":"Talkin 'bout revolution","artist":"Tracy Chapman","id":"0116","end":"net sur 'tomber la chemise'","nota":"","notes":""},
+  {"name":"House of the rising sun","artist":"The Animals","id":"0117","end":"","nota":"","notes":""},
+  {"name":"Fortunate son","artist":"CCR","id":"0118","end":"","nota":"","notes":""},
+  {"name":"Fils de personne","artist":"Johnny Hallyday","id":"0119","end":"","nota":"","notes":""},
+  {"name":"Sympathy for the Devil","artist":"Rolling Stones","id":"0120","end":"net sur dernier 'oh no' (le 3eme)","nota":"","notes":""},
+  {"name":"Shape of you","artist":"Ed Sheeran","id":"0122","end":"","nota":"","notes":"CAPO1"},
+  {"name":"Cargo de nuit","artist":"Axel Bauer","id":"0123","end":"","nota":"","notes":""},
+  {"name":"Enter sandman","artist":"Metallica","id":"0125","end":"","nota":"","notes":""},
+  {"name":"Destin","artist":"Céline Dion (& Kids United)","id":"0126","end":"","nota":"","notes":""},
+  {"name":"Wannabe","artist":"Spice girls","id":"0127","end":"","nota":"","notes":""},
+  {"name":"J'irais ou tu iras","artist":"Céline Dion","id":"0128","end":"","nota":"","notes":""},
+  {"name":"Femme libérée","artist":"Cookie dingler","id":"0129","end":"","nota":"","notes":""},
+  {"name":"Tombé du ciel","artist":"Higelin","id":"0132","end":"","nota":"","notes":""},
+  {"name":"Andalouse","artist":"Kendji Girac","id":"0133","end":"","nota":"","notes":""},
+  {"name":"Dès que le vent souflera","artist":"Renaud","id":"0134","end":"sur le 1","nota":"","notes":""},
+  {"name":"Le jerk","artist":"Thierry Hazard","id":"0135","end":"","nota":"","notes":""},
+  {"name":"Quand la musique est bonne","artist":"Goldman","id":"0136","end":"","nota":"","notes":""},
+  {"name":"La grenade","artist":"Clara Luciani","id":"0137","end":"","nota":"","notes":""},
+  {"name":"Libérée délivrée","artist":"La Reine des neiges","id":"0151","end":"bordel C# + pêche G#","nota":"","notes":""},
+  {"name":"Tout le bonheur du monde","artist":"Sinsemilia (& Kids United)","id":"0153","end":"","nota":"","notes":""},
+  {"name":"Cette année là","artist":"Claude Francois","id":"0154","end":"","nota":"","notes":""},
+  {"name":"Démons de minuit","artist":"Emile et Images","id":"0155","end":"","nota":"","notes":""},
+  {"name":"Aïcha","artist":"Khaled","id":"0156","end":"","nota":"","notes":""},
+  {"name":"Joue pas","artist":"Francois Feldman","id":"0157","end":"","nota":"","notes":""}
 ]
