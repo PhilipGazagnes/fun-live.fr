@@ -11,12 +11,10 @@
       </div>
       <a ref="vidlink" href="https://www.youtube.com/channel/UC_9U6ck3jG3C0Ft-KZ_wI6A" target="_blank" class="button">Découvrir en vidéo</a>
     </div>
-    <p>Un karaoké avec 3 musiciens, l'énergie d'un vrai concert, la sensation de la scène : c'est <strong>comme un karaoké normal, mais en mieux !</strong></p>
-    <p>Le Karaoké Live s’impose progressivement comme une <strong>animation incontournable pour les soirées festives</strong>, mariages, anniversaires, séminaires et autres événements joyeux.</p>
-    <p>Fun Live vous propose une expérience <strong>clé en main</strong> ou vous n’aurez à vous soucier que de passer un bon moment avec vos invités.</p>
-    <p>En fonction de vos besoins, le concert d’une durée de 2 à 3h peut être précédé d’une ambiance musicale pour l’apéritif et le dîner, et suivi d’un DJ set pour danser jusqu’au bout de la nuit !</p>
-    <p>Comme pour un karaoké ordinaire, les invités ont accès à la liste des chansons disponibles. Les volontaires s’inscrivent et nous les appelons à tour de rôle pour interpréter le tube de leur choix.</p>
-    <p>Les paroles sont visibles sur scène à côté du micro de chant. Pas de stress, nous aidons les candidats les moins à l’aise pour que chaque chanson soit une réussite !</p>
+    <p><strong>Fun Live</strong> est votre groupe pour passer un excellent moment. Fini les karaokés sur bande son. Notre concept : <strong>faire chanter les participants dans les conditions d’un vrai concert !</strong></p>
+    <p>Trois musiciens professionnels et expérimentés vous accompagneront sur scène. Ils vous feront découvrir l’énergie et la sensation d’un vrai concert !</p>
+    <p><strong>C’est comme un karaoké mais en mieux !</strong></p>
+    <p>Qu’il s’agisse d’une soirée festive, d'un mariage, d'un anniversaire, d'un séminaires ou autre type d'événement, nous vous proposons une expérience clé en main où vous n’aurez à vous soucier que de passer un très bon moment avec vos invités.</p>
     <h2>Un Vaste répertoire international et multi générationnel</h2>
     <img src="/artists.jpg" />
     <button @click="showsongs=!showsongs" class="button">{{ showsongs ? 'Masquer le répertoire' : 'Voir le répertoire complet' }}</button>
