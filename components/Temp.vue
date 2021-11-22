@@ -6,36 +6,80 @@
       <div class="video">
         <div @click="$refs.vidlink.click()">
           <video autoplay muted loop>
-            <source src="/tempvid.mp4" type="video/mp4">
+            <source src="/tempvid.mp4" type="video/mp4" />
           </video>
           <Play />
         </div>
-        <a ref="vidlink" href="https://www.youtube.com/channel/UC_9U6ck3jG3C0Ft-KZ_wI6A" target="_blank" class="button">Découvrir en vidéo</a>
+        <a
+          ref="vidlink"
+          href="https://www.youtube.com/channel/UC_9U6ck3jG3C0Ft-KZ_wI6A"
+          target="_blank"
+          class="button"
+          >Découvrir en vidéo</a
+        >
       </div>
-      <p><strong>Fun Live</strong> est votre groupe pour passer un excellent moment. Fini les karaokés sur bande son. Notre concept : <strong>faire chanter les participants dans les conditions d’un vrai concert !</strong></p>
-      <p>Trois musiciens professionnels et expérimentés vous accompagneront sur scène. Ils vous feront découvrir l’énergie et la sensation d’un vrai concert !</p>
+      <p>
+        <strong>Fun Live</strong> est votre groupe pour passer un excellent
+        moment. Fini les karaokés sur bande son. Notre concept :
+        <strong
+          >faire chanter les participants dans les conditions d’un vrai concert
+          !</strong
+        >
+      </p>
+      <p>
+        Trois musiciens professionnels et expérimentés vous accompagneront sur
+        scène. Ils vous feront découvrir l’énergie et la sensation d’un vrai
+        concert !
+      </p>
       <p><strong>C’est comme un karaoké mais en mieux !</strong></p>
-      <p>Qu’il s’agisse d’une soirée festive, d'un mariage, d'un anniversaire, d'un séminaires ou autre type d'événement, nous vous proposons une expérience clé en main où vous n’aurez à vous soucier que de passer un très bon moment avec vos invités.</p>
-      <h2>Un Vaste répertoire international et multi générationnel</h2>
+      <p>
+        Qu’il s’agisse d’une soirée festive, d'un mariage, d'un anniversaire,
+        d'un séminaires ou autre type d'événement, nous vous proposons une
+        expérience clé en main où vous n’aurez à vous soucier que de passer un
+        très bon moment avec vos invités.
+      </p>
+      <h2 id="repertoire">
+        Un Vaste répertoire international et multi générationnel
+      </h2>
       <img src="/artists.jpg" />
-      <button @click="showsongs=!showsongs" class="button">{{ showsongs ? 'Masquer le répertoire' : 'Voir le répertoire complet' }}</button>
-      <SongsTemp v-if="showsongs" />
+      <SongsTemp />
       <h2>Témoignages</h2>
       <div class="temoignage">
-        <p><Star />Groupe professionnel qui propose des soirées live avec ambiance garantie. Nous avons osé chanter avec une amie et nous nous sommes régalées. Les musiciens nous mettent très à l'aise. Je les ai déjà recommandé et ils ont toujours assuré dans toutes situations. À suivre ;)</p>
+        <p>
+          <Star />Groupe professionnel qui propose des soirées live avec
+          ambiance garantie. Nous avons osé chanter avec une amie et nous nous
+          sommes régalées. Les musiciens nous mettent très à l'aise. Je les ai
+          déjà recommandé et ils ont toujours assuré dans toutes situations. À
+          suivre ;)
+        </p>
         <p><strong>Camping de l'Europe</strong>, Vic-la-Gardiole</p>
       </div>
       <div class="temoignage">
-        <p><Star />Avec le groupe Fun Live, soirée assurée dans la qualité des choix des chansons et dans l'ambiance toujours aussi joyeuse. Groupe à ne pas rater et à conseiller pour un bon Karaoké.</p>
+        <p>
+          <Star />Avec le groupe Fun Live, soirée assurée dans la qualité des
+          choix des chansons et dans l'ambiance toujours aussi joyeuse. Groupe à
+          ne pas rater et à conseiller pour un bon Karaoké.
+        </p>
         <p><strong>Le Zanzi-Bar</strong>, Sète</p>
       </div>
       <div class="temoignage">
-        <p><Star />Novateur, excellente prestation et un grand talent d'animation ! Un concept très sympa qui change du karaoké traditionnel. Vraiment ravie de ma colaboration avec Fun Live et enchantée de la participation et des retours positifs des clients qui ont grandement apprécié l'événement.</p>
+        <p>
+          <Star />Novateur, excellente prestation et un grand talent d'animation
+          ! Un concept très sympa qui change du karaoké traditionnel. Vraiment
+          ravie de ma colaboration avec Fun Live et enchantée de la
+          participation et des retours positifs des clients qui ont grandement
+          apprécié l'événement.
+        </p>
         <p><strong>Association Esprit Partage</strong>, Sète</p>
       </div>
       <h2>Contact</h2>
-      <p>Contactez-nous pour plus d’informations sur nos prestations et planifier une date, nous vous répondrons dans les plus brefs délais :</p>
-      <a class="mailto" href="mailto:contactfunlive@gmail.com"><strong>contactfunlive@gmail.com</strong></a>
+      <p>
+        Contactez-nous pour plus d’informations sur nos prestations et planifier
+        une date, nous vous répondrons dans les plus brefs délais :
+      </p>
+      <a class="mailto" href="mailto:contactfunlive@gmail.com"
+        ><strong>contactfunlive@gmail.com</strong></a
+      >
     </div>
   </div>
 </template>
@@ -58,7 +102,7 @@ export default {
       showsongs: false,
     };
   },
-}
+};
 </script>
 
 <style lang="postcss" scoped>
@@ -136,7 +180,7 @@ export default {
         & > svg {
           width: 100px;
           height: 100px;
-          fill: rgba(255, 255, 255, .3);
+          fill: rgba(255, 255, 255, 0.3);
           position: absolute;
           top: 50%;
           left: 50%;
@@ -147,7 +191,7 @@ export default {
     }
     & > img {
       max-width: 100%;
-      margin: 30px 0 10px; 
+      margin: 30px 0 10px;
     }
     & > .temoignage {
       padding: 0 0 0 20px;
@@ -161,7 +205,7 @@ export default {
         height: calc(100% - 10px);
         top: 7px;
         left: 0;
-        background: linear-gradient(83.58deg, #570C41 -6.19%, #BD0086 115.07%);  
+        background: linear-gradient(83.58deg, #570c41 -6.19%, #bd0086 115.07%);
       }
       & > p {
         padding: 0;
@@ -173,7 +217,7 @@ export default {
           & > svg {
             width: 20px;
             height: 20px;
-            fill: #FFE600;
+            fill: #ffe600;
             transform: translateY(2px);
             margin-right: 2px;
           }
@@ -186,20 +230,24 @@ export default {
       }
     }
     & > .mailto {
-      background: -webkit-linear-gradient(83.58deg, #570C41 -6.19%, #BD0086 115.07%);
+      background: -webkit-linear-gradient(
+        83.58deg,
+        #570c41 -6.19%,
+        #bd0086 115.07%
+      );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 1.2em;
     }
     .button {
-      background: linear-gradient(83.58deg, #570C41 -6.19%, #BD0086 115.07%);
+      background: linear-gradient(83.58deg, #570c41 -6.19%, #bd0086 115.07%);
       width: 100%;
       padding: 15px 0;
       color: white;
       border-radius: 4px;
       display: block;
       text-decoration: none;
-      text-align:center;
+      text-align: center;
       border: none;
       font-family: inherit;
       font-size: inherit;
@@ -207,5 +255,4 @@ export default {
     }
   }
 }
-
 </style>
