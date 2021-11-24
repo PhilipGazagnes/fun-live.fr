@@ -12,11 +12,6 @@
         >
       </p>
       <br /><br /><br />
-      <h2 id="repertoire">
-        Un Vaste répertoire international et multi générationnel
-      </h2>
-      <img src="/artists.jpg" />
-      <SongsTemp />
     </div>
   </div>
 </template>
