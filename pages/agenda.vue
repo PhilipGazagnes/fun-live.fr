@@ -3,12 +3,15 @@
     <div class="logo"><Logo /></div>
     <h1>AGENDA</h1>
     <div class="content">
-      <p>
+      <p style="font-size: 1.5em">
         Agenda en construction ! Ca va venir très vite, en attendant, RDV sur
         notre page Facebook pour vous tenir au courant des prochains concerts
-        ;)<br />
-        <a href="https://www.facebook.com/funlive34/">Facebook Fun Live</a>
+        ;)<br /><br />
+        <a style="font-weight: bold" href="https://www.facebook.com/funlive34/"
+          >Facebook Fun Live</a
+        >
       </p>
+      <br /><br /><br />
       <h2 id="repertoire">
         Un Vaste répertoire international et multi générationnel
       </h2>
@@ -19,7 +22,12 @@
 </template>
 
 <script>
+import Logo from '../assets/svg/logo-bold.svg?inline';
+
 export default {
+  components: {
+    Logo,
+  },
   data() {
     return {
       showsongs: false,
