@@ -92,8 +92,6 @@ module.exports = {
   },
   generate: {
     fallback: true,
-    routes: [
-      '/',
-    ],
+    routes: ['/', '/agenda/'],
   },
 };
