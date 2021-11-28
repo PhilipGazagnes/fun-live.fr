@@ -54,18 +54,15 @@ module.exports = {
   build: {
     postcss: {
       plugins: {
-        'postcss-custom-properties': {
-          importFrom: [
-            {
-              customProperties: {
-                '--textColor': '#222',
-                '--primaryColor': 'red',
-                '--successColor': '#67c23a',
-                '--errorColor': '#f56c6c',
-              },
-            },
-          ],
-        },
+        // 'postcss-custom-properties': {
+        //   importFrom: [
+        //     {
+        //       customProperties: {
+        //         '--primaryColor': '#010223',
+        //       },
+        //     },
+        //   ],
+        // },
         'postcss-nested': {},
         'postcss-custom-media': {
           importFrom: [

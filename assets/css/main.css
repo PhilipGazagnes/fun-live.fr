@@ -1,6 +1,7 @@
 :root {
   --textColor: #222;
-  --primaryColor: red;
+  --primaryColor: #010223;
+  --secondaryColor: #ff00ac;
   --successColor: #67c23a;
   --errorColor: #f56c6c;
 }

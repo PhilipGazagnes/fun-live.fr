@@ -1,66 +1,57 @@
 <template>
-  <div :class="`container${sticky ? ' container--sticky' : ''}`">
-    <Logo v-if="sticky" />
-    <LogoBold v-else />
-    <button>Contactez-nous</button>
-  </div>  
+  <div class="container">
+    <nuxt-link to="/">
+      <img src="/logo-fun-live.png" />
+    </nuxt-link>
+    <div>
+      <nuxt-link to="/agenda/">Agenda</nuxt-link>
+      <nuxt-link to="/prestations/">Prestations</nuxt-link>
+      <nuxt-link to="/prestations/">Répertoire</nuxt-link>
+      <nuxt-link to="/contact/">Contact</nuxt-link>
+    </div>
+  </div>
 </template>
 
 <script>
-import Logo from '../assets/svg/logo.svg?inline';
-import LogoBold from '../assets/svg/logo-bold.svg?inline';
-
 export default {
-  components: {
-    Logo,
-    LogoBold,
-  },
   data() {
     return {
       sticky: false,
     };
   },
-  mounted() {
-    InView('#Video').on('enter', () => {
-      this.sticky = false;
-    }).on('exit', () => {
-      this.sticky = true;
-    });
-    InView.is(document.querySelector('#Video'));
-  },
-}
+  mounted() {},
+};
 </script>
 
 <style lang="postcss" scoped>
 .container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 150px;
-  z-index: 10;
-  & > svg {
-    width: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    fill: white;
-  }
-  & > button {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  &--sticky {
-    position: fixed;
-    background: rgba(255,255,255,.9);
+  background: white;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  & > a {
+    display: block;
+    padding: 17px 0 0 30px;
     & > svg {
-      fill: black;
-      width: 160px;
+      width: 200px;
+      height: 72px;
     }
-    & > button {
-      display: inline;
+  }
+  & > div {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    & > a {
+      display: block;
+      margin-left: 30px;
+      font-size: 1.5em;
+      font-family: 'Geomanist';
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--primaryColor);
+      &:hover {
+        color: var(--secondaryColor);
+      }
     }
   }
 }
