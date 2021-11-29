@@ -2,11 +2,9 @@
   <div class="home">
     <div class="banner">
       <h1>Chanter des tubes sur scène avec 3 musiciens, mais oui !</h1>
-      <div class="video">
-        <video autoplay muted loop>
-          <source src="/tempvid.mp4" type="video/mp4" />
-        </video>
-      </div>
+      <video autoplay muted loop>
+        <source src="/tempvid.mp4" type="video/mp4" />
+      </video>
     </div>
     <!-- <Temp />
     <Header />
@@ -71,21 +69,12 @@ export default {
     z-index: 1;
     margin: 0;
   }
-}
-.video {
-  width: 100%;
-  padding: 0 0 50% 0;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 0;
   video {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 650px;
     opacity: 0.5;
+    position: relative;
+    z-index: 0;
   }
 }
 </style>

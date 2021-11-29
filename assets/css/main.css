@@ -24,3 +24,21 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+.wrapper {
+  padding: 0 10px;
+  @media screen and (--tablet) {
+    padding: 0 20px;
+  }
+  @media screen and (--desktop) {
+    padding: 0 30px;
+  }
+  @media screen and (--largeDesktop) {
+    padding: 0 50px;
+  }
+  @media screen and (min-width: 1500px) {
+    padding: 0;
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
