@@ -1,0 +1,71 @@
+$1
+[
+E;A;D A;E
+]2
+:
+[
+A;E;D A;E
+]2
+
+$2
+[
+D A;E
+]2
+:
+D;A
+:
+E;A;D A;E
+
+Intro!-8
+$1
+--
+***Intro***
+
+Couplet
+$1
+--
+C'est une poupée qui fait non...non...non...non...
+Toute la journée elle fait non...non..non...non...
+Elle est... elle est tellement jolie
+Que j'en rêve la nuit
+
+Couplet
+$1
+--
+C'est une poupée qui fait non...non...non...non...
+Toute la journée elle fait non...non..non...non...
+Personne ne lui a jamais appris
+Qu'on pouvait dire oui.
+
+Couplet
+$1
+--
+Sans même écouter, elle fait non...non...non...non...
+Sans même regarder, elle fait non...non...non...non...
+Pourtant je donnerais ma vie
+Pourqu'elle dise oui
+
+Solo!-8
+$1
+--
+***Solo***
+
+Couplet!from8
+$1
+--
+Pourtant je donnerais ma vie
+Pourqu'elle dise oui
+
+Couplet
+$1
+--
+Mais c'est une poupée qui fait non...non...non...non...
+Toute la journée elle fait non...non...non...non...
+Personne ne lui a jamais appris
+Que l'on peut dire oui...
+
+Outro
+$2
+--
+Non non non... non
+Non non non... non

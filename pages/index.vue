@@ -6,41 +6,41 @@
         <source src="/tempvid.mp4" type="video/mp4" />
       </video>
     </div>
-    <!-- <Temp />
-    <Header />
-    <Video />
-    <About />
-    <Songs />
-    <Faq />
-    <Review />
-    <Contact />
-    <Footer /> -->
+    <div class="intro">
+      <div class="wrapper">
+        Grâce à vous, chaque concert est unique !<br />Une seule certitude avant
+        de commencer : on va passer un bon moment d'aventure musicale ensemble
+        :D Les morceaux qu'on va jouer ? C'est vous qui le décidez !
+      </div>
+    </div>
+    <div>Alors, prêts à tenter l'expérience ?</div>
+    <div class="mission">
+      Votre mission, si vous l'acceptez :
+      <div class="wrapper">
+        <div>
+          Prendre connaissance de la liste des chansons que nous jouons
+          <nuxt-link to="repertoire">Notre répertoire</nuxt-link>
+        </div>
+        <div>
+          2 Choisir la ou les chansons que vous souhaitez chanter seul(e) ou à
+          plusieurs !
+        </div>
+        <div>
+          3 Nous vous appelons pour venir intégrer le groupe : c'est vous la
+          star, et nous, vos musiciens !
+        </div>
+      </div>
+    </div>
+    <div class="agenda">Concerts à venir :</div>
+    <div class="photos">
+      <nuxt-link to="/photos-videos/">Voir plus de photos et vidéos</nuxt-link>
+    </div>
   </div>
 </template>
 
 <script>
-// import Temp from '../components/Temp';
-// import Header from '../components/Header';
-// import Video from '../components/Video';
-// import About from '../components/About';
-// import Songs from '../components/Songs';
-// import Faq from '../components/Faq';
-// import Review from '../components/Review';
-// import Contact from '../components/Contact';
-// import Footer from '../components/Footer';
-
 export default {
-  components: {
-    // Temp,
-    // Header,
-    // Video,
-    // About,
-    // Songs,
-    // Faq,
-    // Review,
-    // Contact,
-    // Footer,
-  },
+  components: {},
   head: {
     title: 'FUN LIVE',
     description: '',
@@ -75,6 +75,21 @@ export default {
     opacity: 0.5;
     position: relative;
     z-index: 0;
+  }
+}
+.intro {
+  text-align: center;
+  font-size: 2em;
+  padding: 50px 0;
+}
+.mission {
+  & > div {
+    display: flex;
+    gap: 30px;
+    & > div {
+      flex: 1 1 calc(33.33% - 60px);
+      background: rgba(255, 255, 255, 0.1);
+    }
   }
 }
 </style>

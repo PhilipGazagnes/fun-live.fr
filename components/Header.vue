@@ -6,8 +6,8 @@
       </nuxt-link>
       <div>
         <nuxt-link to="/agenda/">Agenda</nuxt-link>
-        <nuxt-link to="/prestations/">Répertoire</nuxt-link>
-        <nuxt-link to="/prestations/">Prestations</nuxt-link>
+        <nuxt-link to="/repertoire/">Répertoire</nuxt-link>
+        <nuxt-link to="/prestations/">Embauchez-nous !</nuxt-link>
         <button @click="showMenu = true">
           <small>Menu</small>
           <strong>Plus</strong>
@@ -17,9 +17,9 @@
       <nav :data-visible="showMenu">
         <button @click="showMenu = false">Fermer</button>
         <nuxt-link to="/agenda/" data-first>Agenda</nuxt-link>
-        <nuxt-link to="/prestations/" data-first>Répertoire</nuxt-link>
+        <nuxt-link to="/repertoire/" data-first>Répertoire</nuxt-link>
         <nuxt-link to="/">Notre concept</nuxt-link>
-        <nuxt-link to="/prestations/" data-first>Prestations</nuxt-link>
+        <nuxt-link to="/prestations/" data-first>Embauchez-nous !</nuxt-link>
         <nuxt-link to="/groupe/">Le groupe</nuxt-link>
         <nuxt-link to="/photos-videos/">Photos / Vidéos</nuxt-link>
         <a href="#">Facebook</a>
