@@ -4,7 +4,7 @@
     <div v-if="songChoice" class="songchoice">
       <button @click="songChoice = null"></button>
       <div class="choices">
-        <img :src="`/artists/${songChoice.id}.jpg`" />
+        <img :data-src="`/artists/${songChoice.id}.jpg`" src="/blank.gif" />
         <h3>{{ songChoice.name }}</h3>
         <h4>{{ songChoice.artist }}</h4>
         <nuxt-link :to="`/note/${songChoice.id}`">Paroles</nuxt-link>
@@ -23,7 +23,11 @@
           <div>
             <span>{{ s.name }}</span>
             <span>{{ s.artist }}</span>
-            <img :src="`/artists/${s.id}.jpg`" />
+            <img
+              class="lazy"
+              :data-src="`https://aeovnsnhjq.cloudimg.io/v7/_funlive_/artists/${s.id}.jpg?width=100&height=100`"
+              src="/blank.gif"
+            />
           </div>
         </li>
       </ul>
