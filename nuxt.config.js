@@ -1,6 +1,19 @@
+const appRoutes = () => {
+  const arr = [
+    '/',
+    '/agenda',
+    '/contact',
+    '/groupe',
+    '/photos-videos',
+    '/prestations',
+    '/repertoire',
+  ];
+  return arr;
+};
+
 module.exports = {
+  target: 'static',
   env: {
-    ga: process.env.GA,
     baseUrl: process.env.BASE_URL
       ? process.env.BASE_URL
       : 'http://localhost:3000/',
@@ -47,8 +60,6 @@ module.exports = {
   plugins: [
     { src: '~/plugins/lazyload.js', mode: 'client' },
     { src: '~/plugins/in-view.js', mode: 'client' },
-    { src: '~/plugins/ga.js', mode: 'client' },
-    { src: '~/plugins/hotjar.js', mode: 'client' },
   ],
   css: ['~/assets/css/main.css'],
   build: {
@@ -89,6 +100,6 @@ module.exports = {
   },
   generate: {
     fallback: true,
-    routes: ['/', '/agenda/'],
+    routes: appRoutes,
   },
 };
