@@ -1,16 +1,3 @@
-const appRoutes = () => {
-  const arr = [
-    '/',
-    '/agenda',
-    '/contact',
-    '/groupe',
-    '/photos-videos',
-    '/prestations',
-    '/repertoire',
-  ];
-  return arr;
-};
-
 module.exports = {
   target: 'static',
   env: {
@@ -100,6 +87,14 @@ module.exports = {
   },
   generate: {
     fallback: true,
-    routes: appRoutes,
+    routes: [
+      '/',
+      '/agenda',
+      '/contact',
+      '/groupe',
+      '/photos-videos',
+      '/prestations',
+      '/repertoire',
+    ],
   },
 };

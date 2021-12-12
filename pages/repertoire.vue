@@ -148,7 +148,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="postcss" scoped>
 body {
   padding: 0;
   margin: 0;
