@@ -111,7 +111,9 @@ export default {
       });
     },
   },
-  mounted() {},
+  mounted() {
+    window.LazyLoadInstance.update();
+  },
   methods: {
     openFilters() {
       this.filtersActive = true;
