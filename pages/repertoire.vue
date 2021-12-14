@@ -25,7 +25,7 @@
             <span>{{ s.artist }}</span>
             <img
               class="lazy"
-              :data-src="`https://aeovnsnhjq.cloudimg.io/v7/_funlive_/artists/${s.id}.jpg?width=100&height=100`"
+              :data-src="`https://aeovnsnhjq.cloudimg.io/v7/_funlive_/artists/${s.id}.jpg?width=80&height=80`"
               src="/blank.gif"
             />
           </div>
@@ -269,11 +269,14 @@ ul.list {
       flex: 1 1 calc(50% - 10px);
     }
     & > div {
-      padding: 0 10px 0 110px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 10px 0 95px;
       text-decoration: none;
       color: white;
       position: relative;
-      height: 100px;
+      height: 80px;
       & > img {
         position: absolute;
         width: auto;
@@ -285,7 +288,7 @@ ul.list {
         &:nth-child(1) {
           display: block;
           font-weight: bold;
-          font-size: 1.3em;
+          font-size: 1.1em;
           line-height: 1.1em;
           padding: 5px 0 5px;
         }
