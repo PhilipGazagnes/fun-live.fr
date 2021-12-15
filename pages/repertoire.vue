@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="listpage">
-      <ul class="list">
+      <ul v-if="showList" class="list">
         <li
           v-for="(s, index) in filteredSongs"
           :key="index"
@@ -39,18 +39,18 @@
             <div>
               <h3>Langue</h3>
               <div>
-                <input id="lang-fr" v-model="filterLangFr" type="checkbox" />
+                <input id="lang-fr" type="checkbox" @change="handleFrChange" />
                 <label for="lang-fr">Français</label>
               </div>
               <div>
-                <input id="lang-en" v-model="filterLangEn" type="checkbox" />
+                <input id="lang-en" type="checkbox" @change="handleEnChange" />
                 <label for="lang-en">Anglais</label>
               </div>
               <div>
                 <input
                   id="lang-other"
-                  v-model="filterLangOther"
                   type="checkbox"
+                  @change="handleOtherChange"
                 />
                 <label for="lang-other">Autres</label>
               </div>
@@ -92,6 +92,7 @@ export default {
       filterLangEn: false,
       filterLangOther: false,
       songChoice: null,
+      showList: true,
     };
   },
   computed: {
@@ -115,6 +116,36 @@ export default {
     window.LazyLoadInstance.update();
   },
   methods: {
+    handleFrChange(e) {
+      this.showList = false;
+      this.filterLangFr = e.target.checked;
+      this.$nextTick(() => {
+        this.showList = true;
+        this.$nextTick(() => {
+          window.LazyLoadInstance.update();
+        });
+      });
+    },
+    handleEnChange(e) {
+      this.showList = false;
+      this.filterLangEn = e.target.checked;
+      this.$nextTick(() => {
+        this.showList = true;
+        this.$nextTick(() => {
+          window.LazyLoadInstance.update();
+        });
+      });
+    },
+    handleOtherChange(e) {
+      this.showList = false;
+      this.filterLangOther = e.target.checked;
+      this.$nextTick(() => {
+        this.showList = true;
+        this.$nextTick(() => {
+          window.LazyLoadInstance.update();
+        });
+      });
+    },
     openFilters() {
       this.filtersActive = true;
     },

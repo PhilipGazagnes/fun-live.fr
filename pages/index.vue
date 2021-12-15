@@ -1,12 +1,19 @@
 <template>
-  <div class="home">
+  <div class="wrapper home">
     <div class="banner">
-      <h1>Chanter des tubes sur scène avec 3 musiciens, mais oui !</h1>
+      <h1>
+        Chanter des tubes sur scène avec 3 musiciens, <span>mais oui !</span>
+      </h1>
       <video autoplay muted loop>
         <source src="/tempvid.mp4" type="video/mp4" />
       </video>
     </div>
-    <div class="intro">
+    <div class="main">
+      <nuxt-link to="/repertoire">Répertoire</nuxt-link>
+      <nuxt-link to="/agenda">Agenda</nuxt-link>
+    </div>
+
+    <!-- <div class="intro">
       <div class="wrapper">
         Grâce à vous, chaque concert est unique !<br />Une seule certitude avant
         de commencer : on va passer un bon moment d'aventure musicale ensemble
@@ -34,7 +41,7 @@
     <div class="agenda">Concerts à venir :</div>
     <div class="photos">
       <nuxt-link to="/photos-videos/">Voir plus de photos et vidéos</nuxt-link>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -58,7 +65,8 @@ export default {
     font-family: 'Geomanist';
     text-transform: uppercase;
     color: white;
-    font-size: 3em;
+    font-size: 1.5em;
+    line-height: 1.5em;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -68,10 +76,16 @@ export default {
     max-width: 80%;
     z-index: 1;
     margin: 0;
+    padding: 0;
+    & > span {
+      text-shadow: 2px 2px 0 var(--secondaryColor);
+    }
+    @media screen and (--desktop) {
+      font-size: 3em;
+    }
   }
   video {
     width: 100%;
-    height: 650px;
     opacity: 0.5;
     position: relative;
     z-index: 0;
@@ -90,6 +104,20 @@ export default {
       flex: 1 1 calc(33.33% - 60px);
       background: rgba(255, 255, 255, 0.1);
     }
+  }
+}
+.main {
+  padding-top: 10px;
+  & > a {
+    display: block;
+    background: var(--secondaryColor);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+    border-radius: 4px;
   }
 }
 </style>

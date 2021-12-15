@@ -39,7 +39,12 @@ export default {
   gap: 20px;
 }
 .date {
-  background: black;
+  background: rgb(190, 31, 151);
+  background: linear-gradient(
+    0deg,
+    rgba(190, 31, 151, 1) 0%,
+    rgba(108, 20, 208, 1) 100%
+  );
   text-align: center;
   flex: 0 0 100px;
   padding: 10px;
@@ -49,7 +54,7 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 5px 5px 0 rgba(255, 0, 172, 0.2);
+  border-radius: 4px;
   & > span {
     display: block;
     font-weight: bold;

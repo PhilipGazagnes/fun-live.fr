@@ -7,7 +7,7 @@
       <div>
         <nuxt-link to="/agenda/">Agenda</nuxt-link>
         <nuxt-link to="/repertoire/">Répertoire</nuxt-link>
-        <nuxt-link to="/prestations/">Embauchez-nous !</nuxt-link>
+        <!--<nuxt-link to="/prestations/">Embauchez-nous !</nuxt-link>-->
         <button @click="showMenu = true">
           <small>Menu</small>
           <strong>Plus</strong>
@@ -18,13 +18,17 @@
         <button @click="showMenu = false">Fermer</button>
         <nuxt-link to="/agenda/" data-first>Agenda</nuxt-link>
         <nuxt-link to="/repertoire/" data-first>Répertoire</nuxt-link>
-        <nuxt-link to="/">Notre concept</nuxt-link>
+        <!--<nuxt-link to="/">Notre concept</nuxt-link>
         <nuxt-link to="/prestations/" data-first>Embauchez-nous !</nuxt-link>
         <nuxt-link to="/groupe/">Le groupe</nuxt-link>
-        <nuxt-link to="/photos-videos/">Photos / Vidéos</nuxt-link>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">Linkedin</a>
+        <nuxt-link to="/photos-videos/">Photos / Vidéos</nuxt-link>-->
+        <a target="_blank" href="https://www.facebook.com/funlive34/"
+          >Facebook</a
+        >
+        <a target="_blank" href="https://www.instagram.com/funlivekaraoke/"
+          >Instagram</a
+        >
+        <!--<a href="#">Linkedin</a>-->
         <nuxt-link to="/contact/">Contact</nuxt-link>
       </nav>
       <span v-if="showMenu" @click="showMenu = false" />
@@ -190,10 +194,7 @@ export default {
         text-transform: uppercase;
         text-decoration: none;
         color: var(--primaryColor);
-        margin-bottom: 5px;
-        @media screen and (--desktop) {
-          margin-bottom: 10px;
-        }
+        margin-bottom: 10px;
         &:hover {
           color: var(--secondaryColor);
         }
