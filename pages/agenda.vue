@@ -53,10 +53,9 @@ export default {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3px;
+  padding: 1px;
   color: white;
   text-transform: uppercase;
-  border-radius: 4px;
   & > div {
     background: var(--primaryColor);
     padding: 3px;

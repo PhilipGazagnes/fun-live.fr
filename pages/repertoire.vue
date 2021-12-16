@@ -344,7 +344,12 @@ ul.list {
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     margin: 5px 0 0 5px;
-    background: var(--secondaryColor);
+    background: rgb(190, 31, 151);
+    background: linear-gradient(
+      15deg,
+      rgba(108, 20, 208, 1) 0%,
+      rgba(190, 31, 151, 1) 70%
+    );
     color: white;
     border: none;
     border-radius: 4px;
@@ -442,7 +447,12 @@ ul.list {
         width: calc(100% - 10px);
         height: calc(100% - 10px);
         margin: 5px 0 0 5px;
-        background: var(--secondaryColor);
+        background: rgb(190, 31, 151);
+        background: linear-gradient(
+          15deg,
+          rgba(108, 20, 208, 1) 0%,
+          rgba(190, 31, 151, 1) 70%
+        );
         color: white;
         border: none;
         border-radius: 4px;
