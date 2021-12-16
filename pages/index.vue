@@ -107,15 +107,20 @@ export default {
   }
 }
 .main {
-  padding-top: 10px;
+  padding-top: 15px;
   & > a {
     display: block;
-    background: var(--secondaryColor);
+    background: rgb(190, 31, 151);
+    background: linear-gradient(
+      15deg,
+      rgba(108, 20, 208, 1) 0%,
+      rgba(190, 31, 151, 1) 70%
+    );
     color: white;
     font-weight: bold;
     text-align: center;
     padding: 20px;
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
     text-decoration: none;
     border-radius: 4px;
   }

@@ -43,7 +43,11 @@ export default {
       showMenu: false,
     };
   },
-  mounted() {},
+  watch: {
+    $route() {
+      this.showMenu = false;
+    },
+  },
 };
 </script>
 

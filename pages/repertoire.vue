@@ -283,9 +283,6 @@ ul.list {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
   position: relative;
   width: 100%;
   @media screen and (--tablet) {
@@ -294,11 +291,7 @@ ul.list {
   li {
     background: rgba(255, 255, 255, 0.1);
     color: white;
-    margin: 0;
-    flex: 1 1 100%;
-    @media screen and (--tablet) {
-      flex: 1 1 calc(50% - 10px);
-    }
+    margin: 0 0 10px 0;
     & > div {
       display: flex;
       flex-direction: column;

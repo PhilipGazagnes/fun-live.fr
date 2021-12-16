@@ -4,10 +4,12 @@
     <div class="events">
       <div v-for="(event, index) in events" :key="index" class="event">
         <div class="date">
-          <span>{{ event.date.dayName }}</span>
-          <span>{{ event.date.dayNum }}</span>
-          <span>{{ event.date.month }}</span>
-          <span>{{ event.date.year }}</span>
+          <div>
+            <span>{{ event.date.dayName }}</span>
+            <span>{{ event.date.dayNum }}</span>
+            <span>{{ event.date.month }}</span>
+            <span>{{ event.date.year }}</span>
+          </div>
         </div>
         <div class="desc">
           <div>{{ event.place }}</div>
@@ -34,32 +36,40 @@ export default {
 
 <style lang="postcss" scoped>
 .event {
-  display: flex;
   margin-bottom: 40px;
-  gap: 20px;
+  height: 110px;
+  position: relative;
+  padding: 0 0 0 120px;
 }
 .date {
   background: rgb(190, 31, 151);
   background: linear-gradient(
-    0deg,
-    rgba(190, 31, 151, 1) 0%,
-    rgba(108, 20, 208, 1) 100%
+    15deg,
+    rgba(108, 20, 208, 1) 0%,
+    rgba(190, 31, 151, 1) 70%
   );
   text-align: center;
-  flex: 0 0 100px;
-  padding: 10px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 3px;
   color: white;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   border-radius: 4px;
-  & > span {
-    display: block;
-    font-weight: bold;
-    &:nth-child(2) {
-      font-size: 2em;
+  & > div {
+    background: var(--primaryColor);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    & > span {
+      display: block;
+      font-weight: bold;
+      &:nth-child(2) {
+        font-size: 2em;
+      }
     }
   }
 }
