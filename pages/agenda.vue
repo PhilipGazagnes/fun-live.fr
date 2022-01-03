@@ -2,7 +2,12 @@
   <div class="wrapper">
     <h1>Prochains concerts karaoké live</h1>
     <div class="events">
-      <div v-for="(event, index) in events" :key="index" class="event">
+      <div
+        v-for="(event, index) in events"
+        :key="index"
+        class="event"
+        :data-cancelled="event.cancelled"
+      >
         <div class="date">
           <div>
             <span>{{ event.date.dayName }}</span>
@@ -15,6 +20,7 @@
           <div>{{ event.place }}</div>
           <div>{{ event.address }}</div>
           <div>{{ event.time }}</div>
+          <span v-if="event.cancelled">Annulé</span>
         </div>
       </div>
     </div>
@@ -40,6 +46,22 @@ export default {
   height: 110px;
   position: relative;
   padding: 0 0 0 120px;
+  &[data-cancelled] {
+    .date {
+      opacity: 0.8;
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: red;
+        opacity: 0.3;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
 }
 .date {
   background: rgb(190, 31, 151);
@@ -86,6 +108,11 @@ export default {
     &:nth-child(3) {
       color: var(--secondaryColor);
     }
+  }
+  & > span {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
   }
 }
 </style>

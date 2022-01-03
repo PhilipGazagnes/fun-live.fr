@@ -39,7 +39,8 @@
         "place": "L'Odéon Music Bar",
         "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
         "price": "Gratuit",
-        "facebookEvent": "#"
+        "facebookEvent": "#",
+        "cancelled": true
     },
     {
         "date": {
