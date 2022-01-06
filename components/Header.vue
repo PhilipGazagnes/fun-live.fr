@@ -20,8 +20,8 @@
         <nuxt-link to="/repertoire/" data-first>Répertoire</nuxt-link>
         <!--<nuxt-link to="/">Notre concept</nuxt-link>
         <nuxt-link to="/prestations/" data-first>Embauchez-nous !</nuxt-link>
-        <nuxt-link to="/groupe/">Le groupe</nuxt-link>
-        <nuxt-link to="/photos-videos/">Photos / Vidéos</nuxt-link>-->
+        <nuxt-link to="/groupe/">Le groupe</nuxt-link>-->
+        <nuxt-link to="/videos/">Vidéos</nuxt-link>
         <a target="_blank" href="https://www.facebook.com/funlive34/"
           >Facebook</a
         >

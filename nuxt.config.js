@@ -24,6 +24,11 @@ module.exports = {
           'https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"',
       },
     ],
+    script: [
+      {
+        src: 'https://www.youtube.com/iframe_api',
+      },
+    ],
   },
   modules: [
     '@nuxtjs/dotenv',
@@ -92,7 +97,7 @@ module.exports = {
       '/agenda',
       '/contact',
       '/groupe',
-      '/photos-videos',
+      '/photos',
       '/prestations',
       '/repertoire',
     ],

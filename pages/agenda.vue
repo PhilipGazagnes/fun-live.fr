@@ -36,7 +36,6 @@ export default {
       events: eventsJson.filter((e) => new Date(e.date.enFormat) > new Date()),
     };
   },
-  methods: {},
 };
 </script>
 
