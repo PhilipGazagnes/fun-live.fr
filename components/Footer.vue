@@ -7,7 +7,7 @@
       <a target="_blank" href="https://www.instagram.com/funlivekaraoke/"
         >Instagram</a
       >
-      ! Bientôt quelques petites surprises vous y attendent 😉
+      !
     </div>
   </div>
 </template>

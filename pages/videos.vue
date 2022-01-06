@@ -44,6 +44,9 @@ export default {
       modal: false,
     };
   },
+  mounted() {
+    window.LazyLoadInstance.update();
+  },
   methods: {
     openVideo(url) {
       this.modal = true;
