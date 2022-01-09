@@ -34,7 +34,7 @@
         <ol>
           <li>
             Prendre connaissance de
-            <nuxt-link class="textlink" to="repertoire"
+            <nuxt-link class="textlink" to="/repertoire"
               >la liste des chansons que nous jouons</nuxt-link
             >
           </li>
