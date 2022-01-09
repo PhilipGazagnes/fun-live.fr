@@ -52,6 +52,7 @@ module.exports = {
   plugins: [
     { src: '~/plugins/lazyload.js', mode: 'client' },
     { src: '~/plugins/in-view.js', mode: 'client' },
+    { src: '~/plugins/particles.min.js', mode: 'client' },
   ],
   css: ['~/assets/css/main.css'],
   build: {
@@ -96,9 +97,10 @@ module.exports = {
       '/',
       '/agenda',
       '/contact',
-      '/groupe',
-      '/photos',
-      '/prestations',
+      '/concept',
+      '/le-groupe',
+      '/videos',
+      '/embauchez-nous',
       '/repertoire',
     ],
   },

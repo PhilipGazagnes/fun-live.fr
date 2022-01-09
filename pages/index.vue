@@ -9,39 +9,29 @@
       </video>
     </div>
     <div class="main">
-      <nuxt-link to="/repertoire">Répertoire</nuxt-link>
-      <nuxt-link to="/agenda">Agenda</nuxt-link>
+      <nuxt-link to="/repertoire"
+        ><span>Répertoire</span> Toutes les chansons que vous pouvez chanter
+        avec nous !
+      </nuxt-link>
+      <nuxt-link to="/agenda"
+        ><span>Agenda</span> Tous nos concerts karaoké à venir, venez nombreux !
+      </nuxt-link>
+      <nuxt-link to="/concept"
+        ><span>Le concept</span> Karaoké Live ? Kezako ? Par ici pour tout
+        savoir !
+      </nuxt-link>
+      <nuxt-link to="/le-groupe"
+        ><span>Le groupe</span> Trois musiciens au top pour des soirées de folie
+        !
+      </nuxt-link>
+      <nuxt-link to="/videos"
+        ><span>Vidéos</span> Quelques vidéos valent mieux qu'un long discours !
+      </nuxt-link>
+      <nuxt-link to="/embauchez-nous"
+        ><span>Embauchez-nous !</span> Marquez les esprits avec votre soirée
+        concert karaoké !</nuxt-link
+      >
     </div>
-
-    <!-- <div class="intro">
-      <div class="wrapper">
-        Grâce à vous, chaque concert est unique !<br />Une seule certitude avant
-        de commencer : on va passer un bon moment d'aventure musicale ensemble
-        :D Les morceaux qu'on va jouer ? C'est vous qui le décidez !
-      </div>
-    </div>
-    <div>Alors, prêts à tenter l'expérience ?</div>
-    <div class="mission">
-      Votre mission, si vous l'acceptez :
-      <div class="wrapper">
-        <div>
-          Prendre connaissance de la liste des chansons que nous jouons
-          <nuxt-link to="repertoire">Notre répertoire</nuxt-link>
-        </div>
-        <div>
-          2 Choisir la ou les chansons que vous souhaitez chanter seul(e) ou à
-          plusieurs !
-        </div>
-        <div>
-          3 Nous vous appelons pour venir intégrer le groupe : c'est vous la
-          star, et nous, vos musiciens !
-        </div>
-      </div>
-    </div>
-    <div class="agenda">Concerts à venir :</div>
-    <div class="photos">
-      <nuxt-link to="/photos-videos/">Voir plus de photos et vidéos</nuxt-link>
-    </div> -->
   </div>
 </template>
 
@@ -61,6 +51,10 @@ export default {
 }
 .banner {
   position: relative;
+  margin-top: 15px;
+  @media screen and (--tablet) {
+    margin-top: 30px;
+  }
   h1 {
     font-family: 'Geomanist';
     text-transform: uppercase;
@@ -68,17 +62,21 @@ export default {
     font-size: 1.5em;
     line-height: 1.5em;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 1000px;
-    max-width: 80%;
+
     z-index: 1;
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0;
     & > span {
       text-shadow: 2px 2px 0 var(--secondaryColor);
+    }
+    @media screen and (--tablet) {
+      position: absolute;
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 1000px;
+      max-width: 80%;
     }
     @media screen and (--desktop) {
       font-size: 3em;
@@ -86,7 +84,7 @@ export default {
   }
   video {
     width: 100%;
-    opacity: 0.5;
+    opacity: 1;
     position: relative;
     z-index: 0;
   }
@@ -108,8 +106,16 @@ export default {
 }
 .main {
   padding-top: 15px;
+  margin: 0 -10px;
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
   & > a {
     display: block;
+    margin: 0 10px 20px;
+    float: left;
     background: rgb(190, 31, 151);
     background: linear-gradient(
       15deg,
@@ -117,12 +123,22 @@ export default {
       rgba(190, 31, 151, 1) 70%
     );
     color: white;
-    font-weight: bold;
     text-align: center;
     padding: 20px;
-    margin: 0 0 15px 0;
     text-decoration: none;
     border-radius: 4px;
+    width: calc(100% - 60px);
+    @media screen and (--phone) {
+      width: calc(50% - 60px);
+    }
+    @media screen and (--tablet) {
+      width: calc(33.33% - 60px);
+    }
+    & > span {
+      font-size: 1.6em;
+      margin-bottom: 5px;
+      display: block;
+    }
   }
 }
 </style>
