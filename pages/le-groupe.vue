@@ -25,22 +25,21 @@
           de rôle la star du groupe !
         </p>
         <p>
-          A la batterie, <strong>Jean</strong> "tient la baraque", comme on dit.
-          Ses diverses collaborations dans l'univers rock / métal, et son
-          intérêt pour une multitude de styles, font de Jean un batteur
-          polyvalent et solide.
+          A la guitare, aux choeurs et au chant, <strong>Phil</strong> est
+          l'allié des chanteurs qui viennent s'aventurer avec le groupe. Il les
+          accompagne et les aide à donner le meilleur d'eux mêmes. Guitariste
+          polyvalent, c'est l'atout mélodique du groupe.
         </p>
         <p>
           Fort de son expérience avec différents groupes depuis les années 2000,
           <strong>Nico</strong> apporte une vision musicale précieuse pour
           arranger les morceaux divers et variés pour le trio. Il est le
-          bassiste du groupe et complète la section rythmique.
+          bassiste et l'animateur du groupe.
         </p>
         <p>
-          A la guitare, aux choeurs et au chant, <strong>Phil</strong> est
-          l'allié des chanteurs qui viennent s'aventurer avec le groupe. Il les
-          accompagne et les aide à donner le meilleur d'eux mêmes. Guitariste
-          polyvalent, c'est l'atout mélodique du groupe.
+          A la batterie, <strong>Jean</strong> "tient la baraque", comme on dit.
+          Ses diverses collaborations dans l'univers rock, et son intérêt pour
+          une multitude de styles, font de Jean un batteur polyvalent et solide.
         </p>
       </div>
     </div>

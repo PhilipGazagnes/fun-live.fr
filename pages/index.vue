@@ -2,7 +2,7 @@
   <div class="wrapper home">
     <div class="banner">
       <h1>
-        Chanter des tubes sur scène avec 3 musiciens, <span>mais oui !</span>
+        <span>Chantez des tubes sur scène</span> <span>avec 3 musiciens !</span>
       </h1>
       <video autoplay muted loop>
         <source src="/tempvid.mp4" type="video/mp4" />
@@ -10,26 +10,40 @@
     </div>
     <div class="main">
       <nuxt-link to="/repertoire"
-        ><span>Répertoire</span> Toutes les chansons que vous pouvez chanter
-        avec nous !
-      </nuxt-link>
+        ><span
+          ><span>Répertoire</span> Toutes les chansons que vous pouvez chanter
+          avec nous !
+        </span></nuxt-link
+      >
       <nuxt-link to="/agenda"
-        ><span>Agenda</span> Tous nos concerts karaoké à venir, venez nombreux !
-      </nuxt-link>
+        ><span
+          ><span>Agenda</span> Tous nos concerts karaoké à venir, venez nombreux
+          !
+        </span></nuxt-link
+      >
       <nuxt-link to="/concept"
-        ><span>Le concept</span> Karaoké Live ? Kezako ? Par ici pour tout
-        savoir !
-      </nuxt-link>
+        ><span
+          ><span>Le concept</span> Karaoké Live ? Comment ça ? Par ici pour tout
+          savoir !
+        </span></nuxt-link
+      >
       <nuxt-link to="/le-groupe"
-        ><span>Le groupe</span> Trois musiciens au top pour des soirées de folie
-        !
-      </nuxt-link>
+        ><span
+          ><span>Le groupe</span> Trois musiciens au top pour des soirées de
+          folie !
+        </span></nuxt-link
+      >
       <nuxt-link to="/videos"
-        ><span>Vidéos</span> Quelques vidéos valent mieux qu'un long discours !
-      </nuxt-link>
+        ><span
+          ><span>Vidéos</span> Quelques vidéos valent mieux qu'un long discours
+          !
+        </span></nuxt-link
+      >
       <nuxt-link to="/embauchez-nous"
-        ><span>Embauchez-nous !</span> Marquez les esprits avec votre soirée
-        concert karaoké !</nuxt-link
+        ><span
+          ><span>Embauchez-nous !</span> Marquez les esprits avec votre soirée
+          concert karaoké !</span
+        ></nuxt-link
       >
     </div>
   </div>
@@ -67,7 +81,9 @@ export default {
     margin: 0 0 10px 0;
     padding: 0;
     & > span {
-      text-shadow: 2px 2px 0 var(--secondaryColor);
+      @media screen and (--desktop) {
+        display: block;
+      }
     }
     @media screen and (--tablet) {
       position: absolute;
@@ -116,28 +132,66 @@ export default {
     display: block;
     margin: 0 10px 20px;
     float: left;
-    background: rgb(190, 31, 151);
-    background: linear-gradient(
-      15deg,
-      rgba(108, 20, 208, 1) 0%,
-      rgba(190, 31, 151, 1) 70%
-    );
-    color: white;
     text-align: center;
     padding: 20px;
     text-decoration: none;
     border-radius: 4px;
     width: calc(100% - 60px);
-    @media screen and (--phone) {
-      width: calc(50% - 60px);
-    }
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    position: relative;
     @media screen and (--tablet) {
+      width: calc(50% - 60px);
+      height: 90px;
+    }
+    @media screen and (--largeDesktop) {
       width: calc(33.33% - 60px);
     }
-    & > span {
-      font-size: 1.6em;
-      margin-bottom: 5px;
+    /*&::after {
+      content: '';
+      background: var(--primaryColor);
       display: block;
+      position: absolute;
+      top: 2px;
+      left: 1px;
+      width: calc(100% - 2px);
+      height: calc(100% - 2px);
+      z-index: 0;
+    }*/
+    & > span {
+      position: relative;
+      z-index: 1;
+      & > span {
+        position: relative;
+        z-index: 2;
+        font-size: 1.6em;
+        font-family: 'geomanist';
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        display: block;
+        background: rgb(250, 11, 191);
+        background: linear-gradient(
+          180deg,
+          rgba(250, 11, 191, 1) 0%,
+          rgba(208, 0, 255, 1) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        &::after {
+          content: '';
+          display: inline-block;
+          height: 0;
+          width: 0;
+          border-top: 7px solid transparent;
+          border-bottom: 8px solid transparent;
+          border-left: 14px solid #e405e1;
+          margin-left: 12px;
+          position: relative;
+          top: -1px;
+        }
+      }
     }
   }
 }
