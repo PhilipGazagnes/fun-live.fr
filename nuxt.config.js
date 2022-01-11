@@ -53,6 +53,7 @@ module.exports = {
     { src: '~/plugins/lazyload.js', mode: 'client' },
     { src: '~/plugins/in-view.js', mode: 'client' },
     { src: '~/plugins/particles.min.js', mode: 'client' },
+    { src: '~/plugins/gtm.js', mode: 'client' },
   ],
   css: ['~/assets/css/main.css'],
   build: {
