@@ -53,7 +53,7 @@
 export default {
   components: {},
   head: {
-    title: 'FUN LIVE',
+    title: 'Fun Live | Concert karaoké live !',
     description: '',
   },
 };

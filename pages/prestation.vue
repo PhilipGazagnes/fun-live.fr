@@ -2,7 +2,10 @@
   <div class="wrapper">
     <h1>Prestation</h1>
     <div class="sideImage">
-      <span><img src="/misc/embauchez-nous.jpg" /></span>
+      <span
+        ><img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/misc/embauchez-nous.jpg?width=600"
+      /></span>
       <div>
         <p>
           Qu’il s’agisse d'une session team-building, d’une soirée festive, d'un
@@ -50,6 +53,9 @@ export default {
   components: {
     Contact,
     Star,
+  },
+  head: {
+    title: 'Prestation | Fun Live',
   },
 };
 </script>

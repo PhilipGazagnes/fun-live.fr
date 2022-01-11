@@ -36,6 +36,9 @@ export default {
       events: eventsJson.filter((e) => new Date(e.date.enFormat) > new Date()),
     };
   },
+  head: {
+    title: 'Agenda | Fun Live',
+  },
 };
 </script>
 

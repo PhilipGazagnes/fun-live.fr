@@ -182,6 +182,9 @@ export default {
       }
     },
   },
+  head: {
+    title: 'Répertoire | Fun Live',
+  },
 };
 </script>
 

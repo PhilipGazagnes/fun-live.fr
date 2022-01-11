@@ -3,10 +3,18 @@
     <h1>Le groupe</h1>
     <div class="sideImage">
       <span>
-        <img src="/band/band.jpg" />
-        <img src="/band/jean-1.jpg" />
-        <img src="/band/nico-1.jpg" />
-        <img src="/band/phil-1.jpg" />
+        <img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/band/band.jpg?width=600"
+        />
+        <img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/band/jean-1.jpg?width=300"
+        />
+        <img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/band/nico-1.jpg?width=300"
+        />
+        <img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/band/phil-1.jpg?width=300"
+        />
       </span>
       <div>
         <p>
@@ -46,3 +54,11 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: 'Le groupe | Fun Live',
+  },
+};
+</script>

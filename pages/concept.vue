@@ -3,9 +3,15 @@
     <h1>Fun Live : le concept</h1>
     <div class="sideImage">
       <span>
-        <img src="/misc/concept1.jpg" />
-        <img src="/misc/concept4.jpg" />
-        <img src="/misc/concept5.jpg" />
+        <img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/misc/concept1.jpg?width=600"
+        />
+        <img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/misc/concept5.jpg?width=300"
+        />
+        <img
+          src="https://aeovnsnhjq.cloudimg.io/v7/_funlive_/misc/concept4.jpg?width=300"
+        />
       </span>
       <div>
         <p>
@@ -62,6 +68,14 @@
     <div class="inlineImages"></div>
   </div>
 </template>
+
+<script>
+export default {
+  head: {
+    title: 'Le concept | Fun Live',
+  },
+};
+</script>
 
 <style lang="postcss" nested>
 .process {

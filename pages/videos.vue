@@ -68,6 +68,9 @@ export default {
       event.target.playVideo();
     },
   },
+  head: {
+    title: 'Vidéos | Fun Live',
+  },
 };
 </script>
 

@@ -109,6 +109,8 @@ a.textlink {
       }
       &:not(:first-child) {
         width: calc(50% - 2px);
+        position: relative;
+        top: -5px;
       }
       &:nth-child(2),
       &:nth-child(4) {

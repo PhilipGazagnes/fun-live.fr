@@ -14,6 +14,9 @@ export default {
   components: {
     Contact,
   },
+  head: {
+    title: 'Contact | Fun Live',
+  },
 };
 </script>
 
