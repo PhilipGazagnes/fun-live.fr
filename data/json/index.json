@@ -139,13 +139,15 @@
   {"name":"Coco Caline","artist":"Julien Doré","id":"0173", "lang":"FR"},
   {"name":"Memories","artist":"Maroon 5","id":"0174", "lang":"EN"},
   {"name":"Je danse le Mia","artist":"IAM","id":"0175", "lang":"FR"},
-  {"name":"La tribu de Dana","artist":"Manau","id":"0176", "lang":"EN"},
+  {"name":"La tribu de Dana","artist":"Manau","id":"0176", "lang":"FR"},
   {"name":"Soulman","artist":"Ben l'oncle Soul","id":"0177", "lang":"EN"},
-  {"name":"Gitano","artist":"Kendji Girac","id":"0180", "lang":"EN"},
+  {"name":"Gitano","artist":"Kendji Girac","id":"0180", "lang":"FR"},
   {"name":"Matchistador","artist":"M","id":"0184", "lang":"EN"},
   {"name":"Je m'voyais déjà","artist":"Charles Aznavour","id":"0186", "lang":"FR"},
   {"name":"Sensualité","artist":"Axelle Red","id":"0191", "lang":"FR"},
   {"name":"Au bout de mes rêves","artist":"Goldman","id":"0196", "lang":"FR"},
   {"name":"Plus près de étoiles","artist":"Gold","id":"0197", "lang":"FR"},
-  {"name":"Stand by me","artist":"Ben E King","id":"0198", "lang":"EN"}
+  {"name":"Stand by me","artist":"Ben E King","id":"0198", "lang":"EN"},
+  {"name":"Couleur menthe à l'eau","artist":"Eddy Mitchell","id":"0190", "lang":"FR"},
+  {"name":"Mets de l'huile !","artist":"Regg'lyss","id":"0199", "lang":"FR"}
 ]
