@@ -39,10 +39,10 @@
           !
         </span></nuxt-link
       >
-      <nuxt-link to="/embauchez-nous"
+      <nuxt-link to="/prestation"
         ><span
-          ><span>Embauchez-nous !</span> Marquez les esprits avec votre soirée
-          concert karaoké !</span
+          ><span>Prestation</span> Marquez les esprits avec votre soirée concert
+          karaoké !</span
         ></nuxt-link
       >
     </div>

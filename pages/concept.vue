@@ -26,8 +26,7 @@
         </p>
         <h2>Prêts à tenter l'expérience ?</h2>
         <p>
-          Grâce à vous, chaque concert est unique ! Une seule certitude avant de
-          commencer : on va passer un bon moment d'aventure musicale ensemble !
+          Grâce à vous, chaque concert est unique ! <br />
           Les morceaux qu'on va jouer ? C'est vous qui le décidez !
         </p>
         <p>Votre mission, si vous l'acceptez :</p>
@@ -53,7 +52,7 @@
           RDV à une de nos
           <nuxt-link class="textlink" to="/agenda">prochaines dates</nuxt-link>,
           ou
-          <nuxt-link class="textlink" to="/embauchez-nous"
+          <nuxt-link class="textlink" to="/prestation"
             >embauchez-nous</nuxt-link
           >
           pour votre soirée privée !

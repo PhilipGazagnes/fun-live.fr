@@ -100,7 +100,7 @@ module.exports = {
       '/concept',
       '/le-groupe',
       '/videos',
-      '/embauchez-nous',
+      '/prestation',
       '/repertoire',
     ],
   },

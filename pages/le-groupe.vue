@@ -13,7 +13,7 @@
           Fondé en 2019, <strong>Fun Live</strong> est un trio aux influences
           multiples (rock, funk, pop, hip-hop, variété française et
           internationale), et à l'objectif simple : rendre accessible à tous de
-          vivre de chouettes moments d'aventure musicale !
+          vivre la magie de la scène !
         </p>
         <p>
           <strong>Fun Live</strong> fait constamment évoluer son
@@ -21,7 +21,7 @@
             >répertoire international et multi-générationel</nuxt-link
           >
           pour satisfaire les envies du plus grand nombre. Les chanteurs
-          choisissent les chansons qu'ils veulent chanter, et deviennent à tour
+          choisissent les tubes qu'ils veulent interpréter, et deviennent à tour
           de rôle la star du groupe !
         </p>
         <p>
@@ -31,15 +31,16 @@
           polyvalent, c'est l'atout mélodique du groupe.
         </p>
         <p>
-          Fort de son expérience avec différents groupes depuis les années 2000,
+          Fort de ses 20 ans d'expérience musicale,
           <strong>Nico</strong> apporte une vision musicale précieuse pour
           arranger les morceaux divers et variés pour le trio. Il est le
           bassiste et l'animateur du groupe.
         </p>
         <p>
           A la batterie, <strong>Jean</strong> "tient la baraque", comme on dit.
-          Ses diverses collaborations dans l'univers rock, et son intérêt pour
-          une multitude de styles, font de Jean un batteur polyvalent et solide.
+          Ses diverses collaborations dans l'univers musical, et son intérêt
+          pour une multitude de styles, font de Jean un batteur polyvalent et
+          solide.
         </p>
       </div>
     </div>
