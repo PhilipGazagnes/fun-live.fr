@@ -19,6 +19,20 @@
         </p>
         <Contact class="contact" />
         <p class="review">
+          <Star />Super son, Super playlist, super musiciens, super idée : un
+          cocktail gagnant pour vivre une soirée de folie. Le karaoké live
+          permet de vivre l’expérience d’interpréter des chansons comme si vous
+          étiez une star. Variété française ou internationale, les musiciens
+          sont là et assurent avec vous. De vrais musiciens 4x4 qui s’adaptent
+          aux lieux et au nombre d’invités. Pour moi une des meilleures idées
+          pour clôturer un séminaire ou lors d’une soirée d’entreprise. A
+          consommer sans modérations :)
+          <span
+            ><strong>Loic Mersch</strong>, Fondateur de l’agence bivouAk</span
+          >
+        </p>
+
+        <p class="review">
           <Star />Groupe professionnel qui propose des soirées live avec
           ambiance garantie. Nous nous sommes régalés. Les musiciens mettent les
           participants très à l'aise. Je les ai déjà recommandé et ils ont
