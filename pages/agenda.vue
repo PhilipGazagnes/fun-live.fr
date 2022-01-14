@@ -33,7 +33,11 @@ import eventsJson from '../data/json/events.json';
 export default {
   data() {
     return {
-      events: eventsJson.filter((e) => new Date(e.date.enFormat) > new Date()),
+      events: eventsJson.filter(
+        (e) =>
+          new Date(e.date.enFormat) >
+          new Date().setDate(new Date().getDate() - 1),
+      ),
     };
   },
   head: {
