@@ -148,5 +148,7 @@
   {"name":"Plus près de étoiles","artist":"Gold","id":"0197", "lang":"FR"},
   {"name":"Stand by me","artist":"Ben E King","id":"0198", "lang":"EN"},
   {"name":"Couleur menthe à l'eau","artist":"Eddy Mitchell","id":"0190", "lang":"FR"},
-  {"name":"Mets de l'huile !","artist":"Regg'lyss","id":"0199", "lang":"FR"}
+  {"name":"Mets de l'huile !","artist":"Regg'lyss","id":"0199", "lang":"FR"},
+  {"name":"Mourir sur scène","artist":"Dalida","id":"0200", "lang":"FR"},
+  {"name":"Drôle de vie","artist":"Véronique Sanson","id":"0201", "lang":"FR"}
 ]
