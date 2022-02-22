@@ -74,7 +74,6 @@
   {"name":"Satisfaction","artist":"Rolling Stones","id":"0082","lang":"EN"},
   {"name":"Superstition","artist":"Steevie Wonder","id":"0083","lang":"EN"},
   {"name":"Born to be wild","artist":"Steppenwolf","id":"0084","lang":"EN"},
-  {"name":"Argent trop cher","artist":"Téléphone","id":"0085","lang":"FR"},
   {"name":"Cendrillon","artist":"Téléphone","id":"0087","lang":"FR"},
   {"name":"Hygiaphone","artist":"Téléphone","id":"0088","lang":"FR"},
   {"name":"Un autre monde","artist":"Téléphone","id":"0089","lang":"FR"},
@@ -108,7 +107,6 @@
   {"name":"Fils de personne","artist":"Johnny Hallyday","id":"0119","lang":"FR"},
   {"name":"Sympathy for the Devil","artist":"Rolling Stones","id":"0120","lang":"EN"},
   {"name":"Cargo de nuit","artist":"Axel Bauer","id":"0123","lang":"FR"},
-  {"name":"Enter sandman","artist":"Metallica","id":"0125","lang":"EN"},
   {"name":"Destin","artist":"Céline Dion (& Kids United)","id":"0126","lang":"FR"},
   {"name":"Wannabe","artist":"Spice girls","id":"0127","lang":"EN"},
   {"name":"J'irai ou tu iras","artist":"Céline Dion","id":"0128","lang":"FR"},
@@ -148,7 +146,6 @@
   {"name":"Plus près de étoiles","artist":"Gold","id":"0197", "lang":"FR"},
   {"name":"Stand by me","artist":"Ben E King","id":"0198", "lang":"EN"},
   {"name":"Couleur menthe à l'eau","artist":"Eddy Mitchell","id":"0190", "lang":"FR"},
-  {"name":"Mets de l'huile !","artist":"Regg'lyss","id":"0199", "lang":"FR"},
   {"name":"Mourir sur scène","artist":"Dalida","id":"0200", "lang":"FR"},
   {"name":"Drôle de vie","artist":"Véronique Sanson","id":"0201", "lang":"FR"}
 ]
