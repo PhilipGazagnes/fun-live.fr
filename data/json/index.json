@@ -153,5 +153,6 @@
   {"name":"Drôle de vie","artist":"Véronique Sanson","id":"0201", "lang":"FR"},
   {"name":"J't'emmène au vent","artist":"Louise Attaque","id":"0202", "lang":"FR"},
   {"name":"Trois nuits par semaine","artist":"Indochine","id":"0203", "lang":"FR"},
-  {"name":"Etre une femme","artist":"Michel Sardou","id":"0204", "lang":"FR"}
+  {"name":"Etre une femme","artist":"Michel Sardou","id":"0204", "lang":"FR"},
+  {"name":"La Bamba","artist":"Los Lobos","id":"0205", "lang":"ES"}
 ]
