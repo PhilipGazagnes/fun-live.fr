@@ -86,7 +86,7 @@ export default {
   alphabet: 'abcdefghijklmnopqrstuvwxyz',
   data() {
     return {
-      songs: songsJson.sort(this.compare),
+      songs: songsJson.sort(this.compare).filter((s) => !s.inactive),
       filtersActive: false,
       filterLangFr: false,
       filterLangEn: false,
