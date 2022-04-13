@@ -57,6 +57,20 @@
     },
     {
         "date": {
+          "enFormat": "05/21/2022",
+          "dayNum": "21",
+          "dayName": "samedi",
+          "month": "mai",
+          "year": "2022"
+        },
+        "time": "",
+        "place": "Soirée privée",
+        "address": "",
+        "price": "",
+        "facebookEvent": "#"
+    },
+    {
+        "date": {
           "enFormat": "06/02/2022",
           "dayNum": "02",
           "dayName": "jeudi",
