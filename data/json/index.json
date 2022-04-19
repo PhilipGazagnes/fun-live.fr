@@ -154,5 +154,9 @@
   {"name":"J't'emmène au vent","artist":"Louise Attaque","id":"0202", "lang":"FR"},
   {"name":"Trois nuits par semaine","artist":"Indochine","id":"0203", "lang":"FR"},
   {"name":"Etre une femme","artist":"Michel Sardou","id":"0204", "lang":"FR"},
-  {"name":"La Bamba","artist":"Los Lobos","id":"0205", "lang":"ES"}
+  {"name":"La Bamba","artist":"Los Lobos","id":"0205", "lang":"ES"},
+  {"name":"Man I feel like a woman","artist":"Shania Twain","id":"0206", "lang":"EN"},
+  {"name":"What's up","artist":"4 non blondes","id":"0207", "lang":"EN"},
+  {"name":"Moves like jagger","artist":"Maroon 5","id":"0208", "lang":"EN"},
+  {"name":"Salsa du démon","artist":"Le Splendid","id":"0209", "lang":"FR"}
 ]
