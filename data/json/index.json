@@ -158,5 +158,6 @@
   {"name":"Man I feel like a woman","artist":"Shania Twain","id":"0206", "lang":"EN"},
   {"name":"What's up","artist":"4 non blondes","id":"0207", "lang":"EN"},
   {"name":"Moves like jagger","artist":"Maroon 5","id":"0208", "lang":"EN"},
-  {"name":"Salsa du démon","artist":"Le Splendid","id":"0209", "lang":"FR"}
+  {"name":"Salsa du démon","artist":"Le Splendid","id":"0209", "lang":"FR"},
+  {"name":"These boots are made for walking","artist":"Nancy Sinatra","id":"0210", "lang":"EN"}
 ]
