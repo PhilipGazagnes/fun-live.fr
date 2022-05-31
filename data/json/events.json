@@ -1,76 +1,6 @@
 [
     {
         "date": {
-          "enFormat": "04/21/2022",
-          "dayNum": "21",
-          "dayName": "jeudi",
-          "month": "avril",
-          "year": "2022"
-        },
-        "time": "18h30 - 23h",
-        "place": "L'Odéon Music Bar",
-        "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
-        "price": "Gratuit",
-        "facebookEvent": "#"
-    },
-    {
-        "date": {
-          "enFormat": "05/05/2022",
-          "dayNum": "05",
-          "dayName": "jeudi",
-          "month": "mai",
-          "year": "2022"
-        },
-        "time": "18h30 - 23h",
-        "place": "L'Odéon Music Bar",
-        "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
-        "price": "Gratuit",
-        "facebookEvent": "#"
-    },
-    {
-        "date": {
-          "enFormat": "05/13/2022",
-          "dayNum": "13",
-          "dayName": "venrdedi",
-          "month": "mai",
-          "year": "2022"
-        },
-        "time": "20h - minuit",
-        "place": "Le Zanzi-Bar",
-        "address": "36 avenue Victor Hugo, 34200 Sète",
-        "price": "Gratuit",
-        "facebookEvent": "#"
-    },
-    {
-        "date": {
-          "enFormat": "05/19/2022",
-          "dayNum": "19",
-          "dayName": "jeudi",
-          "month": "mai",
-          "year": "2022"
-        },
-        "time": "18h30 - 23h",
-        "place": "L'Odéon Music Bar",
-        "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
-        "price": "Gratuit",
-        "facebookEvent": "#"
-    },
-    {
-        "date": {
-          "enFormat": "05/21/2022",
-          "dayNum": "21",
-          "dayName": "samedi",
-          "month": "mai",
-          "year": "2022"
-        },
-        "time": "",
-        "place": "Soirée privée",
-        "address": "",
-        "price": "",
-        "facebookEvent": "#"
-    },
-    {
-        "date": {
           "enFormat": "06/02/2022",
           "dayNum": "02",
           "dayName": "jeudi",
@@ -80,6 +10,20 @@
         "time": "19h30 - 23h",
         "place": "L'Odéon Music Bar",
         "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+        "price": "Gratuit",
+        "facebookEvent": "#"
+    },
+    {
+        "date": {
+          "enFormat": "06/10/2022",
+          "dayNum": "10",
+          "dayName": "venrdedi",
+          "month": "juin",
+          "year": "2022"
+        },
+        "time": "20h - minuit",
+        "place": "Le Zanzi-Bar",
+        "address": "36 avenue Victor Hugo, 34200 Sète",
         "price": "Gratuit",
         "facebookEvent": "#"
     },
@@ -137,6 +81,20 @@
         "place": "Camping l'Europe",
         "address": "Vic la Gardiole",
         "price": "gratuit",
+        "facebookEvent": "#"
+    },
+    {
+        "date": {
+          "enFormat": "07/07/2022",
+          "dayNum": "07",
+          "dayName": "jeudi",
+          "month": "juillet",
+          "year": "2022"
+        },
+        "time": "19h30 - 23h",
+        "place": "L'Odéon Music Bar",
+        "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+        "price": "Gratuit",
         "facebookEvent": "#"
     },
     {
@@ -203,7 +161,7 @@
           "month": "juillet",
           "year": "2022"
         },
-        "time": "11hh",
+        "time": "11h",
         "place": "Le Mas du Pont",
         "address": "Le Crès",
         "price": "gratuit",
@@ -225,6 +183,20 @@
     },
     {
         "date": {
+          "enFormat": "08/04/2022",
+          "dayNum": "04",
+          "dayName": "jeudi",
+          "month": "août",
+          "year": "2022"
+        },
+        "time": "19h30 - 23h",
+        "place": "L'Odéon Music Bar",
+        "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+        "price": "Gratuit",
+        "facebookEvent": "#"
+    },
+    {
+        "date": {
           "enFormat": "08/09/2022",
           "dayNum": "09",
           "dayName": "mardi",
@@ -234,6 +206,20 @@
         "time": "20h",
         "place": "Camping St-Meen",
         "address": "Vendres",
+        "price": "gratuit",
+        "facebookEvent": "#"
+    },
+    {
+        "date": {
+          "enFormat": "08/14/2022",
+          "dayNum": "14",
+          "dayName": "dimanche",
+          "month": "août",
+          "year": "2022"
+        },
+        "time": "20h",
+        "place": "Le Bao Beach",
+        "address": "Frontignan-plage",
         "price": "gratuit",
         "facebookEvent": "#"
     },
@@ -250,5 +236,19 @@
         "address": "Vic la Gardiole",
         "price": "gratuit",
         "facebookEvent": "#"
-    }
+    },
+    {
+        "date": {
+          "enFormat": "08/27/2022",
+          "dayNum": "27",
+          "dayName": "samedi",
+          "month": "août",
+          "year": "2022"
+        },
+        "time": "20h",
+        "place": "Le Bao Beach",
+        "address": "Frontignan-plage",
+        "price": "gratuit",
+        "facebookEvent": "#"
+    },
 ]
