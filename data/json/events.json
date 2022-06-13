@@ -42,10 +42,24 @@
         "facebookEvent": "#"
     },
     {
+      "date": {
+        "enFormat": "06/17/2022",
+        "dayNum": "17",
+        "dayName": "vendredi",
+        "month": "juin",
+        "year": "2022"
+      },
+      "time": "19h",
+      "place": "La table de Marcelline",
+      "address": "28 Prom. Jean-Baptiste Marty, 34200 Sète",
+      "price": "Gratuit",
+      "facebookEvent": "#"
+  },
+    {
         "date": {
           "enFormat": "06/30/2022",
           "dayNum": "30",
-          "dayName": "vendredi",
+          "dayName": "jeudi",
           "month": "juin",
           "year": "2022"
         },
