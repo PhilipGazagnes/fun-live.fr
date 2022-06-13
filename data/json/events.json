@@ -182,6 +182,20 @@
         "facebookEvent": "#"
     },
     {
+      "date": {
+        "enFormat": "07/28/2022",
+        "dayNum": "28",
+        "dayName": "jeudi",
+        "month": "juillet",
+        "year": "2022"
+      },
+      "time": "19h30 - 23h",
+      "place": "L'Odéon Music Bar",
+      "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+      "price": "Gratuit",
+      "facebookEvent": "#"
+  },
+    {
         "date": {
           "enFormat": "08/03/2022",
           "dayNum": "03",
@@ -251,6 +265,20 @@
         "price": "gratuit",
         "facebookEvent": "#"
     },
+    {
+      "date": {
+        "enFormat": "08/25/2022",
+        "dayNum": "25",
+        "dayName": "jeudi",
+        "month": "apût",
+        "year": "2022"
+      },
+      "time": "19h30 - 23h",
+      "place": "L'Odéon Music Bar",
+      "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+      "price": "Gratuit",
+      "facebookEvent": "#"
+  },
     {
         "date": {
           "enFormat": "08/27/2022",
