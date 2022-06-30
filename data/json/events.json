@@ -85,20 +85,6 @@
     },
     {
         "date": {
-          "enFormat": "07/07/2022",
-          "dayNum": "07",
-          "dayName": "jeudi",
-          "month": "juillet",
-          "year": "2022"
-        },
-        "time": "19h30 - 23h",
-        "place": "L'Odéon Music Bar",
-        "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
-        "price": "Gratuit",
-        "facebookEvent": "#"
-    },
-    {
-        "date": {
           "enFormat": "07/09/2022",
           "dayNum": "09",
           "dayName": "samedi",
@@ -168,20 +154,6 @@
         "facebookEvent": "#"
     },
     {
-      "date": {
-        "enFormat": "07/28/2022",
-        "dayNum": "28",
-        "dayName": "jeudi",
-        "month": "juillet",
-        "year": "2022"
-      },
-      "time": "19h30 - 23h",
-      "place": "L'Odéon Music Bar",
-      "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
-      "price": "Gratuit",
-      "facebookEvent": "#"
-  },
-    {
         "date": {
           "enFormat": "08/03/2022",
           "dayNum": "03",
@@ -193,20 +165,6 @@
         "place": "Camping l'Europe",
         "address": "Vic la Gardiole",
         "price": "gratuit",
-        "facebookEvent": "#"
-    },
-    {
-        "date": {
-          "enFormat": "08/04/2022",
-          "dayNum": "04",
-          "dayName": "jeudi",
-          "month": "août",
-          "year": "2022"
-        },
-        "time": "19h30 - 23h",
-        "place": "L'Odéon Music Bar",
-        "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
-        "price": "Gratuit",
         "facebookEvent": "#"
     },
     {
@@ -251,20 +209,6 @@
         "price": "gratuit",
         "facebookEvent": "#"
     },
-    {
-      "date": {
-        "enFormat": "08/25/2022",
-        "dayNum": "25",
-        "dayName": "jeudi",
-        "month": "apût",
-        "year": "2022"
-      },
-      "time": "19h30 - 23h",
-      "place": "L'Odéon Music Bar",
-      "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
-      "price": "Gratuit",
-      "facebookEvent": "#"
-  },
     {
         "date": {
           "enFormat": "08/27/2022",
