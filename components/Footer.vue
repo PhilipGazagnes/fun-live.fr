@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="footer">
       <nuxt-link class="textlink" to="/contact">Contactez-nous !</nuxt-link>
-      <div class="social">
+      <div v-if="!$store.state.airjprod" class="social">
         L'aventure musicale continue sur
         <a
           class="textlink"

@@ -2,7 +2,9 @@
   <div class="container">
     <div class="wrapper">
       <nuxt-link to="/">
-        <img src="/logo-fun-live.png" />
+        <img
+          :src="$store.state.airjprod ? '/logo-star.png' : '/logo-fun-live.png'"
+        />
       </nuxt-link>
       <div>
         <nuxt-link to="/repertoire/">Répertoire</nuxt-link>
@@ -22,10 +24,16 @@
         <nuxt-link to="/le-groupe/">Le groupe</nuxt-link>
         <nuxt-link to="/videos/">Vidéos</nuxt-link>
         <nuxt-link to="/prestation/">Prestation</nuxt-link>
-        <a target="_blank" href="https://www.facebook.com/funlive34/"
+        <a
+          v-if="!$store.state.airjprod"
+          target="_blank"
+          href="https://www.facebook.com/funlive34/"
           >Facebook</a
         >
-        <a target="_blank" href="https://www.instagram.com/funlivekaraoke/"
+        <a
+          v-if="!$store.state.airjprod"
+          target="_blank"
+          href="https://www.instagram.com/funlivekaraoke/"
           >Instagram</a
         >
         <!--<a href="#">Linkedin</a>-->
