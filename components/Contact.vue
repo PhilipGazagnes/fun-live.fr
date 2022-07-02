@@ -18,8 +18,7 @@
     </p>
     <p v-if="$store.state.airjprod">
       Contactez Airjprod au
-      <a class="textlink" :href="`tel:${telPhil}`">{{ telAirjprod1 }}</a> ou au
-      <a class="textlink" :href="`tel:${telPhil}`">{{ telAirjprod2 }}</a
+      <a class="textlink" :href="`tel:${telAirjprod}`">{{ telAirjprod }}</a
       >.
     </p>
   </div>
@@ -39,11 +38,8 @@ export default {
     telPhil() {
       return this.showTel ? '06 73 51 74 46' : '';
     },
-    telAirjprod1() {
-      return this.showTel ? '04 68 47 13 48' : '';
-    },
-    telAirjprod2() {
-      return this.showTel ? '06 86 70 20 50' : '';
+    telAirjprod() {
+      return this.showTel ? '06 62 52 14 14' : '';
     },
     email() {
       const email = this.$store.state.airjprod
