@@ -140,6 +140,20 @@
         "facebookEvent": "#"
     },
     {
+      "date": {
+        "enFormat": "07/22/2022",
+        "dayNum": "22",
+        "dayName": "venrdedi",
+        "month": "juillet",
+        "year": "2022"
+      },
+      "time": "20h - minuit",
+      "place": "Le Zanzi-Bar",
+      "address": "36 avenue Victor Hugo, 34200 Sète",
+      "price": "Gratuit",
+      "facebookEvent": "#"
+    },
+    {
         "date": {
           "enFormat": "07/24/2022",
           "dayNum": "24",
@@ -180,6 +194,20 @@
         "address": "Vendres",
         "price": "gratuit",
         "facebookEvent": "#"
+    },
+    {
+      "date": {
+        "enFormat": "08/12/2022",
+        "dayNum": "12",
+        "dayName": "venrdedi",
+        "month": "août",
+        "year": "2022"
+      },
+      "time": "20h - minuit",
+      "place": "Le Zanzi-Bar",
+      "address": "36 avenue Victor Hugo, 34200 Sète",
+      "price": "Gratuit",
+      "facebookEvent": "#"
     },
     {
         "date": {
