@@ -21,7 +21,9 @@
           :data-first-letter="s.name.charAt(0)"
         >
           <a
-            :href="`https://practical-tesla-4f5a55.netlify.app/note/${s.id}?directory=funlive`"
+            :href="`https://practical-tesla-4f5a55.netlify.app/note/${
+              s.id
+            }?directory=${$store.state.airjprod ? 'airjprod' : 'funlive'}`"
             rel="nofollow"
           >
             <span>{{ s.name }}</span>
