@@ -21,7 +21,7 @@
           :data-first-letter="s.name.charAt(0)"
         >
           <a
-            :href="`https://practical-tesla-4f5a55.netlify.app/note/${
+            :href="`https://stately-meringue-48b151.netlify.app/note/${
               s.id
             }?directory=${$store.state.airjprod ? 'airjprod' : 'funlive'}`"
             rel="nofollow"
