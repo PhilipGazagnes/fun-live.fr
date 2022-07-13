@@ -20,7 +20,10 @@
           :key="index"
           :data-first-letter="s.name.charAt(0)"
         >
-          <div>
+          <a
+            :href="`https://practical-tesla-4f5a55.netlify.app/note/${s.id}?directory=funlive`"
+            rel="nofollow"
+          >
             <span>{{ s.name }}</span>
             <span>{{ s.artist }}</span>
             <img
@@ -28,7 +31,7 @@
               :data-src="`https://aeovnsnhjq.cloudimg.io/v7/_funlive_/artists/${s.id}.jpg?width=80&height=80`"
               src="/blank.gif"
             />
-          </div>
+          </a>
         </li>
       </ul>
       <div class="filters">
@@ -295,7 +298,7 @@ ul.list {
     background: rgba(255, 255, 255, 0.1);
     color: white;
     margin: 0 0 10px 0;
-    & > div {
+    & > a {
       display: flex;
       flex-direction: column;
       justify-content: center;
