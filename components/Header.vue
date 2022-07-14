@@ -2,9 +2,7 @@
   <div class="container">
     <div class="wrapper">
       <nuxt-link to="/">
-        <img
-          :src="$store.state.airjprod ? '/logo-star.png' : '/logo-fun-live.png'"
-        />
+        <img :src="logoUrl" />
       </nuxt-link>
       <div>
         <nuxt-link to="/repertoire/">Répertoire</nuxt-link>
@@ -25,13 +23,13 @@
         <nuxt-link to="/videos/">Vidéos</nuxt-link>
         <nuxt-link to="/prestation/">Prestation</nuxt-link>
         <a
-          v-if="!$store.state.airjprod"
+          v-if="$store.state.subdomain === 'www'"
           target="_blank"
           href="https://www.facebook.com/funlive34/"
           >Facebook</a
         >
         <a
-          v-if="!$store.state.airjprod"
+          v-if="$store.state.subdomain === 'www'"
           target="_blank"
           href="https://www.instagram.com/funlivekaraoke/"
           >Instagram</a
@@ -50,6 +48,15 @@ export default {
     return {
       showMenu: false,
     };
+  },
+  computed: {
+    logoUrl() {
+      let str = '/logo-fun-live.png';
+      if (this.$store.state.subdomain === 'star') str = '/logo-star.png';
+      if (this.$store.state.subdomain === 'chill')
+        str = '/logo-fun-live-chill.png';
+      return str;
+    },
   },
   watch: {
     $route() {

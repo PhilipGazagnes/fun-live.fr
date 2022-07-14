@@ -1,5 +1,5 @@
 export const state = () => ({
-  airjprod: process.env.baseUrl === 'https://star.fun-live.fr/',
+  subdomain: process.env.baseUrl.substring(8).split('.')[0],
 });
 
 export const mutations = () => ({});

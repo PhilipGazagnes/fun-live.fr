@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
     <h1>
-      {{ $store.state.airjprod ? "C'est toi la star" : 'Fun Live' }} : le
-      concept
+      {{ $store.state.subdomain === 'star' ? "C'est toi la star" : 'Fun Live' }}
+      : le concept
     </h1>
     <div class="sideImage">
       <span>

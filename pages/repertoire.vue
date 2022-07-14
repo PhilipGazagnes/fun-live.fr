@@ -23,7 +23,9 @@
           <a
             :href="`https://stately-meringue-48b151.netlify.app/note/${
               s.id
-            }?directory=${$store.state.airjprod ? 'airjprod' : 'funlive'}`"
+            }?directory=${
+              $store.state.subdomain === 'star' ? 'airjprod' : 'funlive'
+            }`"
             rel="nofollow"
           >
             <span>{{ s.name }}</span>
@@ -102,19 +104,31 @@ export default {
   },
   computed: {
     filteredSongs() {
-      return this.songs.filter((song) => {
-        if (!this.filterLangFr && !this.filterLangEn && !this.filterLangOther) {
+      return this.songs
+        .filter((song) => {
+          if (this.$store.state.subdomain === 'chill') {
+            console.log(song.scope, song.name);
+            return song.scope.includes('phil');
+          }
+          return song.scope.includes('band');
+        })
+        .filter((song) => {
+          if (
+            !this.filterLangFr &&
+            !this.filterLangEn &&
+            !this.filterLangOther
+          ) {
+            return true;
+          }
+          if (
+            (!this.filterLangFr && song.lang === 'FR') ||
+            (!this.filterLangEn && song.lang === 'EN') ||
+            (!this.filterLangOther && song.lang !== 'EN' && song.lang !== 'FR')
+          ) {
+            return false;
+          }
           return true;
-        }
-        if (
-          (!this.filterLangFr && song.lang === 'FR') ||
-          (!this.filterLangEn && song.lang === 'EN') ||
-          (!this.filterLangOther && song.lang !== 'EN' && song.lang !== 'FR')
-        ) {
-          return false;
-        }
-        return true;
-      });
+        });
     },
   },
   mounted() {
