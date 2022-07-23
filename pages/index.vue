@@ -2,16 +2,11 @@
   <div class="wrapper home">
     <div class="banner">
       <h1>
-        <span v-if="$store.state.subdomain !== 'chill'"
-          >Chantez des tubes sur scène</span
-        >
-        <span>avec 3 musiciens !</span>
-        <span v-else>Chantez des tubes avec un guitariste !</span>
+        <span>Chantez des tubes sur scène</span> <span>avec 3 musiciens !</span>
       </h1>
-      <video v-if="$store.state.subdomain !== 'chill'" autoplay muted loop>
+      <video autoplay muted loop>
         <source src="/tempvid.mp4" type="video/mp4" />
       </video>
-      <img v-else src="/chill-bg.jpg" />
     </div>
     <div class="main">
       <nuxt-link to="/repertoire"
@@ -103,8 +98,7 @@ export default {
       font-size: 3em;
     }
   }
-  video,
-  img {
+  video {
     width: 100%;
     opacity: 1;
     position: relative;
