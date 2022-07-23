@@ -2,7 +2,11 @@
   <div class="wrapper home">
     <div class="banner">
       <h1>
-        <span>Chantez des tubes avec un guitariste !</span>
+        <span v-if="$store.state.subdomain !== 'chill'"
+          >Chantez des tubes sur scène</span
+        >
+        <span>avec 3 musiciens !</span>
+        <span v-else>Chantez des tubes avec un guitariste !</span>
       </h1>
       <video v-if="$store.state.subdomain !== 'chill'" autoplay muted loop>
         <source src="/tempvid.mp4" type="video/mp4" />
