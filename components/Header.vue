@@ -53,8 +53,6 @@ export default {
     logoUrl() {
       let str = '/logo-fun-live.png';
       if (this.$store.state.subdomain === 'star') str = '/logo-star.png';
-      if (this.$store.state.subdomain === 'chill')
-        str = '/logo-fun-live-chill.png';
       return str;
     },
   },
