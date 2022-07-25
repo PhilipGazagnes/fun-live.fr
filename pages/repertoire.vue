@@ -107,7 +107,6 @@ export default {
       return this.songs
         .filter((song) => {
           if (this.$store.state.subdomain === 'acoustic') {
-            console.log(song.scope, song.name);
             return song.scope.includes('phil');
           }
           return song.scope.includes('band');
