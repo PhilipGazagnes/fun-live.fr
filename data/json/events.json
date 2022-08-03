@@ -251,20 +251,6 @@
         "price": "gratuit",
         "facebookEvent": "#"
     },
-    {
-      "date": {
-        "enFormat": "08/26/2022",
-        "dayNum": "26",
-        "dayName": "vendredi",
-        "month": "août",
-        "year": "2022"
-      },
-      "time": "19h30",
-      "place": "L'Esprit Gourmand",
-      "address": "Villeveyrac",
-      "price": "gratuit",
-      "facebookEvent": "#"
-  },
   {
     "date": {
       "enFormat": "09/08/2022",
