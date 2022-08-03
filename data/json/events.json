@@ -196,6 +196,20 @@
         "facebookEvent": "#"
     },
     {
+        "date": {
+          "enFormat": "08/11/2022",
+          "dayNum": "11",
+          "dayName": "jeudi",
+          "month": "août",
+          "year": "2022"
+        },
+        "time": "20h",
+        "place": "Camping Pont de Lunel",
+        "address": "Lunel",
+        "price": "gratuit",
+        "facebookEvent": "#"
+    },
+    {
       "date": {
         "enFormat": "08/12/2022",
         "dayNum": "12",
@@ -208,20 +222,6 @@
       "address": "36 avenue Victor Hugo, 34200 Sète",
       "price": "Gratuit",
       "facebookEvent": "#"
-    },
-    {
-        "date": {
-          "enFormat": "08/14/2022",
-          "dayNum": "14",
-          "dayName": "dimanche",
-          "month": "août",
-          "year": "2022"
-        },
-        "time": "20h",
-        "place": "Le Baho Beach",
-        "address": "Frontignan-plage",
-        "price": "gratuit",
-        "facebookEvent": "#"
     },
     {
         "date": {
@@ -239,16 +239,128 @@
     },
     {
         "date": {
-          "enFormat": "08/27/2022",
-          "dayNum": "27",
-          "dayName": "samedi",
+          "enFormat": "08/26/2022",
+          "dayNum": "26",
+          "dayName": "vendredi",
           "month": "août",
           "year": "2022"
         },
-        "time": "20h",
-        "place": "Le Baho Beach",
-        "address": "Frontignan-plage",
+        "time": "19h30",
+        "place": "L'Esprit Gourmand",
+        "address": "Villeveyrac",
         "price": "gratuit",
         "facebookEvent": "#"
-    }
+    },
+    {
+      "date": {
+        "enFormat": "08/26/2022",
+        "dayNum": "26",
+        "dayName": "vendredi",
+        "month": "août",
+        "year": "2022"
+      },
+      "time": "19h30",
+      "place": "L'Esprit Gourmand",
+      "address": "Villeveyrac",
+      "price": "gratuit",
+      "facebookEvent": "#"
+  },
+  {
+    "date": {
+      "enFormat": "09/08/2022",
+      "dayNum": "08",
+      "dayName": "jeudi",
+      "month": "septembre",
+      "year": "2022"
+    },
+    "time": "19h30 - 23h",
+    "place": "L'Odéon Music Bar",
+    "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+    "price": "Gratuit",
+    "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "09/09/2022",
+    "dayNum": "09",
+    "dayName": "vendredi",
+    "month": "septembre",
+    "year": "2022"
+  },
+  "time": "",
+  "place": "Soirée privée",
+  "address": "",
+  "price": "",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "09/10/2022",
+    "dayNum": "10",
+    "dayName": "samedi",
+    "month": "septembre",
+    "year": "2022"
+  },
+  "time": "",
+  "place": "Soirée privée",
+  "address": "",
+  "price": "",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "09/15/2022",
+    "dayNum": "15",
+    "dayName": "jeudi",
+    "month": "septembre",
+    "year": "2022"
+  },
+  "time": "",
+  "place": "Soirée privée",
+  "address": "",
+  "price": "",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "09/22/2022",
+    "dayNum": "22",
+    "dayName": "jeudi",
+    "month": "septembre",
+    "year": "2022"
+  },
+  "time": "19h30 - 23h",
+  "place": "L'Odéon Music Bar",
+  "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "10/06/2022",
+    "dayNum": "06",
+    "dayName": "jeudi",
+    "month": "octobre",
+    "year": "2022"
+  },
+  "time": "19h30 - 23h",
+  "place": "L'Odéon Music Bar",
+  "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "10/20/2022",
+    "dayNum": "20",
+    "dayName": "jeudi",
+    "month": "octobre",
+    "year": "2022"
+  },
+  "time": "19h30 - 23h",
+  "place": "L'Odéon Music Bar",
+  "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
 ]
