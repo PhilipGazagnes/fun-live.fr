@@ -19,6 +19,15 @@
         </p>
         <Contact class="contact" />
         <p class="review">
+          <Star />Groupe au top pour mettre les chanteurs d'un soir à l'aise,
+          arrangeant, s'adapte aux participants, accompagne aussi les chanteurs
+          en herbe ;-) ce qui permet de vraiment profiter du moment et pour
+          couronner le tout, ils sont supers sympas ! Nous avons passé pour la
+          deuxième année consécutive, un très bon moment. Merci !
+          <span><strong>Audrey Cavalier</strong>, Heredis</span>
+        </p>
+
+        <p class="review">
           <Star />Super son, Super playlist, super musiciens, super idée : un
           cocktail gagnant pour vivre une soirée de folie. Le karaoké live
           permet de vivre l’expérience d’interpréter des chansons comme si vous
@@ -27,9 +36,7 @@
           aux lieux et au nombre d’invités. Pour moi une des meilleures idées
           pour clôturer un séminaire ou lors d’une soirée d’entreprise. A
           consommer sans modérations :)
-          <span
-            ><strong>Loic Mersch</strong>, Fondateur de l’agence bivouAk</span
-          >
+          <span><strong>Loic Mersch</strong>, Agence bivouAk</span>
         </p>
 
         <p class="review">
