@@ -309,6 +309,20 @@
 },
 {
   "date": {
+    "enFormat": "09/16/2022",
+    "dayNum": "16",
+    "dayName": "vendredi",
+    "month": "septembre",
+    "year": "2022"
+  },
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
     "enFormat": "09/22/2022",
     "dayNum": "22",
     "dayName": "jeudi",
@@ -346,6 +360,104 @@
   "time": "19h30 - 23h",
   "place": "L'Odéon Music Bar",
   "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "10/28/2022",
+    "dayNum": "28",
+    "dayName": "vendredi",
+    "month": "octobre",
+    "year": "2022"
+  },
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "11/03/2022",
+    "dayNum": "03",
+    "dayName": "jeudi",
+    "month": "novembre",
+    "year": "2022"
+  },
+  "time": "19h30 - 23h",
+  "place": "L'Odéon Music Bar",
+  "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "11/17/2022",
+    "dayNum": "17",
+    "dayName": "jeudi",
+    "month": "novembre",
+    "year": "2022"
+  },
+  "time": "19h30 - 23h",
+  "place": "L'Odéon Music Bar",
+  "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "11/25/2022",
+    "dayNum": "25",
+    "dayName": "vendredi",
+    "month": "novembre",
+    "year": "2022"
+  },
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "12/01/2022",
+    "dayNum": "01",
+    "dayName": "jeudi",
+    "month": "décembre",
+    "year": "2022"
+  },
+  "time": "19h30 - 23h",
+  "place": "L'Odéon Music Bar",
+  "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "12/15/2022",
+    "dayNum": "15",
+    "dayName": "jeudi",
+    "month": "décembre",
+    "year": "2022"
+  },
+  "time": "19h30 - 23h",
+  "place": "L'Odéon Music Bar",
+  "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "12/16/2022",
+    "dayNum": "16",
+    "dayName": "vendredi",
+    "month": "décembre",
+    "year": "2022"
+  },
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
   "price": "Gratuit",
   "facebookEvent": "#"
 }
