@@ -365,6 +365,34 @@
 },
 {
   "date": {
+    "enFormat": "10/21/2022",
+    "dayNum": "21",
+    "dayName": "vendredi",
+    "month": "octobre",
+    "year": "2022"
+  },
+  "time": "19h30",
+  "place": "La Chistera",
+  "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "10/23/2022",
+    "dayNum": "23",
+    "dayName": "dimanche",
+    "month": "octobre",
+    "year": "2022"
+  },
+  "time": "11h00",
+  "place": "Le Mas du Pont",
+  "address": "Domaine du Mas du Pont, 34920 Le Crès",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
     "enFormat": "10/28/2022",
     "dayNum": "28",
     "dayName": "vendredi",
