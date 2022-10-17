@@ -21,11 +21,7 @@
           :data-first-letter="s.name.charAt(0)"
         >
           <a
-            :href="`https://stately-meringue-48b151.netlify.app/note/${
-              s.id
-            }?directory=${
-              $store.state.subdomain === 'star' ? 'airjprod' : 'funlive'
-            }`"
+            :href="`https://stately-meringue-48b151.netlify.app/note/${s.id}?directory=${directory}`"
             rel="nofollow"
           >
             <span>{{ s.name }}</span>
@@ -128,6 +124,12 @@ export default {
           }
           return true;
         });
+    },
+    directory() {
+      let str = 'funlive';
+      if (this.$store.state.subdomain === 'star') str = 'airjprod';
+      else if (this.$store.state.subdomain === 'acoustic') str = 'acoustic';
+      return str;
     },
   },
   mounted() {
