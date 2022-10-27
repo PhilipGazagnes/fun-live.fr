@@ -421,7 +421,21 @@
 },
 {
   "date": {
-    "enFormat": "11/17/2022",
+    "enFormat": "11/11/2022",
+    "dayNum": "11",
+    "dayName": "vendredi",
+    "month": "novembre",
+    "year": "2022"
+  },
+  "time": "19h30",
+  "place": "La Chistera",
+  "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "11/18/2022",
     "dayNum": "18",
     "dayName": "vendredi",
     "month": "novembre",
