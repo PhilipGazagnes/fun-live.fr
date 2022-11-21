@@ -477,6 +477,20 @@
 },
 {
   "date": {
+    "enFormat": "12/09/2022",
+    "dayNum": "09",
+    "dayName": "vendredi",
+    "month": "décembre",
+    "year": "2022"
+  },
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
     "enFormat": "12/16/2022",
     "dayNum": "16",
     "dayName": "vendredi",
