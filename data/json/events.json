@@ -502,5 +502,61 @@
   "address": "Route de Mèze 864 rte Departementale 613, 34560 Poussan",
   "price": "Gratuit",
   "facebookEvent": "#"
-}
+},
+{
+  "date": {
+    "enFormat": "01/13/2023",
+    "dayNum": "13",
+    "dayName": "vendredi",
+    "month": "janvier",
+    "year": "2023"
+  },
+  "time": "19h30",
+  "place": "La Chistera",
+  "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "02/10/2023",
+    "dayNum": "10",
+    "dayName": "vendredi",
+    "month": "février",
+    "year": "2023"
+  },
+  "time": "19h30",
+  "place": "La Chistera",
+  "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "03/10/2023",
+    "dayNum": "10",
+    "dayName": "vendredi",
+    "month": "mars",
+    "year": "2023"
+  },
+  "time": "19h30",
+  "place": "La Chistera",
+  "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "04/14/2023",
+    "dayNum": "14",
+    "dayName": "vendredi",
+    "month": "avril",
+    "year": "2023"
+  },
+  "time": "19h30",
+  "place": "La Chistera",
+  "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
 ]
