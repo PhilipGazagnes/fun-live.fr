@@ -1,23 +1,18 @@
 <template>
   <div>
     <div class="page">
-      <Header />
-      <div class="page">
-        <nuxt />
-      </div>
+      <nuxt />
       <Footer />
     </div>
-    <div id="particles-js" class="anim"></div>
+    <div id="particles-js" class="anim" />
   </div>
 </template>
 
 <script>
-import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
   components: {
-    Header,
     Footer,
   },
   mounted() {
@@ -147,14 +142,11 @@ export default {
 <style>
 body {
   background-color: var(--primaryColor);
+  color: white;
 }
 .page {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  /* background: rgba(255, 255, 255, 0.1);
-  width: 1300px;
-  margin: 50px auto;
-  padding: 30px; */
+  position: relative;
+  z-index: 1;
 }
 .anim {
   width: 100%;
@@ -163,9 +155,5 @@ body {
   top: 0;
   left: 0;
   z-index: 0;
-}
-.page {
-  position: relative;
-  z-index: 1;
 }
 </style>
