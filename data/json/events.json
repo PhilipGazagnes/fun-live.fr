@@ -519,6 +519,20 @@
 },
 {
   "date": {
+    "enFormat": "01/27/2023",
+    "dayNum": "27",
+    "dayName": "vendredi",
+    "month": "janvier",
+    "year": "2023"
+  },
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
     "enFormat": "02/10/2023",
     "dayNum": "10",
     "dayName": "vendredi",
@@ -528,6 +542,20 @@
   "time": "19h30",
   "place": "La Chistera",
   "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "price": "Gratuit",
+  "facebookEvent": "#"
+},
+{
+  "date": {
+    "enFormat": "02/24/2023",
+    "dayNum": "24",
+    "dayName": "vendredi",
+    "month": "février",
+    "year": "2023"
+  },
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
   "price": "Gratuit",
   "facebookEvent": "#"
 },
@@ -547,15 +575,15 @@
 },
 {
   "date": {
-    "enFormat": "04/14/2023",
-    "dayNum": "14",
+    "enFormat": "03/24/2023",
+    "dayNum": "24",
     "dayName": "vendredi",
-    "month": "avril",
+    "month": "mars",
     "year": "2023"
   },
-  "time": "19h30",
-  "place": "La Chistera",
-  "address": "2Bis Rue d'Obilion, 34000 Montpellier",
+  "time": "20h - minuit",
+  "place": "Le Zanzi-Bar",
+  "address": "36 avenue Victor Hugo, 34200 Sète",
   "price": "Gratuit",
   "facebookEvent": "#"
 }
