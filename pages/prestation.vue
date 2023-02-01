@@ -15,7 +15,7 @@
         </p>
         <p>
           Présentez-nous votre projet, nous vous proposerons rapidement un devis
-          pour une prestation sur mesure !
+          pour une prestation sur mesure, en fonction de votre budget !
         </p>
         <p>
           Fun Live s'adapte à vos envies en vous proposant les formules
