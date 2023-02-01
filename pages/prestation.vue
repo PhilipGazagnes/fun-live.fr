@@ -36,7 +36,7 @@
         </p>
         <p>
           Dans tous les cas, le groupe anime, chante et met à l'aise vos
-          invités, qui se régaleront à venir chanter sur scène !
+          invités, qui se régaleront de venir chanter sur scène !
         </p>
         <Contact class="contact" />
         <p class="review">
