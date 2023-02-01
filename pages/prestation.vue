@@ -17,6 +17,27 @@
           Présentez-nous votre projet, nous vous proposerons rapidement un devis
           pour une prestation sur mesure !
         </p>
+        <p>
+          Fun Live s'adapte à vos envies en vous proposant les formules
+          suivantes :
+        </p>
+        <p>
+          <strong>Formule Trio</strong><br />
+          Avec un guitariste, un bassiste et un batteur. C'est la formule la
+          plus dynamique et énergique.
+        </p>
+        <p>
+          <strong>Formule Duo</strong><br />
+          Avec un guitariste et un bassiste ou un batteur.
+        </p>
+        <p>
+          <strong>Formule Solo</strong><br />
+          Avec un guitariste acoustique.
+        </p>
+        <p>
+          Dans tous les cas, le groupe anime, chante et met à l'aise vos
+          invités, qui se régaleront à venir chanter sur scène !
+        </p>
         <Contact class="contact" />
         <p class="review">
           <Star />Groupe au top pour mettre les chanteurs d'un soir à l'aise,
