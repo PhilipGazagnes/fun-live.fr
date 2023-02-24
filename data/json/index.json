@@ -136,7 +136,6 @@
   {"name":"Tout oublier","artist":"Angèle / Romeo Elvis","id":"0169", "lang":"FR","scope":["band","phil"], "isFestive": false},
   {"name":"Papaoutai","artist":"Stromae","id":"0171", "lang":"FR","scope":["band","phil"], "isFestive": true},
   {"name":"Coco Caline","artist":"Julien Doré","id":"0173", "lang":"FR","scope":["band","phil"], "isFestive": false},
-  {"name":"Je danse le Mia","artist":"IAM","id":"0175", "lang":"FR","scope":["band"], "isFestive": true},
   {"name":"La tribu de Dana","artist":"Manau","id":"0176", "lang":"FR","scope":["band","phil"], "isFestive": true},
   {"name":"Soulman","artist":"Ben l'oncle Soul","id":"0177", "lang":"EN","scope":["band","phil"], "isFestive": true},
   {"name":"Gitano","artist":"Kendji Girac","id":"0180", "lang":"FR","scope":["band","phil"], "isFestive": true},
