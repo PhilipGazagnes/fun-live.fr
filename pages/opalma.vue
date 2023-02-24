@@ -3,7 +3,7 @@
     <div class="heading">
       <img src="/logo-fun-live.png" alt="Fun Live" /><br />
       <img src="/logo-opalma.png" alt="OPalma" />
-      <h1 class="title">Soirée Opening 2023</h1>
+      <h1 class="title">Stars tonight !</h1>
       <p>Répertoire à chanter avec les musiciens !</p>
     </div>
     <div v-if="songChoice" class="songchoice">
