@@ -6,21 +6,18 @@
         v-for="(event, index) in events"
         :key="index"
         class="event"
-        :data-cancelled="event.cancelled"
+        :data-cancelled="event.etat === 'ANNULE'"
       >
-        <div class="date">
-          <div>
-            <span>{{ event.date.dayName }}</span>
-            <span>{{ event.date.dayNum }}</span>
-            <span>{{ event.date.month }}</span>
-            <span>{{ event.date.year }}</span>
-          </div>
-        </div>
+        <EventDate :date="event.date" />
         <div class="desc">
-          <div>{{ event.place }}</div>
-          <div>{{ event.address }}</div>
-          <div>{{ event.time }}</div>
-          <span v-if="event.cancelled">Annulé</span>
+          <div class="eventtitle">{{ event.lieu }}</div>
+          <div class="eventcity">{{ event.ville }}</div>
+          <div v-if="event.notice_publique" class="projectnotice">
+            {{ event.notice_publique }}
+          </div>
+          <div v-if="event.etat === 'ANNULE'" class="cancellednotice">
+            Annulé
+          </div>
         </div>
       </div>
     </div>
@@ -29,16 +26,33 @@
 
 <script>
 import eventsJson from '../data/json/events.json';
+import EventDate from '../components/EventDate.vue';
 
 export default {
+  components: {
+    EventDate,
+  },
   data() {
     return {
       events: eventsJson.filter(
         (e) =>
-          new Date(e.date.enFormat) >
-          new Date().setDate(new Date().getDate() - 1),
+          new Date(e.date) > new Date().setDate(new Date().getDate()) &&
+          e.projet.indexOf('FUNLIVE') >= 0 &&
+          e.est_public === 'true' &&
+          e.etat === 'CONFIRME',
       ),
     };
+  },
+  methods: {
+    dateHTML(date) {
+      const dateObj = new Date(date);
+      return `
+        <span>${this.$options.dayName[dateObj.getDay()]}</span>
+        <span>${dateObj.getDate()}</span>
+        <span>${this.$options.monthName[dateObj.getMonth()]}</span>
+        <span>${dateObj.getFullYear()}</span>
+      `;
+    },
   },
   head: {
     title: 'Agenda | Fun Live',
@@ -69,56 +83,22 @@ export default {
     }
   }
 }
-.date {
-  background: rgb(190, 31, 151);
-  background: linear-gradient(
-    15deg,
-    rgba(108, 20, 208, 1) 0%,
-    rgba(190, 31, 151, 1) 70%
-  );
-  text-align: center;
-  width: 100px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 1px;
-  color: white;
-  text-transform: uppercase;
-  & > div {
-    background: var(--primaryColor);
-    padding: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    & > span {
-      display: block;
-      font-weight: bold;
-      &:nth-child(2) {
-        font-size: 2em;
-      }
-    }
-  }
+.eventtitle {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-
-.desc {
-  & > div {
-    &:nth-child(1) {
-      font-size: 1.3em;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-    &:nth-child(2) {
-      margin-bottom: 5px;
-    }
-    &:nth-child(3) {
-      color: var(--secondaryColor);
-    }
-  }
-  & > span {
-    color: red;
-    font-weight: bold;
-    font-size: 1.2em;
-  }
+.eventcity {
+  margin-bottom: 5px;
+}
+.projectnotice {
+  color: var(--secondaryColor);
+  margin-bottom: 5px;
+}
+.cancellednotice {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
 }
 </style>
