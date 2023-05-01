@@ -39,10 +39,9 @@ module.exports = {
       '@nuxtjs/robots',
       {
         UserAgent: '*',
-        Disallow:
-          process.env.BASE_URL === 'https://www.fun-live.fr/' ? '' : '/',
+        Disallow: process.env.BASE_URL === 'https://www.fun-live.fr' ? '' : '/',
         Sitemap:
-          process.env.BASE_URL === 'https://www.fun-live.fr/'
+          process.env.BASE_URL === 'https://www.fun-live.fr'
             ? `${process.env.BASE_URL}sitemap.xml`
             : undefined,
       },
