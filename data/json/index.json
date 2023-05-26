@@ -214,6 +214,5 @@
   {"name":"Flowers","artist":"Miley Cirus","id":"0298","lang":"EN","scope": ["band", "phil"], "isFestive": true},
   {"name":"Jeune et con","artist":"Saez","id":"0299","lang":"FR","scope": ["band", "phil"], "isFestive": true},
   {"name":"Hit the road Jack","artist":"Ray Charles","id":"0300","lang":"EN","scope": ["band", "phil"], "isFestive": true},
-  {"name":"99 luftballons","artist":"Nena","id":"0301","lang":"DE","scope": ["band", "phil"], "isFestive": true},
   {"name":"Eyes of the tiger","artist":"Survivor","id":"0233","lang":"EN","scope": ["band", "phil"], "isFestive": true}
 ]
