@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper home">
-    <div class="banner">
+    <div v-if="!isFifi" class="banner">
       <h1>
         <span>Chantez des tubes sur scène</span> <span>avec 3 musiciens !</span>
       </h1>
@@ -8,7 +8,7 @@
         <source src="/tempvid.mp4" type="video/mp4" />
       </video>
     </div>
-    <div class="main">
+    <div v-if="!isFifi" class="main">
       <nuxt-link to="/repertoire"
         ><span
           ><span>Répertoire</span> Toutes les chansons que vous pouvez chanter
@@ -46,12 +46,22 @@
         ></nuxt-link
       >
     </div>
+    <SongList v-if="isFifi" />
   </div>
 </template>
 
 <script>
+import SongList from '../components/SongList.vue';
+
 export default {
-  components: {},
+  components: {
+    SongList,
+  },
+  computed: {
+    isFifi() {
+      return this.$store.state.subdomain === 'fifi';
+    },
+  },
   head: {
     title: 'Fun Live | Concert karaoké live !',
     description: '',

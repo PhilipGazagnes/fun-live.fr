@@ -1,11 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="heading">
-      <img src="/logo-fun-live.png" alt="Fun Live" /><br />
-      <img src="/logo-opalma.png" alt="OPalma" />
-      <h1 class="title">Stars tonight !</h1>
-      <p>Répertoire à chanter avec les musiciens !</p>
-    </div>
+    <h1>{{ isFifi ? 'Répertoire de Fifi' : 'Notre répertoire' }}</h1>
     <div v-if="songChoice" class="songchoice">
       <button @click="songChoice = null"></button>
       <div class="choices">
@@ -70,6 +65,19 @@
         </div>
         <button @click="openFilters">Filtrer</button>
       </div>
+
+      <!-- <div class="letters">
+        <button
+          v-for="(l, index) in $options.alphabet"
+          :key="index"
+          @click="scrollToLetter(l)"
+        >
+          {{ l }}
+        </button>
+        <button class="switchscope" @click="switchscope">
+          {{ scope.name }} ({{ scope.arr.length }})
+        </button>
+      </div> -->
     </div>
   </div>
 </template>
@@ -78,13 +86,10 @@
 import songsJson from '../data/json/index.json';
 
 export default {
-  layout: 'opalma',
   alphabet: 'abcdefghijklmnopqrstuvwxyz',
   data() {
     return {
-      songs: songsJson
-        .sort(this.compare)
-        .filter((s) => !s.inactive && s.isFestive),
+      songs: songsJson.sort(this.compare).filter((s) => !s.inactive),
       filtersActive: false,
       filterLangFr: false,
       filterLangEn: false,
@@ -94,6 +99,9 @@ export default {
     };
   },
   computed: {
+    isFifi() {
+      return this.$store.state.subdomain === 'fifi';
+    },
     filteredSongs() {
       return this.songs
         .filter((song) => {
@@ -209,17 +217,6 @@ body {
   margin: 0;
   font-family: sans-serif;
   font-weight: 400;
-}
-.heading {
-  text-align: center;
-  padding: 50px 0;
-}
-.title {
-  font-family: 'Geomanist';
-  text-transform: uppercase;
-  padding: 0;
-
-  margin-top: 20px;
 }
 .random {
   padding: 10px 20px;
@@ -488,6 +485,36 @@ ul.list {
         font-size: 1.2em;
         font-weight: bold;
       }
+    }
+  }
+}
+.letters {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  top: 0;
+  right: 0;
+  background: #222;
+  overflow: auto;
+  & > button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1em;
+    width: 50%;
+    padding: 22px 0;
+    &.switchscope {
+      width: 100%;
+      border: purple 2px solid;
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    width: 20%;
+    button {
+      width: 33.33%;
+      padding: 16px 0;
     }
   }
 }
