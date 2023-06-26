@@ -213,5 +213,6 @@
   {"name":"Eyes of the tiger","artist":"Survivor","id":"0233","lang":"EN","scope": ["band", "phil"], "isFestive": true},
   {"name":"Aux champs élysées","artist":"Joe Dassin","id":"0304","lang":"FR","scope": ["phil"]},
   {"name":"Armstrong","artist":"Claude Nougaro","id":"0305","lang":"FR","scope": ["phil"]},
-  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"]}
+  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"]},
+  {"name":"Quelque chose de Tennessee","artist":"Johnny Hallyday","id":"0308","lang":"FR","scope": ["phil"]}
 ]
