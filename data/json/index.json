@@ -68,7 +68,7 @@
   {"name":"La poupée qui fait non","artist":"Polnareff","id":"0076","lang":"FR","scope":["band","phil"], "isFestive": false},
   {"name":"Creep","artist":"Radiohead","id":"0077","lang":"EN","scope":["band","phil"], "isFestive": false},
   {"name":"Killing in the name of","artist":"RATM","id":"0078","lang":"EN","scope":["band"], "isFestive": true},
-  {"name":"Unchain my heart","artist":"Joe cocker","id":"0079","lang":"EN","scope":["band","phil"], "isFestive": true},
+  {"name":"Unchain my heart","artist":"Joe cocker","id":"0079","lang":"EN","scope":["band"], "isFestive": true},
   {"name":"C'est comme ça","artist":"Rita Mitsouko","id":"0080","lang":"FR","scope":["band","phil"], "isFestive": true},
   {"name":"Jumpin' Jack Flash","artist":"Rolling Stones","id":"0081","lang":"EN","scope":["band","phil"], "isFestive": true},
   {"name":"Satisfaction","artist":"Rolling Stones","id":"0082","lang":"EN","scope":["band","phil"], "isFestive": true},
