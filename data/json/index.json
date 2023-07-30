@@ -9,7 +9,7 @@
   {"name":"Just the two of us","artist":"Bill Withers","id":"0008","lang":"EN","scope":["band","phil"], "isFestive": false},
   {"name":"Paranoid","artist":"Black Sabbath","id":"0009","lang":"EN","scope":["band"], "isFestive": true},
   {"name":"Call me","artist":"Blondie","id":"0010","lang":"EN","scope":["band","phil"], "isFestive": true},
-  {"name":"One way or another","artist":"Blondie","id":"0011","lang":"EN","scope":["band"], "isFestive": true, "inactive": true},
+  {"name":"One way or another","artist":"Blondie","id":"0011","lang":"EN","scope":["band"], "isFestive": true},
   {"name":"Everybody needs somebody to love","artist":"Blues Brothers","id":"0012","lang":"EN","scope":["band"], "isFestive": true},
   {"name":"Sweet home Chicago","artist":"Blues Brothers","id":"0013","lang":"EN","scope":["band","phil"], "isFestive": false},
   {"name":"No woman no cry","artist":"Bob Marley","id":"0014","lang":"EN","scope":["band","phil"], "isFestive": false},
@@ -166,7 +166,7 @@
   {"name":"Tous les cris les SOS","artist":"Daniel Balavoine","id":"0245","lang":"FR","scope": ["phil", "band"], "isFestive": false},
   {"name":"La mauvaise réputation","artist":"Georges Brassens","id":"0246","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"Le temps ne fait rien à l'affaire","artist":"Georges Brassens","id":"0247","lang":"FR","scope": ["phil"], "isFestive": false},
-  {"name":"Place des grands hommes","artist":"Patrick Bruel","id":"0252","lang":"FR","scope": ["phil"], "isFestive": false},
+  {"name":"Place des grands hommes","artist":"Patrick Bruel","id":"0252","lang":"FR","scope": ["band", "phil"], "isFestive": false},
   {"name":"La cabane du pêcheur","artist":"Francis Cabrel","id":"0253","lang":"FR","scope": ["phil", "band"], "isFestive": true, "inactive": true},
   {"name":"Pour que tu m'aimes encore","artist":"Céline Dion","id":"0254","lang":"FR","scope": ["phil", "band"], "isFestive": false},
   {"name":"Prière Païenne","artist":"Céline Dion","id":"0255","lang":"FR","scope": ["phil", "band"], "isFestive": true},
@@ -211,8 +211,9 @@
   {"name":"Jeune et con","artist":"Saez","id":"0299","lang":"FR","scope": ["band", "phil"], "isFestive": true},
   {"name":"Hit the road Jack","artist":"Ray Charles","id":"0300","lang":"EN","scope": ["band", "phil"], "isFestive": true},
   {"name":"Eyes of the tiger","artist":"Survivor","id":"0233","lang":"EN","scope": ["band", "phil"], "isFestive": true},
-  {"name":"Aux champs élysées","artist":"Joe Dassin","id":"0304","lang":"FR","scope": ["phil"]},
-  {"name":"Armstrong","artist":"Claude Nougaro","id":"0305","lang":"FR","scope": ["phil"]},
-  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"]},
-  {"name":"Quelque chose de Tennessee","artist":"Johnny Hallyday","id":"0308","lang":"FR","scope": ["phil"]}
+  {"name":"Aux champs élysées","artist":"Joe Dassin","id":"0304","lang":"FR","scope": ["phil"], "isFestive": true},
+  {"name":"Armstrong","artist":"Claude Nougaro","id":"0305","lang":"FR","scope": ["phil"], "isFestive": false},
+  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"], "isFestive": true},
+  {"name":"Quelque chose de Tennessee","artist":"Johnny Hallyday","id":"0308","lang":"FR","scope": ["phil"], "isFestive": false},
+  {"name":"Alors regarde","artist":"Patrick Bruel","id":"0337","lang":"FR","scope": ["band", "phil"], "isFestive": false}
 ]
