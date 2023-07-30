@@ -16,11 +16,13 @@
     <div class="listpage">
       <ul v-if="showList" class="list">
         <li
-          v-for="(s, index) in filteredSongs"
+          v-for="(s, index) in filteredSongsWithAds"
           :key="index"
-          :data-first-letter="s.name.charAt(0)"
+          :data-first-letter="s.ad ? undefined : s.name.charAt(0)"
         >
           <a
+            v-if="!s.ad"
+            class="song"
             :href="`https://stately-meringue-48b151.netlify.app/note/${s.id}?directory=${directory}`"
             rel="nofollow"
           >
@@ -31,6 +33,18 @@
               :data-src="`https://aeovnsnhjq.cloudimg.io/v7/_funlive_/artists/${s.id}.jpg?width=80&height=80`"
               src="/blank.gif"
             />
+          </a>
+          <a
+            v-else
+            :href="s.link"
+            :style="{ backgroundColor: s.backgroundColor }"
+            class="ad"
+            target="_blank"
+          >
+            <div class="adMainText">{{ s.mainText }}</div>
+            <div class="adButton">
+              {{ s.buttonText }}
+            </div>
           </a>
         </li>
       </ul>
@@ -102,8 +116,8 @@ export default {
     isFifi() {
       return this.$store.state.subdomain === 'fifi';
     },
-    filteredSongs() {
-      return this.songs
+    filteredSongsWithAds() {
+      const filteredSongs = this.songs
         .filter((song) => {
           if (this.$store.state.subdomain === 'fifi') {
             return song.scope.includes('phil');
@@ -127,6 +141,19 @@ export default {
           }
           return true;
         });
+
+      // add ads
+      const ad1 = {
+        ad: true,
+        backgroundColor: '#1877f2',
+        mainText: 'Suivez-nous sur Facebook !',
+        buttonText: 'Fun Live sur Facebook',
+        link: 'https://www.facebook.com/funlive34',
+      };
+
+      filteredSongs.splice(10, 0, ad1);
+
+      return filteredSongs;
     },
     directory() {
       let str = 'funlive';
@@ -318,7 +345,7 @@ ul.list {
     background: rgba(255, 255, 255, 0.1);
     color: white;
     margin: 0 0 10px 0;
-    & > a {
+    .song {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -348,6 +375,33 @@ ul.list {
         &.nota {
           color: red;
         }
+      }
+    }
+    .ad {
+      display: block;
+      border-radius: 5px;
+      padding: 30px;
+      text-decoration: none;
+      color: white;
+      position: relative;
+      text-align: center;
+      @media screen and (--desktop) {
+        padding: 20px;
+      }
+      &MainText {
+        font-family: 'Geomanist';
+        text-transform: uppercase;
+        color: white;
+        font-size: 1.5em;
+        line-height: 1.5em;
+      }
+      &Button {
+        display: inline-block;
+        padding: 4px 15px;
+        margin: 10px 0 0 0;
+        border-radius: 5px;
+        border: 2px solid white;
+        font-weight: bold;
       }
     }
   }
