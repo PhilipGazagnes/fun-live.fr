@@ -142,16 +142,18 @@ export default {
           return true;
         });
 
-      // add ads
-      const ad1 = {
-        ad: true,
-        backgroundColor: '#1877f2',
-        mainText: 'Suivez-nous sur Facebook !',
-        buttonText: 'Fun Live sur Facebook',
-        link: 'https://www.facebook.com/funlive34',
-      };
+      if (this.directory === 'funlive') {
+        // add ads
+        const ad1 = {
+          ad: true,
+          backgroundColor: '#1877f2',
+          mainText: 'Suivez-nous sur Facebook !',
+          buttonText: 'Fun Live sur Facebook',
+          link: 'https://www.facebook.com/funlive34',
+        };
 
-      filteredSongs.splice(10, 0, ad1);
+        filteredSongs.splice(10, 0, ad1);
+      }
 
       return filteredSongs;
     },
