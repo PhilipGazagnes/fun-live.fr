@@ -147,8 +147,8 @@ export default {
         const ad1 = {
           ad: true,
           backgroundColor: '#1877f2',
-          mainText: 'Suivez-nous sur Facebook !',
-          buttonText: 'Fun Live sur Facebook',
+          mainText: 'Fun Live est sur Facebook !',
+          buttonText: 'Voir le profil',
           link: 'https://www.facebook.com/funlive34',
         };
 
