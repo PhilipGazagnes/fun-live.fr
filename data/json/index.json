@@ -216,5 +216,5 @@
   {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"], "isFestive": true},
   {"name":"Quelque chose de Tennessee","artist":"Johnny Hallyday","id":"0308","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"Alors regarde","artist":"Patrick Bruel","id":"0337","lang":"FR","scope": ["band", "phil"], "isFestive": false},
-  {"name":"Dancing queen","artist":"ABBA","id":"0348","lang":"EN","scope": ["band"], "isFestive": true, "inactive": true}
+  {"name":"Dancing queen","artist":"ABBA","id":"0348","lang":"EN","scope": ["band"], "isFestive": true}
 ]
