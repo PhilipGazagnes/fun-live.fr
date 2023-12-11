@@ -216,5 +216,11 @@
   {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"], "isFestive": true},
   {"name":"Quelque chose de Tennessee","artist":"Johnny Hallyday","id":"0308","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"Alors regarde","artist":"Patrick Bruel","id":"0337","lang":"FR","scope": ["band", "phil"], "isFestive": false},
-  {"name":"Dancing queen","artist":"ABBA","id":"0348","lang":"EN","scope": ["band"], "isFestive": true, "inactive": true}
+  {"name":"Dancing queen","artist":"ABBA","id":"0348","lang":"EN","scope": ["band"], "isFestive": true, "inactive": true},
+  {"name":"Est-ce que tu viens pour les vacances","artist":"David et Jonathan","id":"0349","lang":"FR","scope": ["band", "phil"]},
+  {"name":"A nos souvenirs","artist":"Trois cafés gourmands","id":"0350","lang":"FR","scope": ["band", "phil"], "isFestive": true},
+  {"name":"La goffa lolita","artist":"La petite culotte","id":"0351","lang":"FR","scope": ["band", "phil"], "isFestive": true},
+  {"name":"Fruits de la passion","artist":"Francky Vincent","id":"0352","lang":"FR","scope": ["band", "phil"], "isFestive": true},
+  {"name":"Manhattan Kaboul","artist":"Renaud, Axelle Red","id":"0353","lang":"FR","scope": ["band", "phil"]},
+  {"name":"Quand il pète il troue son slip","artist":"Sébastien Patoche","id":"0354","lang":"FR","scope": ["band"], "isFestive": true}
 ]
