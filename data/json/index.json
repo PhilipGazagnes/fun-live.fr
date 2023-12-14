@@ -167,7 +167,7 @@
   {"name":"La mauvaise réputation","artist":"Georges Brassens","id":"0246","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"Le temps ne fait rien à l'affaire","artist":"Georges Brassens","id":"0247","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"Place des grands hommes","artist":"Patrick Bruel","id":"0252","lang":"FR","scope": ["band", "phil"], "isFestive": false},
-  {"name":"La cabane du pêcheur","artist":"Francis Cabrel","id":"0253","lang":"FR","scope": ["phil", "band"], "isFestive": true, "inactive": true},
+  {"name":"La cabane du pêcheur","artist":"Francis Cabrel","id":"0253","lang":"FR","scope": ["phil", "band"], "isFestive": true},
   {"name":"Pour que tu m'aimes encore","artist":"Céline Dion","id":"0254","lang":"FR","scope": ["phil", "band"], "isFestive": false},
   {"name":"Prière Païenne","artist":"Céline Dion","id":"0255","lang":"FR","scope": ["phil", "band"], "isFestive": true},
   {"name":"Comme d'habitude","artist":"Claude François","id":"0256","lang":"FR","scope": ["phil"], "isFestive": false},
