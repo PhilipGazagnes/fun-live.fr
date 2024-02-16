@@ -6,8 +6,8 @@
       </nuxt-link>
       <div>
         <nuxt-link to="/repertoire/">Répertoire</nuxt-link>
-        <nuxt-link to="/agenda/">Agenda</nuxt-link>
-        <nuxt-link to="/prestation/">Prestation</nuxt-link>
+        <!-- <nuxt-link to="/agenda/">Agenda</nuxt-link> -->
+        <nuxt-link to="/videos/">Vidéos</nuxt-link>
         <button @click="showMenu = true">
           <small>Menu</small>
           <strong>Plus</strong>
@@ -17,7 +17,7 @@
       <nav :data-visible="showMenu">
         <button @click="showMenu = false">Fermer</button>
         <nuxt-link to="/repertoire/">Répertoire</nuxt-link>
-        <nuxt-link to="/agenda/">Agenda</nuxt-link>
+        <!-- <nuxt-link to="/agenda/">Agenda</nuxt-link> -->
         <nuxt-link to="/concept/">Le concept</nuxt-link>
         <nuxt-link to="/le-groupe/">Le groupe</nuxt-link>
         <nuxt-link to="/videos/">Vidéos</nuxt-link>
