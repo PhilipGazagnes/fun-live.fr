@@ -225,5 +225,7 @@
   {"name":"Quand il pète il troue son slip","artist":"Sébastien Patoche","id":"0354","lang":"FR","scope": ["band"], "isFestive": true, "inactive": true},
   {"name":"Bye bye","artist":"Ménélik","id":"0303","lang":"FR","scope": ["band"]},
   {"name":"Joleen","artist":"Myley Cirus","id":"0340","lang":"EN","scope": ["band"]},
-  {"name":"Petite Marie","artist":"Francis Cabrel","id":"0203","lang":"FR","scope": ["band"]}
+  {"name":"Petite Marie","artist":"Francis Cabrel","id":"0203","lang":"FR","scope": ["band"]},
+  {"name":"L'Hymne de nos campagnes","artist":"Tryo","id":"0360","lang":"FR","scope": ["band"]},
+  {"name":"Sara perche ti amo","artist":"Ricci e Poveri","id":"0361","lang":"IT","scope": ["band"]}
 ]
