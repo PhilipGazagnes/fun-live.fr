@@ -229,5 +229,6 @@
   {"name":"L'Hymne de nos campagnes","artist":"Tryo","id":"0360","lang":"FR","scope": ["band"]},
   {"name":"Sara perche ti amo","artist":"Ricci e Poveri","id":"0361","lang":"IT","scope": ["band"]},
   {"name":"Dernière danse","artist":"Kyo","id":"0366","lang":"FR","scope": ["band", "phil"]},
-  {"name":"On va s'aimer","artist":"Gilbert Montagné","id":"0367","lang":"FR","scope": ["band", "phil"]}
+  {"name":"On va s'aimer","artist":"Gilbert Montagné","id":"0367","lang":"FR","scope": ["band", "phil"]},
+  {"name":"Voilà","artist":"Barbara Pravi","id":"0368","lang":"FR","scope": ["band"]}
 ]
