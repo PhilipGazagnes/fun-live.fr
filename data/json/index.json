@@ -213,7 +213,7 @@
   {"name":"Eyes of the tiger","artist":"Survivor","id":"0233","lang":"EN","scope": ["band", "phil"], "isFestive": true},
   {"name":"Aux champs élysées","artist":"Joe Dassin","id":"0304","lang":"FR","scope": ["band", "phil"], "isFestive": true},
   {"name":"Armstrong","artist":"Claude Nougaro","id":"0305","lang":"FR","scope": ["band", "phil"], "isFestive": false},
-  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil"], "isFestive": true},
+  {"name":"Envole moi","artist":"Goldman","id":"0308","lang":"FR","scope": ["phil", "band"], "isFestive": true},
   {"name":"Quelque chose de Tennessee","artist":"Johnny Hallyday","id":"0308","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"Alors regarde","artist":"Patrick Bruel","id":"0337","lang":"FR","scope": ["band", "phil"], "isFestive": false},
   {"name":"Dancing queen","artist":"ABBA","id":"0348","lang":"EN","scope": ["band"], "isFestive": true},
@@ -231,5 +231,16 @@
   {"name":"Dernière danse","artist":"Kyo","id":"0366","lang":"FR","scope": ["band", "phil"]},
   {"name":"On va s'aimer","artist":"Gilbert Montagné","id":"0367","lang":"FR","scope": ["band", "phil"]},
   {"name":"Voilà","artist":"Barbara Pravi","id":"0368","lang":"FR","scope": ["band"]},
-  {"name":"Popcorn salé","artist":"Santa","id":"0310","lang":"FR","scope": ["band"]}
+  {"name":"Popcorn salé","artist":"Santa","id":"0310","lang":"FR","scope": ["band"]},
+  {"name":"Wicked game","artist":"Chris Isaak","id":"0371","lang":"EN","scope": ["band"]},
+  {"name":"Au soleil","artist":"Jennifer","id":"0372","lang":"FR","scope": ["band"]},
+  {"name":"English man in New York","artist":"Sting","id":"0373","lang":"EN","scope": ["band"]},
+  {"name":"Isn't she lovely","artist":"Steevie Wonder","id":"0374","lang":"EN","scope": ["band"]},
+  {"name":"Sapés comme jamais","artist":"Gims","id":"0375","lang":"FR","scope": ["band"]},
+  {"name":"Lola","artist":"Superbus","id":"0376","lang":"FR","scope": ["band"]},
+  {"name":"Recommence-moi","artist":"Santa","id":"0377","lang":"FR","scope": ["band"]},
+  {"name":"Et Bam","artist":"Mentissa","id":"0316","lang":"FR","scope": ["band"]},
+  {"name":"Des milliers de je t'aime","artist":"Slimane","id":"0317","lang":"FR","scope": ["band"]},
+  {"name":"Le bilan","artist":"Neg Marrons","id":"0307","lang":"FR","scope": ["band"]},
+  {"name":"Mon vieux","artist":"Daniel Guichard","id":"0330","lang":"FR","scope": ["band"]}
 ]
