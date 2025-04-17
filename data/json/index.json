@@ -176,9 +176,9 @@
   {"name":"J'aime les filles","artist":"Jacques Dutronc","id":"0259","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"Jouer avec le feu","artist":"Les Sheriff","id":"0260","lang":"FR","scope": ["phil"], "isFestive": false},
   {"name":"La Seine","artist":"M & Vanessa Paradis","id":"0261","lang":"FR","scope": ["phil", "band"], "isFestive": true},
-  {"name":"Clandestino","artist":"Manu Chao","id":"0262","lang":"FR","scope": ["phil"], "isFestive": false},
+  {"name":"Clandestino","artist":"Manu Chao","id":"0262","lang":"FR","scope": ["phil", "band"], "isFestive": false},
   {"name":"San Francisco","artist":"Maxime le Forestier","id":"0263","lang":"FR","scope": ["band", "phil"], "isFestive": false},
-  {"name":"Aux sombres héros de l'amer","artist":"Noir Désir","id":"0264","lang":"FR","scope": ["phil"], "isFestive": false},
+  {"name":"Aux sombres héros de l'amer","artist":"Noir Désir","id":"0264","lang":"FR","scope": ["phil", "band"], "isFestive": false},
   {"name":"Self esteem","artist":"The Offspring","id":"0265","lang":"EN","scope": ["phil"], "isFestive": true},
   {"name":"La tristitude","artist":"Oldelaf","id":"0266","lang":"FR","scope": ["phil", "band"], "isFestive": false},
   {"name":"Via con me","artist":"Paolo conte","id":"0267","lang":"IT","scope": ["phil"], "isFestive": false},
@@ -242,5 +242,12 @@
   {"name":"Et Bam","artist":"Mentissa","id":"0316","lang":"FR","scope": ["band"]},
   {"name":"Des milliers de je t'aime","artist":"Slimane","id":"0317","lang":"FR","scope": ["band"]},
   {"name":"Le bilan","artist":"Neg Marrons","id":"0307","lang":"FR","scope": ["band"]},
-  {"name":"Mon vieux","artist":"Daniel Guichard","id":"0330","lang":"FR","scope": ["band"]}
+  {"name":"Mon vieux","artist":"Daniel Guichard","id":"0330","lang":"FR","scope": ["band"]},
+  {"name":"Belinda","artist":"Claude François","id":"0364","lang":"FR","scope": ["band"]},
+  {"name":"Californication","artist":"Red Hot Chili Peppers","id":"0211","lang":"EN","scope": ["band"]},
+  {"name":"Heart of Gold","artist":"Neil Young","id":"0209","lang":"EN","scope": ["band"]},
+  {"name":"Por que te vas","artist":"Jeanette","id":"0365","lang":"ES","scope": ["band"]},
+  {"name":"On s'attache","artist":"Christophge Maé","id":"0378","lang":"FR","scope": ["band"]},
+  {"name":"A ma place","artist":"Zazie & Axel Bauer","id":"0379","lang":"FR","scope": ["band"]},
+  {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["band"]}
 ]
