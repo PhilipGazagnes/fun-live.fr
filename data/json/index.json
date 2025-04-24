@@ -242,12 +242,15 @@
   {"name":"Et Bam","artist":"Mentissa","id":"0316","lang":"FR","scope": ["band"]},
   {"name":"Des milliers de je t'aime","artist":"Slimane","id":"0317","lang":"FR","scope": ["band"]},
   {"name":"Le bilan","artist":"Neg Marrons","id":"0307","lang":"FR","scope": ["band"]},
-  {"name":"Mon vieux","artist":"Daniel Guichard","id":"0330","lang":"FR","scope": ["band"]},
+  {"name":"Mon vieux","artist":"Daniel Guichard","id":"0330","lang":"FR","scope": ["band"], "inactive": true},
   {"name":"Belinda","artist":"Claude François","id":"0364","lang":"FR","scope": ["band"]},
   {"name":"Californication","artist":"Red Hot Chili Peppers","id":"0211","lang":"EN","scope": ["band"]},
   {"name":"Heart of Gold","artist":"Neil Young","id":"0209","lang":"EN","scope": ["band"]},
   {"name":"Por que te vas","artist":"Jeanette","id":"0365","lang":"ES","scope": ["band"]},
   {"name":"On s'attache","artist":"Christophge Maé","id":"0378","lang":"FR","scope": ["band"]},
   {"name":"A ma place","artist":"Zazie & Axel Bauer","id":"0379","lang":"FR","scope": ["band"]},
-  {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["band"]}
+  {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["band"]},
+  {"name":"Poker Face","artist":"Lady Gaga","id":"0381","lang":"EN","scope": ["band"]},
+  {"name":"L'Autre Finistère","artist":"Les Innocents","id":"0382","lang":"FR","scope": ["band"]},
+  {"name":"Ça va ça vient","artist":"Vitaa et Slimane","id":"0383","lang":"FR","scope": ["band"]}
 ]
