@@ -252,5 +252,15 @@
   {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["band"]},
   {"name":"Poker Face","artist":"Lady Gaga","id":"0381","lang":"EN","scope": ["band"]},
   {"name":"L'Autre Finistère","artist":"Les Innocents","id":"0382","lang":"FR","scope": ["band"]},
-  {"name":"Ça va ça vient","artist":"Vitaa et Slimane","id":"0383","lang":"FR","scope": ["band"]}
+  {"name":"Ça va ça vient","artist":"Vitaa et Slimane","id":"0383","lang":"FR","scope": ["band"]},
+  {"name":"La vie en rose","artist":"Edith Piaf","id":"0431","lang":"FR","scope": ["band"]},
+  {"name":"Toutes les femme de ta vie","artist":"L5","id":"0432","lang":"FR","scope": ["band"]},
+  {"name":"Dieu m'a donné la foi","artist":"Ophélie Winter","id":"0433","lang":"FR","scope": ["band"]},
+  {"name":"Diego","artist":"Johnny Hallyday","id":"0434","lang":"FR","scope": ["band"]},
+  {"name":"Les lacs du Connemara","artist":"Michel Sardou","id":"0435","lang":"FR","scope": ["band"]},
+  {"name":"Sous le vent","artist":"Garou & Céline Dion","id":"0436","lang":"FR","scope": ["band"]},
+  {"name":"Les mystérieuses cités d'or","artist":"Dessin animé","id":"0437","lang":"FR","scope": ["band"]},
+  {"name":"Aline","artist":"Christophe","id":"0413","lang":"FR","scope": ["band"]},
+  {"name":"L'Amérique","artist":"Joe Dassin","id":"0418","lang":"FR","scope": ["band"]},
+  {"name":"Elle a les yeux revolver","artist":"Marc Lavoine","id":"0426","lang":"FR","scope": ["band"]}
 ]

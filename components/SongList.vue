@@ -28,11 +28,11 @@
           >
             <span>{{ s.name }}</span>
             <span>{{ s.artist }}</span>
-            <img
+            <!-- <img
               class="lazy"
               :data-src="`https://aeovnsnhjq.cloudimg.io/v7/_funlive_/artists/${s.id}.jpg?width=80&height=80`"
               src="/blank.gif"
-            />
+            /> -->
           </a>
           <a
             v-else
@@ -351,7 +351,7 @@ ul.list {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 0 10px 0 95px;
+      padding: 0 10px 0 20px;
       text-decoration: none;
       color: white;
       position: relative;
