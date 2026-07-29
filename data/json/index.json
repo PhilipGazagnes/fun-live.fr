@@ -202,7 +202,6 @@
   {"name":"Save tonight","artist":"Eagle Eye Cherry","id":"0286","lang":"EN","scope": ["phil"], "isFestive": true},
   {"name":"Johnny be good","artist":"Chuck berry","id":"0287","lang":"EN","scope": ["phil"], "isFestive": true},
   {"name":"Femme like you","artist":"K. Maro","id":"0291","lang":"FR","scope": ["band", "phil"], "isFestive": true},
-  {"name":"Sex bomb","artist":"Tom Jones","id":"0292","lang":"EN","scope": ["band", "phil"], "isFestive": true},
   {"name":"Be mine","artist":"Ofenbach","id":"0293","lang":"EN","scope": ["band"], "isFestive": true, "inactive": true},
   {"name":"Sugar","artist":"Maroon 5","id":"0294","lang":"EN","scope": ["band"], "isFestive": true, "inactive": true},
   {"name":"Happy","artist":"Pharell Williams","id":"0296","lang":"EN","scope": ["band"], "isFestive": true},
@@ -249,7 +248,6 @@
   {"name":"Por que te vas","artist":"Jeanette","id":"0365","lang":"ES","scope": ["band"]},
   {"name":"On s'attache","artist":"Christophge Maé","id":"0378","lang":"FR","scope": ["band"]},
   {"name":"A ma place","artist":"Zazie & Axel Bauer","id":"0379","lang":"FR","scope": ["band"]},
-  {"name":"Boa sorte","artist":"Vanessa da Mata & Ben Harper","id":"0380","lang":"PT","scope": ["band"]},
   {"name":"Poker Face","artist":"Lady Gaga","id":"0381","lang":"EN","scope": ["band"]},
   {"name":"L'Autre Finistère","artist":"Les Innocents","id":"0382","lang":"FR","scope": ["band"]},
   {"name":"Ça va ça vient","artist":"Vitaa et Slimane","id":"0383","lang":"FR","scope": ["band"]},
@@ -265,5 +263,14 @@
   {"name":"Elle a les yeux revolver","artist":"Marc Lavoine","id":"0426","lang":"FR","scope": ["band"]},
   {"name":"La mauvaise réputation","artist":"Georges Brassens","id":"0246","lang":"FR","scope": ["band"]},
   {"name":"Le pornographe","artist":"Georges Brassens","id":"0249","lang":"FR","scope": ["band"]},
-  {"name":"P... de toi","artist":"Georges Brassens","id":"0250","lang":"FR","scope": ["band"]}
+  {"name":"Lolita","artist":"Alizée","id":"0442","lang":"FR","scope": ["band"]},
+  {"name":"Briller","artist":"Kpop Demon Hunters","id":"0443","lang":"FR","scope": ["band"]},
+  {"name":"Confession nocturne","artist":"Diams & Vitaa","id":"0444","lang":"FR","scope": ["band"]},
+  {"name":"Whenever Wherever","artist":"Shakira","id":"0445","lang":"FR","scope": ["band"]},
+  {"name":"Waka waka","artist":"Shakira","id":"0401","lang":"EN","scope": ["band"]},
+  {"name":"Lambé an dro","artist":"Matmatah","id":"0402","lang":"FR","scope": ["band"]},
+  {"name":"Capitaine abandonné","artist":"Gold","id":"0428","lang":"FR","scope": ["band"]},
+  {"name":"Dans les yeux d'Emilie","artist":"Joe Dassin","id":"0430","lang":"FR","scope": ["band"]},
+  {"name":"La Bohème","artist":"Charles Aznavour","id":"0185","lang":"FR","scope": ["band"]},
+  {"name":"Marcia Baila","artist":"Rita Mitsouko","id":"0396","lang":"FR","scope": ["band"]}
 ]
